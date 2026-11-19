@@ -1,0 +1,140 @@
+<deck title="Столицы и флаги">
+  <card>
+    <question media="japan.svg">Назовите столицу страны, чей флаг изображён.</question>
+    <answers>
+      <answer correct="true">Токио</answer>
+      <answer>Киото</answer>
+      <answer>Осака</answer>
+      <answer>Сеул</answer>
+    </answers>
+    <hint>Страна восходящего солнца.</hint>
+    <explanation>Япония. Киото был столицей более тысячи лет, но с 1868 года столица — Токио.</explanation>
+  </card>
+  <card>
+    <question media="france.svg">Назовите столицу страны, чей флаг изображён.</question>
+    <answers>
+      <answer correct="true">Париж</answer>
+      <answer>Лион</answer>
+      <answer>Марсель</answer>
+      <answer>Брюссель</answer>
+    </answers>
+    <explanation>Франция. Сине-бело-красный триколор появился во время Великой французской революции.</explanation>
+  </card>
+  <card>
+    <question media="germany.svg">Назовите столицу страны, чей флаг изображён.</question>
+    <answers>
+      <answer correct="true">Берлин</answer>
+      <answer>Мюнхен</answer>
+      <answer>Гамбург</answer>
+      <answer>Вена</answer>
+    </answers>
+    <hint>Город, разделённый стеной до 1989 года.</hint>
+    <explanation>Германия. Чёрно-красно-золотой флаг — символ немецкого единства с XIX века.</explanation>
+  </card>
+  <card>
+    <question media="italy.svg">Назовите столицу страны, чей флаг изображён.</question>
+    <answers>
+      <answer correct="true">Рим</answer>
+      <answer>Милан</answer>
+      <answer>Венеция</answer>
+      <answer>Неаполь</answer>
+    </answers>
+    <explanation>Италия. «Вечный город» Рим — столица с 1871 года.</explanation>
+  </card>
+  <card>
+    <question media="sweden.svg">Назовите столицу страны, чей флаг изображён.</question>
+    <answers>
+      <answer correct="true">Стокгольм</answer>
+      <answer>Осло</answer>
+      <answer>Хельсинки</answer>
+      <answer>Копенгаген</answer>
+    </answers>
+    <hint>Жёлтый скандинавский крест на синем.</hint>
+    <explanation>Швеция. Стокгольм стоит на 14 островах, соединённых 57 мостами.</explanation>
+  </card>
+  <card>
+    <question media="switzerland.svg">Назовите столицу страны, чей флаг изображён.</question>
+    <answers>
+      <answer correct="true">Берн</answer>
+      <answer>Цюрих</answer>
+      <answer>Женева</answer>
+      <answer>Базель</answer>
+    </answers>
+    <hint>Столица — не самый крупный город страны.</hint>
+    <explanation>Швейцария. Формально это «федеральный город» Берн, а не столица в привычном смысле.</explanation>
+  </card>
+  <card>
+    <question media="poland.svg">Назовите столицу страны, чей флаг изображён.</question>
+    <answers>
+      <answer correct="true">Варшава</answer>
+      <answer>Краков</answer>
+      <answer>Гданьск</answer>
+      <answer>Прага</answer>
+    </answers>
+    <explanation>Польша. Бело-красный флаг; Краков был столицей до 1596 года.</explanation>
+  </card>
+  <card>
+    <question media="netherlands.svg">Назовите столицу страны, чей флаг изображён.</question>
+    <answers>
+      <answer correct="true">Амстердам</answer>
+      <answer>Роттердам</answer>
+      <answer>Гаага</answer>
+      <answer>Утрехт</answer>
+    </answers>
+    <hint>Правительство сидит в Гааге, но столица — другой город.</hint>
+    <explanation>Нидерланды. Столица — Амстердам, хотя правительство и парламент работают в Гааге.</explanation>
+  </card>
+  <card>
+    <question media="russia.svg">Назовите столицу страны, чей флаг изображён.</question>
+    <answers>
+      <answer correct="true">Москва</answer>
+      <answer>Санкт-Петербург</answer>
+      <answer>Казань</answer>
+      <answer>Новосибирск</answer>
+    </answers>
+    <explanation>Россия. Санкт-Петербург был столицей с 1712 по 1918 год.</explanation>
+  </card>
+  <card>
+    <question media="ukraine.svg">Назовите столицу страны, чей флаг изображён.</question>
+    <answers>
+      <answer correct="true">Киев</answer>
+      <answer>Харьков</answer>
+      <answer>Львов</answer>
+      <answer>Одесса</answer>
+    </answers>
+    <explanation>Украина. Сине-жёлтый флаг: небо над пшеничным полем.</explanation>
+  </card>
+  <card>
+    <question media="finland.svg">Назовите столицу страны, чей флаг изображён.</question>
+    <answers>
+      <answer correct="true">Хельсинки</answer>
+      <answer>Турку</answer>
+      <answer>Тампере</answer>
+      <answer>Таллин</answer>
+    </answers>
+    <hint>Синий крест, но фон белый — не Швеция.</hint>
+    <explanation>Финляндия. Хельсинки отделены от Таллина всего 80 км Финского залива.</explanation>
+  </card>
+  <card>
+    <question media="austria.svg">Назовите столицу страны, чей флаг изображён.</question>
+    <answers>
+      <answer correct="true">Вена</answer>
+      <answer>Зальцбург</answer>
+      <answer>Грац</answer>
+      <answer>Берн</answer>
+    </answers>
+    <explanation>Австрия. Красно-бело-красный флаг — один из старейших в Европе, с XIII века.</explanation>
+  </card>
+  <card>
+    <question media="germany.svg|netherlands.svg|russia.svg">Перед вами три флага. У каких из этих стран флаг состоит ТОЛЬКО из горизонтальных полос?</question>
+    <answers>
+      <answer correct="true">Германия</answer>
+      <answer correct="true">Нидерланды</answer>
+      <answer correct="true">Россия</answer>
+      <answer>Италия</answer>
+      <answer>Франция</answer>
+    </answers>
+    <hint>Вертикальные полосы — совсем другая история.</hint>
+    <explanation>Все три показанных флага — горизонтальные триколоры. У Италии и Франции полосы вертикальные.</explanation>
+  </card>
+</deck>

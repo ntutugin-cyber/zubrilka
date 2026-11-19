@@ -1,0 +1,107 @@
+<deck title="Неправильные глаголы">
+  <card>
+    <question>Вторая форма (Past Simple) глагола go?</question>
+    <answers>
+      <answer correct="true">went</answer>
+      <answer>gone</answer>
+      <answer>goed</answer>
+      <answer>going</answer>
+    </answers>
+    <explanation>go — went — gone. Gone — третья форма (Past Participle).</explanation>
+  </card>
+  <card>
+    <question>Выберите все правильные формы глагола swim (V2 и V3).</question>
+    <answers>
+      <answer correct="true">swam</answer>
+      <answer correct="true">swum</answer>
+      <answer>swimed</answer>
+      <answer>swimmed</answer>
+    </answers>
+    <hint>Модель i — a — u, как begin.</hint>
+    <explanation>swim — swam — swum. Та же модель: begin — began — begun, sing — sang — sung.</explanation>
+  </card>
+  <card>
+    <question>Третья форма (Past Participle) глагола take?</question>
+    <answers>
+      <answer correct="true">taken</answer>
+      <answer>took</answer>
+      <answer>taked</answer>
+      <answer>taking</answer>
+    </answers>
+    <explanation>take — took — taken. «I have taken the book».</explanation>
+  </card>
+  <card>
+    <question>Вторая форма (Past Simple) глагола write?</question>
+    <answers>
+      <answer correct="true">wrote</answer>
+      <answer>written</answer>
+      <answer>writed</answer>
+      <answer>wrote down</answer>
+    </answers>
+    <explanation>write — wrote — written. Written — причастие: «a written letter».</explanation>
+  </card>
+  <card>
+    <question>Какие глаголы имеют одинаковые V2 и V3?</question>
+    <answers>
+      <answer correct="true">buy (bought — bought)</answer>
+      <answer correct="true">cut (cut — cut)</answer>
+      <answer correct="true">put (put — put)</answer>
+      <answer>go (went — gone)</answer>
+      <answer>see (saw — seen)</answer>
+    </answers>
+    <hint>Одни не меняются вовсе, другие меняются, но одинаково.</hint>
+    <explanation>buy → bought/bought; cut и put вообще не меняют форму. go и see имеют разные V2 и V3.</explanation>
+  </card>
+  <card>
+    <question>Третья форма (Past Participle) глагола begin?</question>
+    <answers>
+      <answer correct="true">begun</answer>
+      <answer>began</answer>
+      <answer>beginned</answer>
+      <answer>begined</answer>
+    </answers>
+    <explanation>begin — began — begun. «The game has begun».</explanation>
+  </card>
+  <card>
+    <question>Вторая форма (Past Simple) глагола teach?</question>
+    <answers>
+      <answer correct="true">taught</answer>
+      <answer>teached</answer>
+      <answer>thought</answer>
+      <answer>taughted</answer>
+    </answers>
+    <hint>Не перепутайте с think.</hint>
+    <explanation>teach — taught — taught (учить). think — thought — thought (думать). Частая пара-ловушка.</explanation>
+  </card>
+  <card>
+    <question>Выберите все верные утверждения про глагол think.</question>
+    <answers>
+      <answer correct="true">V2 и V3 — thought</answer>
+      <answer correct="true">Переводится как «думать»</answer>
+      <answer>V2 — taught</answer>
+      <answer>Правильный глагол</answer>
+    </answers>
+    <explanation>think — thought — thought. taught — это формы глагола teach.</explanation>
+  </card>
+  <card>
+    <question>Третья форма (Past Participle) глагола fly?</question>
+    <answers>
+      <answer correct="true">flown</answer>
+      <answer>flew</answer>
+      <answer>flyed</answer>
+      <answer>flied</answer>
+    </answers>
+    <explanation>fly — flew — flown. «I have never flown business class».</explanation>
+  </card>
+  <card>
+    <question>Вторая форма (Past Simple) глагола buy?</question>
+    <answers>
+      <answer correct="true">bought</answer>
+      <answer>buyed</answer>
+      <answer>brought</answer>
+      <answer>buys</answer>
+    </answers>
+    <hint>brought — от bring, не перепутайте.</hint>
+    <explanation>buy — bought — bought (покупать). bring — brought — brought (приносить).</explanation>
+  </card>
+</deck>

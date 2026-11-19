@@ -1,0 +1,108 @@
+<deck title="C# и .NET: основы">
+  <card>
+    <question>Какие из этих типов в C# являются значимыми (value types)?</question>
+    <answers>
+      <answer correct="true">int</answer>
+      <answer correct="true">struct</answer>
+      <answer correct="true">decimal</answer>
+      <answer>string</answer>
+      <answer>class</answer>
+    </answers>
+    <hint>Значимые типы хранят само значение, ссылочные — ссылку на объект в куче.</hint>
+    <explanation>int и decimal — структуры, любые struct — значимые. string и class — ссылочные типы.</explanation>
+  </card>
+  <card>
+    <question>Что выведет Console.WriteLine(0.1 + 0.2 == 0.3); ?</question>
+    <answers>
+      <answer correct="true">False</answer>
+      <answer>True</answer>
+      <answer>Ошибку компиляции</answer>
+      <answer>NaN</answer>
+    </answers>
+    <hint>Двоичная арифметика с плавающей точкой не любит десятичные дроби.</hint>
+    <explanation>double хранит числа в двоичной системе: 0.1 + 0.2 даёт 0.30000000000000004. Для денег используйте decimal.</explanation>
+  </card>
+  <card>
+    <question>Какие утверждения про string в C# верны?</question>
+    <answers>
+      <answer correct="true">Неизменяемый (immutable)</answer>
+      <answer correct="true">Ссылочный тип</answer>
+      <answer>Значимый тип</answer>
+      <answer>Любая конкатенация меняет исходную строку</answer>
+    </answers>
+    <explanation>string — immutable reference type: любая «модификация» создаёт новую строку. Для частых склеек — StringBuilder.</explanation>
+  </card>
+  <card>
+    <question>Что делает await перед Task?</question>
+    <answers>
+      <answer correct="true">Асинхронно ждёт завершения, не блокируя поток</answer>
+      <answer>Блокирует текущий поток до завершения</answer>
+      <answer>Запускает задачу в отдельном процессе</answer>
+      <answer>Отменяет задачу</answer>
+    </answers>
+    <hint>Сравните с .Result и .Wait() — вот они как раз блокируют.</hint>
+    <explanation>await возвращает управление вызывающему коду и продолжает метод после завершения задачи. .Result/.Wait() блокируют поток и могут дать дедлок.</explanation>
+  </card>
+  <card>
+    <question>Какие типы реализуют IEnumerable&lt;T&gt;?</question>
+    <answers>
+      <answer correct="true">List&lt;T&gt;</answer>
+      <answer correct="true">T[] (массив)</answer>
+      <answer correct="true">Dictionary&lt;TKey, TValue&gt;</answer>
+      <answer>int</answer>
+    </answers>
+    <explanation>Все основные коллекции, включая массивы и словари, перечисляемы. Dictionary перечисляется как пары KeyValuePair.</explanation>
+  </card>
+  <card>
+    <question>Что вызывает блок using у объекта, реализующего IDisposable?</question>
+    <answers>
+      <answer correct="true">Dispose() при выходе из блока</answer>
+      <answer>Finalize() немедленно</answer>
+      <answer>GC.Collect()</answer>
+      <answer>Close() только у файлов</answer>
+    </answers>
+    <explanation>using гарантирует вызов Dispose() даже при исключении — это детерминированное освобождение ресурсов.</explanation>
+  </card>
+  <card>
+    <question>Сколько поколений используется в сборщике мусора .NET?</question>
+    <answers>
+      <answer correct="true">3 (Gen 0, Gen 1, Gen 2)</answer>
+      <answer>2</answer>
+      <answer>4</answer>
+      <answer>1</answer>
+    </answers>
+    <hint>Поколения 0, 1 и 2 — плюс отдельная куча для больших объектов.</hint>
+    <explanation>Gen 0 — короткоживущие объекты, Gen 2 — долгоживущие. Объекты больше 85 КБ попадают в LOH и собираются с Gen 2.</explanation>
+  </card>
+  <card>
+    <question>Какие модификаторы дают доступ к члену класса из любого кода той же сборки?</question>
+    <answers>
+      <answer correct="true">public</answer>
+      <answer correct="true">internal</answer>
+      <answer>private</answer>
+      <answer>protected</answer>
+    </answers>
+    <explanation>internal — «внутри сборки», public — везде. protected — только наследникам (в т.ч. из других сборок), private — только внутри типа.</explanation>
+  </card>
+  <card>
+    <question>Что record генерирует автоматически по сравнению с обычным class?</question>
+    <answers>
+      <answer correct="true">Сравнение по значениям (value equality)</answer>
+      <answer correct="true">Читаемый ToString()</answer>
+      <answer>Финализатор</answer>
+      <answer>Глубокое клонирование любых полей</answer>
+    </answers>
+    <hint>with-выражения тоже опираются на сгенерированный код.</hint>
+    <explanation>record генерирует Equals/GetHashCode по значениям, ToString, Deconstruct и копирующий конструктор для with. Клонирование — поверхностное.</explanation>
+  </card>
+  <card>
+    <question>Что такое boxing в .NET?</question>
+    <answers>
+      <answer correct="true">Упаковка значимого типа в object с выделением памяти в куче</answer>
+      <answer>Сжатие объекта при сериализации</answer>
+      <answer>Преобразование string в char[]</answer>
+      <answer>Перемещение объекта в Gen 2</answer>
+    </answers>
+    <explanation>При приведении int к object значение копируется в кучу. Обратная операция — unboxing. Частый boxing в горячих циклах — лишняя нагрузка на GC.</explanation>
+  </card>
+</deck>

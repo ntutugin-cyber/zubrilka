@@ -1,5 +1,5 @@
 /* Менеджер модалок + confirm + настройки + просмотр XML + разбор карточки. */
-import { $, $$, esc, download, hintHtml, explainHtml } from '../core/utils.js';
+import { $, $$, esc, download, cardKey, plural, hintHtml, explainHtml } from '../core/utils.js';
 import * as store from '../core/store.js';
 import { settings } from '../core/store.js';
 import * as media from '../core/media.js';
@@ -45,7 +45,7 @@ export function open({ title, body, footer, wide = false, onClose, locked = fals
     onClose?.();
   };
   const onKey = e => {
-    if (root.lastElementChild !== ov) return; // реагирует только верхняя модалка
+    if (root.lastElementChild !== ov) return;
     if (e.key === 'Escape') {
       e.stopImmediatePropagation();
       if (!locked) close();
@@ -83,10 +83,10 @@ export function confirmAction({ title = 'Подтвердите', text, ok = 'У
   });
 }
 
-const toggleRow = (id, label, desc, on) =>
+const toggleRow = (id, label, desc, on_) =>
   `<div class="set-row">
      <div class="set-info"><label for="set-${id}">${label}</label><p>${desc}</p></div>
-     <label class="switch"><input type="checkbox" id="set-${id}"${on ? ' checked' : ''}>
+     <label class="switch"><input type="checkbox" id="set-${id}"${on_ ? ' checked' : ''}>
        <span class="sw-track"><span class="sw-knob"></span></span></label>
    </div>`;
 
@@ -100,6 +100,12 @@ export function settingsModal() {
          <p>Сколько карточек брать в работу одновременно. Остальные ждут в запасе.</p></div>
        <select id="set-batch" class="select">${[10, 20, 30, 50, 100, 0].map(v =>
          `<option value="${v}"${s.batch === v ? ' selected' : ''}>${v || 'все сразу'}</option>`).join('')}</select>
+     </div>
+     <div class="set-row">
+       <div class="set-info"><label for="set-goal">Верных ответов до «выучено»</label>
+         <p>Сколько раз нужно ответить на карточку правильно (не обязательно подряд). Ошибки и «Не знаю» не обнуляют счёт, но возвращают карточку в очередь. Меняется и прямо в тренировке.</p></div>
+       <select id="set-goal" class="select">${[1, 2, 3, 4, 5, 7, 9].map(v =>
+         `<option value="${v}"${s.goal === v ? ' selected' : ''}>${v}</option>`).join('')}</select>
      </div>` +
     toggleRow('shuffle', 'Перемешивать варианты ответов',
       'Если выключено (по умолчанию) — варианты идут в порядке из XML: важно для карточек «варианты 1 и 4».', s.shuffle) +
@@ -112,6 +118,7 @@ export function settingsModal() {
 
   const m = open({ title: 'Настройки', body, footer: '<button class="btn btn-primary m-done">Готово</button>' });
   body.querySelector('#set-batch').onchange = e => { store.setSetting('batch', +e.target.value); play('tick'); };
+  body.querySelector('#set-goal').onchange = e => { store.setSetting('goal', +e.target.value); play('tick'); };
 
   for (const k of ['shuffle', 'sound', 'persist']) {
     body.querySelector('#set-' + k).onchange = async e => {
@@ -133,7 +140,7 @@ export function settingsModal() {
   body.querySelector('#set-reset').onclick = async () => {
     if (await confirmAction({
       title: 'Сбросить весь прогресс?',
-      text: 'Все отметки «выучено» и статистика ошибок по всем колодам будут очищены. Сами колоды останутся.',
+      text: 'Все счётчики «верно / мимо» и отметки «выучено» по всем колодам будут очищены. Сами колоды останутся.',
       ok: 'Сбросить'
     })) { store.resetAllProgress(); toast.success('Прогресс сброшен'); }
   };
@@ -167,9 +174,28 @@ export function review(card, deckId) {
   const body = document.createElement('div');
   body.className = 'paper review-paper';
   const multi = card.answers.filter(a => a.correct).length > 1;
+  const st = store.getCard(deckId, cardKey(card));
+  const goal = Math.max(1, Number(settings.goal) || 1);
+  const rem = Math.max(0, goal - st.ok);
+  const wrong = Math.max(0, st.bad - st.skip);
+  const pips = goal <= 8
+    ? `<div class="m-pips" aria-hidden="true">${Array.from({ length: goal }, (_, k) =>
+        `<span class="pip${k < st.ok ? ' on' : ''}"></span>`).join('')}</div>`
+    : `<div class="m-pips m-pips-num mono" aria-hidden="true"><b>${st.ok}</b>/${goal}</div>`;
+
   body.innerHTML =
     `<div class="paper-head"><span class="mono">РАЗБОР КАРТОЧКИ</span>
        ${multi ? '<span class="chip chip-multi">несколько ответов</span>' : ''}</div>
+     <div class="mastery">${pips}
+       ${rem > 0
+         ? `<div class="m-left"><b>осталось ${rem}</b><span>${plural(rem, 'верный ответ', 'верных ответа', 'верных ответов')} до «выучено»</span></div>`
+         : '<div class="m-left done"><b>выучено 🎓</b><span>цель достигнута</span></div>'}
+       <div class="m-counts">
+         <span class="chip chip-ok">✓ верно: ${st.ok}</span>
+         <span class="chip chip-bad" title="Неверных ответов: ${wrong}">✗ мимо: ${st.bad}</span>
+         ${st.skip ? `<span class="chip chip-amber" title="Нажали «Не знаю»">🤷 ${st.skip}</span>` : ''}
+       </div>
+     </div>
      <div class="paper-question">${esc(card.question)}</div>
      <div class="q-media" data-qm></div>
      <div class="opts">${card.answers.map(a =>

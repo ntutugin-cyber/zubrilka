@@ -1,9 +1,9 @@
-/* Тренировка: порции, повторы, серия, подсказки, «Не знаю» (N).
-   Карточка считается выученной после N верных ответов (цель меняется на лету).
-   На вопросе видно: сколько верных осталось, сколько уже верно и сколько мимо. */
-import { $, esc, cardKey, shuffle, clamp, fmtTime, plural, emit, on, hintHtml, explainHtml } from '../core/utils.js';
+/* Тренировка. Правило: первый верный ответ закрывает карточку навсегда;
+   ошибка / «Не знаю» обнуляет «подряд» и удваивает требование (1→2→4→8→15).
+   На вопросе видно лестницу, шкалу «подряд», сколько осталось и всю статистику. */
+import { $, esc, cardKey, shuffle, fmtTime, plural, emit, on, hintHtml, explainHtml } from '../core/utils.js';
 import * as store from '../core/store.js';
-import { settings } from '../core/store.js';
+import { settings, RULE, LADDER } from '../core/store.js';
 import * as media from '../core/media.js';
 import { play } from '../core/sfx.js';
 import * as fx from '../core/fx.js';
@@ -11,38 +11,30 @@ import * as toast from '../ui/toast.js';
 import * as modals from '../ui/modals.js';
 
 let root = null, S = null;
-let lastGoal = settings.goal, lastShuffle = settings.shuffle;
+let lastShuffle = settings.shuffle;
 
 export const hasSession = () => !!S && !S.done;
 
 export function init(el) {
   root = el;
-  lastGoal = settings.goal; lastShuffle = settings.shuffle;
+  lastShuffle = settings.shuffle;
   bind();
   on('settings', onSettings);
   render();
 }
 
-const goalNow = () => Math.max(1, Math.min(9, Number(settings.goal) || 1));
 const cur = () => S.deck.cards[S.current];
 const isMulti = () => cur().answers.filter(a => a.correct).length > 1;
 const firstLine = t => t.split('\n')[0];
-
-function statOf(i) {
-  const k = cardKey(S.deck.cards[i]);
-  let c = S.counts.get(k);
-  if (!c) { c = store.getCard(S.deck.id, k); S.counts.set(k, c); }
-  return c;
-}
-const remainingOf = i => Math.max(0, goalNow() - statOf(i).ok);
-const masteredOf = i => remainingOf(i) === 0;
+const statOf = i => store.getCard(S.deck.id, cardKey(S.deck.cards[i]));
+const remainOf = i => { const s = statOf(i); return Math.max(0, s.need - s.run); };
 
 export function start(deck) {
   const learned = new Set(store.getProgress(deck.id).learned);
   const idxs = deck.cards.map((_, i) => i);
   const need = shuffle(idxs.filter(i => !learned.has(cardKey(deck.cards[i]))));
   if (!need.length) {
-    S = { deck, learned, counts: new Map(), done: true, already: true, baseMastered: idxs.length };
+    S = { deck, learned, done: true, already: true, baseMastered: idxs.length };
     render(); return;
   }
   const batch = settings.batch > 0 ? settings.batch : need.length;
@@ -52,10 +44,10 @@ export function start(deck) {
     order.set(i, settings.shuffle ? shuffle(ord) : ord);
   }
   S = {
-    deck, learned, counts: new Map(), order,
+    deck, learned, order,
     portion: need.slice(0, batch), reserve: need.slice(batch),
     repeat: new Set(), current: need[0],
-    selected: new Set(), phase: 'question', reveal: null,
+    selected: new Set(), phase: 'question', reveal: null, last: null,
     hintShown: false, hintCounted: false, done: false, already: false,
     baseMastered: idxs.length - need.length,
     stats: { errors: 0, perCard: {}, streak: 0, best: 0, hints: 0, start: Date.now() }
@@ -63,41 +55,15 @@ export function start(deck) {
   render(); play('flip');
 }
 
-/* ── настройки на лету: цель и перемешивание ── */
 function onSettings(s) {
-  if (!S) { lastGoal = s.goal; lastShuffle = s.shuffle; return; }
-  if (!S.done) {
-    if (s.shuffle !== lastShuffle) {
-      for (let i = 0; i < S.deck.cards.length; i++) {
-        const ord = S.deck.cards[i].answers.map((_, j) => j);
-        S.order.set(i, s.shuffle ? shuffle(ord) : ord);
-      }
+  if (S && !S.done && s.shuffle !== lastShuffle) {
+    for (let i = 0; i < S.deck.cards.length; i++) {
+      const ord = S.deck.cards[i].answers.map((_, j) => j);
+      S.order.set(i, s.shuffle ? shuffle(ord) : ord);
     }
-    if (s.goal !== lastGoal) rebuildQueue();
+    render();
   }
-  lastGoal = s.goal; lastShuffle = s.shuffle;
-  render();
-}
-
-function rebuildQueue() {
-  const learned = new Set(store.getProgress(S.deck.id).learned);
-  S.learned = learned;
-  S.counts = new Map();
-  const need = S.deck.cards.map((_, i) => i).filter(i => !learned.has(cardKey(S.deck.cards[i])));
-  const keep = S.phase === 'reveal' || need.includes(S.current);
-  const head = keep ? S.current : null;
-  const others = shuffle(need.filter(i => i !== S.current));
-  const list = head != null ? [head, ...others] : others;
-  const batch = Math.max(settings.batch > 0 ? settings.batch : list.length, head != null ? 1 : 0);
-  S.portion = list.slice(0, batch);
-  S.reserve = list.slice(S.portion.length);
-  S.repeat = new Set([...S.repeat].filter(i => list.includes(i)));
-  if (!S.portion.length) { finish(); return; }
-  if (head == null) {
-    S.current = S.portion[0];
-    S.phase = 'question'; S.reveal = null; S.selected = new Set();
-    S.hintShown = false; S.hintCounted = false;
-  }
+  lastShuffle = s.shuffle;
 }
 
 function bind() {
@@ -115,8 +81,7 @@ function bind() {
       case 'next': next(); break;
       case 'skip': skip(); break;
       case 'hint': toggleHint(); break;
-      case 'goal-dec': setGoal(goalNow() - 1); break;
-      case 'goal-inc': setGoal(goalNow() + 1); break;
+      case 'rule': modals.ruleModal(); break;
       case 'exit': S = null; emit('navigate', { tab: 'library' }); render(); break;
       case 'reset': resetProgress(); break;
       case 'replay': replay(); break;
@@ -134,14 +99,6 @@ function bind() {
       choose(+o.dataset.opt);
     }
   });
-}
-
-function setGoal(v) {
-  const g = clamp(v, 1, 9);
-  if (g === goalNow()) return;
-  store.setSetting('goal', g);
-  play('tick');
-  toast.show(`Цель: ${g} ${plural(g, 'верный ответ', 'верных ответа', 'верных ответов')} на карточку`, { timeout: 2200 });
 }
 
 function choose(i) {
@@ -177,18 +134,15 @@ function skip() {
 
 function reveal(ok, skipped) {
   const i = S.current, key = cardKey(cur());
-  const st = { ...statOf(i) };
-  if (ok) st.ok++; else { st.bad++; if (skipped) st.skip++; }
-  S.counts.set(key, store.setCard(S.deck.id, key, st));
-
+  const res = store.answerCard(S.deck.id, key, ok ? 'ok' : (skipped ? 'skip' : 'bad'));
+  S.last = res;
   S.phase = 'reveal';
   S.reveal = { ok, skipped, chosen: new Set(S.selected) };
 
   if (ok) {
     S.stats.streak++;
     S.stats.best = Math.max(S.stats.best, S.stats.streak);
-    if (masteredOf(i)) { S.learned.add(key); play('learn'); }
-    else play('correct');
+    if (res.learned) { S.learned.add(key); play('learn'); } else play('correct');
   } else {
     S.stats.errors++;
     S.stats.perCard[i] = (S.stats.perCard[i] || 0) + 1;
@@ -197,7 +151,7 @@ function reveal(ok, skipped) {
     play('wrong');
   }
   render();
-  if (ok) fx.burstAt($('#train-paper', root), masteredOf(i) ? 34 : 18);
+  if (ok) fx.burstAt($('#train-paper', root), res.learned ? 34 : 16);
   root.querySelector('[data-act="next"]')?.focus({ preventScroll: true });
   emit('progress');
 }
@@ -205,13 +159,9 @@ function reveal(ok, skipped) {
 function next() {
   if (!S || S.done || S.phase !== 'reveal') return;
   const i = S.current;
-  if (masteredOf(i)) {
-    S.learned.add(cardKey(S.deck.cards[i]));
-    S.repeat.delete(i);
-    S.portion.shift();
-  } else {
-    S.portion.push(S.portion.shift());
-  }
+  if (statOf(i).done) { S.repeat.delete(i); S.portion.shift(); }
+  else S.portion.push(S.portion.shift());
+
   if (!S.portion.length && S.reserve.length) {
     const batch = settings.batch > 0 ? settings.batch : S.reserve.length;
     S.portion = S.reserve.splice(0, batch);
@@ -221,7 +171,8 @@ function next() {
   if (!S.portion.length) { finish(); return; }
   S.current = S.portion[0];
   S.selected = new Set();
-  S.phase = 'question'; S.reveal = null; S.hintShown = false; S.hintCounted = false;
+  S.phase = 'question'; S.reveal = null; S.last = null;
+  S.hintShown = false; S.hintCounted = false;
   render();
 }
 
@@ -262,7 +213,7 @@ async function resetProgress() {
   if (!S) return;
   if (await modals.confirmAction({
     title: 'Сбросить прогресс колоды?',
-    text: `Все счётчики «верно / мимо» и отметки «выучено» колоды «${S.deck.title}» будут очищены.`,
+    text: `Все требования, серии «подряд» и отметки «выучено» колоды «${S.deck.title}» будут очищены.`,
     ok: 'Сбросить'
   })) {
     store.resetDeckProgress(S.deck.id);
@@ -276,7 +227,7 @@ async function replay() {
   const deck = S.deck;
   if (await modals.confirmAction({
     title: 'Пройти ещё раз?',
-    text: 'Счётчики этой колоды будут сброшены, и все карточки вернутся в работу.',
+    text: 'Прогресс этой колоды будет сброшен: все карточки снова начнут с требования «1 верный ответ».',
     ok: 'Начать заново', danger: false
   })) {
     store.resetDeckProgress(deck.id);
@@ -303,38 +254,50 @@ export function handleKey(e) {
   return false;
 }
 
-/* ── блоки статистики карточки ── */
-function masteryHtml(i) {
-  const st = statOf(i), goal = goalNow(), rem = Math.max(0, goal - st.ok);
-  const pips = goal <= 8
-    ? `<div class="m-pips" aria-hidden="true">${Array.from({ length: goal }, (_, k) =>
-        `<span class="pip${k < st.ok ? ' on' : (k === st.ok ? ' next' : '')}"></span>`).join('')}</div>`
-    : `<div class="m-pips m-pips-num mono" aria-hidden="true"><b>${st.ok}</b>/${goal}</div>`;
-  const left = rem > 0
-    ? `<div class="m-left"><b>осталось ${rem}</b><span>${plural(rem, 'верный ответ', 'верных ответа', 'верных ответов')} до «выучено»</span></div>`
-    : `<div class="m-left done"><b>выучено 🎓</b><span>цель достигнута</span></div>`;
-  const wrong = Math.max(0, st.bad - st.skip);
-  const badTitle = `Неверных ответов: ${wrong} · «Не знаю»: ${st.skip}`;
-  return `<div class="mastery">${pips}${left}
-    <div class="m-counts">
-      <span class="chip chip-ok" title="Сколько раз вы ответили на эту карточку верно">✓ верно: ${st.ok}</span>
-      <span class="chip chip-bad" title="${esc(badTitle)}">✗ мимо: ${st.bad}</span>
+/* ── блок «сколько осталось подряд» ── */
+export function masteryHtml(st, { note = true } = {}) {
+  const rem = Math.max(0, st.need - st.run);
+  const ladder = `<div class="m-ladder" title="После каждой ошибки требование удваивается, максимум ${RULE.cap}">
+      ${LADDER.map(v => `<span class="lad-step${v === st.need ? ' active' : (v < st.need ? ' passed' : '')}">${v}</span>`)
+        .join('<span class="lad-arrow">→</span>')}
+    </div>`;
+  const track = st.need <= 8
+    ? `<div class="m-pips" aria-hidden="true">${Array.from({ length: st.need }, (_, k) =>
+        `<span class="pip${k < st.run ? ' on' : (k === st.run && !st.done ? ' next' : '')}"></span>`).join('')}</div>`
+    : `<div class="m-track"><div class="m-bar"><i style="width:${Math.round(st.run / st.need * 100)}%"></i></div>
+         <span class="m-run mono">${st.run}/${st.need}</span></div>`;
+  const left = st.done
+    ? `<div class="m-left done"><b>выучено 🎓</b><span>больше не появится</span></div>`
+    : `<div class="m-left"><b>осталось подряд: ${rem}</b><span>из ${st.need}</span></div>`;
+  const counts = `<div class="m-counts">
+      <span class="chip chip-ok" title="Всего верных ответов по этой карточке">✓ верно: ${st.ok}</span>
+      <span class="chip chip-bad" title="Неверных: ${Math.max(0, st.bad - st.skip)} · «Не знаю»: ${st.skip}">✗ мимо: ${st.bad}</span>
       ${st.skip ? `<span class="chip chip-amber" title="Сколько раз нажали «Не знаю»">🤷 ${st.skip}</span>` : ''}
-    </div>
-  </div>`;
+    </div>`;
+  const nextNeed = Math.min(RULE.cap, st.need * RULE.mult);
+  const noteHtml = !note ? '' : (st.done
+    ? `<p class="m-note">Карточка закрыта: ${st.run} ${plural(st.run, 'верный ответ', 'верных ответа', 'верных ответов')} подряд.</p>`
+    : st.need === 1
+      ? `<p class="m-note">Новая карточка: хватит <b>одного</b> верного ответа. Ошибка поднимет требование до 2.</p>`
+      : `<p class="m-note">Нужно <b>${st.need} верных подряд</b> по этой карточке. Ошибка обнулит подряд и поднимет требование до ${nextNeed}${st.need >= RULE.cap ? ' (это максимум)' : ''}.</p>`);
+  return `<div class="mastery">${ladder}<div class="m-row">${track}${left}${counts}</div>${noteHtml}</div>`;
 }
 
 function verdictHtml() {
-  const st = statOf(S.current), rem = Math.max(0, goalNow() - st.ok);
-  const tail = `${rem} ${plural(rem, 'верный ответ', 'верных ответа', 'верных ответов')}`;
+  const r = S.last, st = r.stat;
   if (S.reveal.ok) {
-    return rem === 0
-      ? `<div class="verdict ok"><svg class="ic"><use href="#i-trophy"/></svg>Карточка выучена: ${st.ok} ${plural(st.ok, 'верный ответ', 'верных ответа', 'верных ответов')}!</div>`
-      : `<div class="verdict ok"><svg class="ic"><use href="#i-check"/></svg>Верно! До «выучено» осталось ещё ${tail}.</div>`;
+    return r.learned
+      ? `<div class="verdict ok"><svg class="ic"><use href="#i-trophy"/></svg>Выучено! ${st.run} ${plural(st.run, 'верный ответ', 'верных ответа', 'верных ответов')} подряд — карточка больше не появится.</div>`
+      : `<div class="verdict ok"><svg class="ic"><use href="#i-check"/></svg>Верно. Подряд ${st.run} из ${st.need} — осталось ${r.remaining}.</div>`;
   }
-  if (S.reveal.skipped)
-    return `<div class="verdict skip"><svg class="ic"><use href="#i-help"/></svg>Ответ показан. Карточка вернётся в очередь — до «выучено» ещё ${tail}.</div>`;
-  return `<div class="verdict bad"><svg class="ic"><use href="#i-x"/></svg>Мимо. Карточка вернётся в очередь — до «выучено» ещё ${tail}.</div>`;
+  const head = S.reveal.skipped ? 'Ответ показан.' : 'Мимо.';
+  const grew = r.grew
+    ? `Требование выросло: ${r.before.need} → ${st.need}${r.atCap ? ' (максимум)' : ''}.`
+    : `Требование уже на максимуме: ${st.need}.`;
+  return `<div class="verdict ${S.reveal.skipped ? 'skip' : 'bad'}">
+      <svg class="ic"><use href="#i-${S.reveal.skipped ? 'help' : 'x'}"/></svg>
+      ${head} Подряд обнулён. ${grew} Нужно ${st.need} ${plural(st.need, 'верный ответ', 'верных ответа', 'верных ответов')} подряд.
+    </div>`;
 }
 
 function optHtml(a, j, pos) {
@@ -363,6 +326,7 @@ function render() {
          <h3>Колода не выбрана</h3>
          <p>Выберите колоду в библиотеке или соберите свою в конструкторе — и начинайте зубрить.</p>
          <button class="btn btn-primary btn-lg" data-act="pick"><svg class="ic"><use href="#i-folder"/></svg>Выбрать колоду</button>
+         <button class="btn btn-ghost btn-sm" data-act="rule"><svg class="ic"><use href="#i-help"/></svg>Как считается «выучено»</button>
        </div>`;
     return;
   }
@@ -371,15 +335,15 @@ function render() {
   const d = S.deck, card = cur(), multi = isMulti(), ord = S.order.get(S.current);
   const { closed, total, masteredNow } = sessionNumbers();
   const pct = Math.round(masteredNow / d.cards.length * 100);
-  const goal = goalNow();
-  const mastered = masteredOf(S.current);
-  const stampCls = S.reveal ? (S.reveal.ok ? (mastered ? 'ok' : 'ok') : S.reveal.skipped ? 'skip' : 'bad') : '';
-  const stampTxt = S.reveal ? (S.reveal.ok ? (mastered ? 'Выучено!' : 'Верно!') : S.reveal.skipped ? 'Ответ' : 'Мимо') : '';
+  const st = statOf(S.current);
+  const learnedNow = S.reveal ? S.last.learned : st.done;
+  const stampTxt = S.reveal ? (S.reveal.ok ? (learnedNow ? 'Выучено!' : 'Верно!') : S.reveal.skipped ? 'Ответ' : 'Мимо') : '';
+  const stampCls = S.reveal ? (S.reveal.ok ? 'ok' : S.reveal.skipped ? 'skip' : 'bad') : '';
   const status = S.reveal
     ? (S.reveal.ok
-        ? (mastered ? 'Верно, карточка выучена' : `Верно. Осталось ${remainingOf(S.current)} верных ответов`)
-        : 'Неверно, правильные варианты подсвечены')
-    : `Осталось ${remainingOf(S.current)} верных ответов до выучивания`;
+        ? (learnedNow ? 'Верно, карточка выучена' : `Верно. Подряд ${st.run} из ${st.need}`)
+        : `Неверно. Теперь нужно ${st.need} верных подряд`)
+    : `Нужно ${st.need} верных подряд, осталось ${Math.max(0, st.need - st.run)}`;
 
   root.innerHTML =
     `<div class="train-top">
@@ -390,12 +354,10 @@ function render() {
          <span class="chip chip-cyan" title="Карточек в текущей порции">в порции: ${S.portion.length}</span>
          <span class="chip chip-amber" title="Ошиблись — вернутся на повтор">на повторе: ${S.repeat.size}</span>
          <span class="chip" title="Ждут своей очереди">в запасе: ${S.reserve.length}</span>
-         <span class="chip chip-streak${S.stats.streak >= 3 ? ' hot' : ''}" title="Верных подряд"><svg class="ic"><use href="#i-flame"/></svg>${S.stats.streak}</span>
-         <div class="goal-step" role="group" aria-label="Сколько верных ответов нужно, чтобы карточка считалась выученной">
-           <button class="gs-btn" data-act="goal-dec" title="Меньше верных ответов для «выучено»" ${goal <= 1 ? 'disabled' : ''} aria-label="Уменьшить цель">−</button>
-           <span class="gs-val mono" title="Столько раз нужно ответить верно (не обязательно подряд)">цель: <b>${goal}</b> ✓</span>
-           <button class="gs-btn" data-act="goal-inc" title="Больше верных ответов для «выучено»" ${goal >= 9 ? 'disabled' : ''} aria-label="Увеличить цель">+</button>
-         </div>
+         <span class="chip chip-streak${S.stats.streak >= 3 ? ' hot' : ''}" title="Верных подряд по любым карточкам подхода"><svg class="ic"><use href="#i-flame"/></svg>серия: ${S.stats.streak}</span>
+         <button class="chip chip-btn rule-chip" data-act="rule" title="Как считается «выучено»">
+           <svg class="ic"><use href="#i-help"/></svg>правило: ${LADDER.join(' → ')}
+         </button>
          <button class="btn btn-icon btn-ghost" data-act="reset" title="Сбросить прогресс колоды"><svg class="ic"><use href="#i-rotate"/></svg></button>
        </div>
      </div>
@@ -409,7 +371,7 @@ function render() {
            <span class="mono">закрыто ${closed} / ${total}${S.repeat.has(S.current) ? ' · на повторе' : ''}</span>
            ${multi ? '<span class="chip chip-multi">несколько ответов</span>' : ''}
          </div>
-         ${masteryHtml(S.current)}
+         ${masteryHtml(st)}
          <div class="paper-question">${esc(card.question)}</div>
          <div class="q-media" id="q-media"></div>
          <div class="opts">${ord.map((j, pos) => optHtml(card.answers[j], j, pos)).join('')}</div>
@@ -422,7 +384,7 @@ function render() {
              ${card.hint ? `<button class="btn btn-paper" data-act="hint" aria-pressed="${S.hintShown}"><svg class="ic"><use href="#i-bulb"/></svg>Подсказка <kbd>H</kbd></button>` : ''}
              <button class="btn btn-paper" data-act="skip"><svg class="ic"><use href="#i-help"/></svg>Не знаю <kbd>N</kbd></button>
              ${multi ? `<button class="btn btn-primary" data-act="check" id="check-btn" disabled><svg class="ic"><use href="#i-check"/></svg>Проверить (<span id="check-n">0</span>)</button>` : ''}
-           ` : `<button class="btn btn-next" data-act="next">${mastered ? 'Дальше' : 'Ещё раз потом — дальше'} <svg class="ic"><use href="#i-arrow-r"/></svg></button>`}
+           ` : `<button class="btn btn-next" data-act="next">${learnedNow ? 'Дальше' : 'Понятно, дальше'} <svg class="ic"><use href="#i-arrow-r"/></svg></button>`}
          </div>
          <div class="kbd-line mono">клавиши: <kbd>1–9</kbd> ответ · <kbd>H</kbd> подсказка · <kbd>N</kbd> не знаю · <kbd>Enter</kbd> ${S.phase === 'question' ? 'проверить' : 'дальше'} · клик по фото — полный экран</div>
          <span class="sr-only" role="status">${esc(status)}</span>
@@ -439,7 +401,7 @@ function resultsHtml() {
     return `<div class="results">
       <div class="trophy-wrap"><svg class="ic trophy"><use href="#i-trophy"/></svg></div>
       <h1 class="res-title">Колода уже <span class="grad-text">выучена</span> 🎓</h1>
-      <p class="res-sub">Все карточки «${esc(S.deck.title)}» набрали нужное число верных ответов. Хотите освежить память — пройдите заново.</p>
+      <p class="res-sub">Все карточки «${esc(S.deck.title)}» закрыты. Хотите освежить память — пройдите заново, требования начнутся с одного верного ответа.</p>
       <div class="res-actions">
         <button class="btn btn-primary btn-lg" data-act="replay"><svg class="ic"><use href="#i-rotate"/></svg>Пройти ещё раз</button>
         <button class="btn btn-ghost btn-lg" data-act="to-library">Другая колода</button>
@@ -457,8 +419,8 @@ function resultsHtml() {
     <div class="trophy-wrap"><svg class="ic trophy"><use href="#i-trophy"/></svg></div>
     <h1 class="res-title">ВСЁ <span class="grad-text">ВЫУЧЕНО!</span></h1>
     ${perfect
-      ? '<div class="perfect-badge"><svg class="ic"><use href="#i-sparkle"/></svg>Ни одной ошибки — все карточки с первого раза!</div>'
-      : '<p class="res-sub">Колода закрыта. Ошибки — это карта того, что стоит повторить завтра.</p>'}
+      ? '<div class="perfect-badge"><svg class="ic"><use href="#i-sparkle"/></svg>Ни одной ошибки — все карточки закрыты с первого ответа!</div>'
+      : '<p class="res-sub">Колода закрыта: каждая карточка набрала нужное число верных подряд.</p>'}
     <div class="res-stats">
       ${tile(closed, 'карточек', 'cyan')}
       ${tile(st.errors, 'ошибок', st.errors ? 'magenta' : 'lime')}
@@ -466,7 +428,7 @@ function resultsHtml() {
       ${tile(st.best, 'лучшая серия', 'amber')}
       ${tile(fmtTime(S.time), 'время', 'cyan')}
     </div>
-    <p class="sp-note mono">цель подхода: ${goalNow()} ${plural(goalNow(), 'верный ответ', 'верных ответа', 'верных ответов')} на карточку</p>
+    <p class="sp-note mono">правило: ошибка обнуляет «подряд» и удваивает требование · ${LADDER.join(' → ')}</p>
     ${stumbles.length ? `<div class="stumble-panel">
       <h3><svg class="ic"><use href="#i-eye"/></svg>Где вы запинались</h3>
       <p class="sp-note mono">по убыванию ошибок · нажмите, чтобы посмотреть разбор и счётчики</p>

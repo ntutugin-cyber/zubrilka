@@ -1,12 +1,21 @@
-/* Состояние: настройки, per-card счётчики (верно / мимо / «не знаю»),
-   прогресс, свои колоды, черновик конструктора.
-   persist=true → localStorage; persist=false → только память. */
+/* Состояние + правило выучивания.
+   Карточка: need — сколько верных ПОДРЯД нужно, run — текущая серия по карточке,
+   ok/bad/skip — всего верных / мимо / «не знаю», done — выучена (больше не появляется).
+   Первый показ: need=1. Ошибка или «Не знаю»: run=0, need=min(15, need*2). */
 import { debounce, emit, deepClone } from './utils.js';
 import * as idb from './idb.js';
 
 const KEY = 'zubrilka.v1';
+
+export const RULE = { start: 1, mult: 2, cap: 15 };
+export const LADDER = (() => {
+  const a = [RULE.start];
+  while (a[a.length - 1] < RULE.cap) a.push(Math.min(RULE.cap, a[a.length - 1] * RULE.mult));
+  return a; // [1, 2, 4, 8, 15]
+})();
+
 const DEFAULTS = {
-  settings: { batch: 20, goal: 2, shuffle: false, sound: true, persist: true },
+  settings: { batch: 20, shuffle: false, sound: true, persist: true },
   progress: {}, decks: [], draft: null, lastTab: 'library'
 };
 
@@ -16,26 +25,41 @@ let quotaWarned = false;
 
 const blank = () => ({ cards: {}, learned: [], errors: {}, best: 0 });
 const num = v => Math.max(0, Number(v) || 0);
-const normStat = s => ({ ok: num(s?.ok), bad: num(s?.bad), skip: num(s?.skip) });
-const goalNow = () => Math.max(1, Math.min(9, Number(settings.goal) || 1));
+const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
 
-/* learned — производный кэш: карточка выучена, когда верных ответов >= цели */
+const normStat = s => {
+  const need = clamp(Math.round(num(s?.need)) || RULE.start, RULE.start, RULE.cap);
+  return {
+    need,
+    run: clamp(Math.round(num(s?.run)), 0, need),
+    ok: num(s?.ok),
+    bad: num(s?.bad),
+    skip: num(s?.skip),
+    done: !!s?.done
+  };
+};
+
 function syncLearned(p) {
-  const g = goalNow();
   p.cards = p.cards || {};
-  p.learned = Object.keys(p.cards).filter(k => p.cards[k].ok >= g);
+  p.learned = Object.keys(p.cards).filter(k => p.cards[k].done);
 }
-function syncAll() { for (const p of Object.values(state.progress)) syncLearned(p); }
 
-/* совместимость со старым форматом {learned:[], errors:{}} */
+/* совместимость со старыми форматами: {learned:[],errors:{}} и {ok,bad,skip}+goal */
 function migrate() {
-  const g = goalNow();
   for (const p of Object.values(state.progress)) {
-    if (!p.cards) {
-      const cards = {};
-      for (const k of p.learned || []) cards[k] = { ok: g, bad: num((p.errors || {})[k]), skip: 0 };
-      for (const [k, n] of Object.entries(p.errors || {})) if (!cards[k]) cards[k] = { ok: 0, bad: num(n), skip: 0 };
-      p.cards = cards;
+    p.cards = p.cards || {};
+    const oldLearned = new Set(p.learned || []);
+    for (const [k, v] of Object.entries(p.cards)) {
+      if (v && typeof v.need === 'number') { p.cards[k] = normStat(v); continue; }
+      const ok = num(v?.ok), bad = num(v?.bad), skip = num(v?.skip);
+      const need = bad ? clamp(Math.pow(RULE.mult, bad), RULE.start, RULE.cap) : RULE.start;
+      p.cards[k] = { need, run: 0, ok, bad, skip, done: oldLearned.has(k) };
+    }
+    for (const [k, n] of Object.entries(p.errors || {})) {
+      if (!p.cards[k]) p.cards[k] = {
+        need: clamp(Math.pow(RULE.mult, num(n)), RULE.start, RULE.cap),
+        run: 0, ok: 0, bad: num(n), skip: 0, done: false
+      };
     }
     p.errors = p.errors || {};
     p.best = num(p.best);
@@ -49,6 +73,7 @@ export function load() {
     if (raw) {
       const d = JSON.parse(raw);
       Object.assign(state.settings, d.settings || {});
+      delete state.settings.goal;
       state.progress = d.progress || {};
       state.decks = Array.isArray(d.decks) ? d.decks : [];
       state.draft = d.draft || null;
@@ -66,36 +91,54 @@ function persistNow() {
 export const save = debounce(persistNow, 250);
 
 export function setSetting(k, v) {
-  if (k === 'goal') v = Math.max(1, Math.min(9, Number(v) || 1));
   state.settings[k] = v;
-  if (k === 'goal') { syncAll(); save(); }
-  else if (k === 'persist') {
+  if (k === 'persist') {
     if (!v) { try { localStorage.removeItem(KEY); } catch { /* ok */ } idb.clearAll(); }
     else persistNow();
   } else save();
   emit('settings', state.settings);
 }
 
-/* ── прогресс и счётчики карточек ── */
+/* ── прогресс ── */
 export const getProgress = id => state.progress[id] || blank();
-export const getGoal = goalNow;
-
-export function getCard(deckId, key) {
-  return normStat(state.progress[deckId]?.cards?.[key]);
-}
+export const getCard = (deckId, key) => normStat(state.progress[deckId]?.cards?.[key]);
 
 export function setCard(deckId, key, stat) {
   const p = state.progress[deckId] ||= blank();
   p.cards[key] = normStat(stat);
   p.updated = Date.now();
-  syncLearned(p);
-  save();
+  syncLearned(p); save();
   return p.cards[key];
+}
+
+/* kind: 'ok' | 'bad' | 'skip' — единственное место, где живёт правило */
+export function answerCard(deckId, key, kind) {
+  const p = state.progress[deckId] ||= blank();
+  const before = normStat(p.cards[key]);
+  const s = { ...before };
+  if (kind === 'ok') {
+    s.ok++; s.run++;
+    if (s.run >= s.need) s.done = true;
+  } else {
+    s.bad++;
+    if (kind === 'skip') s.skip++;
+    s.run = 0;
+    s.need = Math.min(RULE.cap, s.need * RULE.mult);
+    s.done = false;
+  }
+  const saved = setCard(deckId, key, s);
+  return {
+    before, stat: saved,
+    learned: saved.done,
+    grew: saved.need > before.need,
+    atCap: saved.need >= RULE.cap,
+    remaining: Math.max(0, saved.need - saved.run)
+  };
 }
 
 export function markLearned(deckId, key) {
   const cur = getCard(deckId, key);
-  return setCard(deckId, key, { ...cur, ok: Math.max(cur.ok, goalNow()) });
+  return setCard(deckId, key, { ...cur, run: cur.need, done: true });
 }
 
 export function mergeErrors(id, map) {

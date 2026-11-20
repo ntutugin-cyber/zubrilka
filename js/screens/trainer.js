@@ -1,4 +1,5 @@
-/* Тренировка: порции, повторы ошибок, серия, подсказки, результаты. */
+/* Тренировка: порции, повторы ошибок, серия, подсказки, «Не знаю» (N).
+   После ответа карточка остаётся на экране — переход только по «Дальше»/Enter. */
 import { $, esc, cardKey, shuffle, fmtTime, plural, emit, hintHtml, explainHtml } from '../core/utils.js';
 import * as store from '../core/store.js';
 import { settings } from '../core/store.js';
@@ -14,14 +15,10 @@ export const hasSession = () => !!S && !S.done;
 export function init(el) { root = el; bind(); render(); }
 
 export function start(deck) {
-  if (S?.autoTimer) clearTimeout(S.autoTimer);
   const learned = new Set(store.getProgress(deck.id).learned);
   const idxs = deck.cards.map((_, i) => i);
   const remaining = shuffle(idxs.filter(i => !learned.has(cardKey(deck.cards[i]))));
-  if (!remaining.length) {
-    S = { deck, learned, done: true, already: true };
-    render(); return;
-  }
+  if (!remaining.length) { S = { deck, learned, done: true, already: true }; render(); return; }
   const batch = settings.batch > 0 ? settings.batch : remaining.length;
   const portion = remaining.slice(0, batch), reserve = remaining.slice(batch);
   const order = new Map();
@@ -32,7 +29,7 @@ export function start(deck) {
   S = {
     deck, learned, portion, reserve, repeat: new Set(), current: portion[0], order,
     selected: new Set(), phase: 'question', reveal: null, hintShown: false, hintCounted: false,
-    autoTimer: null, done: false, already: false, total: remaining.length,
+    done: false, already: false, total: remaining.length,
     stats: { errors: 0, perCard: {}, streak: 0, best: 0, closed: 0, hints: 0, start: Date.now() }
   };
   render(); play('flip');
@@ -55,9 +52,9 @@ function bind() {
     switch (btn.dataset.act) {
       case 'check': check(); break;
       case 'next': next(); break;
-      case 'skip': if (S && !S.done && S.phase === 'question') reveal(false, true); break;
+      case 'skip': skip(); break;
       case 'hint': toggleHint(); break;
-      case 'exit': if (S?.autoTimer) clearTimeout(S.autoTimer); S = null; emit('navigate', { tab: 'library' }); render(); break;
+      case 'exit': S = null; emit('navigate', { tab: 'library' }); render(); break;
       case 'reset': resetProgress(); break;
       case 'replay': replay(); break;
       case 'to-library': emit('navigate', { tab: 'library' }); break;
@@ -66,7 +63,10 @@ function bind() {
       case 'pick': emit('navigate', { tab: 'library' }); break;
     }
   });
+  /* Enter/Пробел на варианте — только пока вопрос открыт;
+     после ответа клавиша уходит в общий обработчик и листает дальше */
   root.addEventListener('keydown', e => {
+    if (!S || S.done || S.phase !== 'question') return;
     const o = e.target.closest('.opt[data-opt]');
     if (o && (e.key === 'Enter' || e.key === ' ')) {
       e.preventDefault(); e.stopPropagation();
@@ -101,6 +101,11 @@ function check() {
   reveal(ok, false);
 }
 
+function skip() {
+  if (!S || S.done || S.phase !== 'question') return;
+  reveal(false, true);
+}
+
 function reveal(ok, skipped) {
   const card = cur(), key = cardKey(card), i = S.current;
   S.phase = 'reveal';
@@ -122,18 +127,14 @@ function reveal(ok, skipped) {
     play('wrong');
   }
   render();
-  if (ok) {
-    fx.burstAt($('#train-paper', root), S.stats.perCard[i] ? 34 : 22);
-    S.autoTimer = setTimeout(() => {
-      if (S && !S.done && S.phase === 'reveal' && S.reveal?.ok) next();
-    }, 1100);
-  }
+  if (ok) fx.burstAt($('#train-paper', root), S.stats.perCard[i] ? 34 : 22);
+  /* никакого автоперехода: фокус на «Дальше», чтобы Enter/Пробел работали сразу */
+  root.querySelector('[data-act="next"]')?.focus({ preventScroll: true });
   emit('progress');
 }
 
 function next() {
   if (!S || S.done || S.phase !== 'reveal') return;
-  clearTimeout(S.autoTimer); S.autoTimer = null;
   if (!S.portion.length && S.reserve.length) {
     const batch = settings.batch > 0 ? settings.batch : S.reserve.length;
     S.portion = S.reserve.splice(0, batch);
@@ -151,8 +152,7 @@ function finish() {
   S.done = true;
   S.time = Date.now() - S.stats.start;
   const errByKey = {};
-  for (const [i, n] of Object.entries(S.stats.perCard))
-    errByKey[cardKey(S.deck.cards[+i])] = n;
+  for (const [i, n] of Object.entries(S.stats.perCard)) errByKey[cardKey(S.deck.cards[+i])] = n;
   store.mergeErrors(S.deck.id, errByKey);
   store.setBest(S.deck.id, S.stats.best);
   render();
@@ -167,8 +167,7 @@ function toggleHint() {
   if (!panel) return;
   S.hintShown = !S.hintShown;
   panel.hidden = !S.hintShown;
-  const btn = root.querySelector('[data-act="hint"]');
-  btn?.setAttribute('aria-pressed', String(S.hintShown));
+  root.querySelector('[data-act="hint"]')?.setAttribute('aria-pressed', String(S.hintShown));
   if (S.hintShown) {
     play('hint');
     if (!S.hintCounted) { S.hintCounted = true; S.stats.hints++; }
@@ -182,7 +181,6 @@ async function resetProgress() {
     text: `Все отметки «выучено» и ошибки колоды «${S.deck.title}» будут очищены.`,
     ok: 'Сбросить'
   })) {
-    if (S.autoTimer) clearTimeout(S.autoTimer);
     store.resetDeckProgress(S.deck.id);
     S = null; render();
     toast.success('Прогресс колоды сброшен');
@@ -202,7 +200,7 @@ async function replay() {
   }
 }
 
-/* ── клавиатура (вызывается из main) ── */
+/* ── клавиатура: 1–9 ответ, H подсказка, N «не знаю», Enter проверить/дальше ── */
 export function handleKey(e) {
   if (!S || S.done) return false;
   const m = /^(Digit|Numpad)([1-9])$/.exec(e.code);
@@ -212,6 +210,7 @@ export function handleKey(e) {
     return true;
   }
   if (e.code === 'KeyH') { e.preventDefault(); toggleHint(); return true; }
+  if (e.code === 'KeyN') { e.preventDefault(); skip(); return true; }
   if (e.key === 'Enter') {
     if (S.phase === 'reveal') { e.preventDefault(); next(); }
     else if (S.phase === 'question' && isMulti() && S.selected.size) { e.preventDefault(); check(); }
@@ -288,12 +287,12 @@ function render() {
          <div class="paper-actions">
            ${S.phase === 'question' ? `
              ${card.hint ? `<button class="btn btn-paper" data-act="hint" aria-pressed="${S.hintShown}"><svg class="ic"><use href="#i-bulb"/></svg>Подсказка <kbd>H</kbd></button>` : ''}
-             <button class="btn btn-paper" data-act="skip"><svg class="ic"><use href="#i-help"/></svg>Не знаю</button>
+             <button class="btn btn-paper" data-act="skip"><svg class="ic"><use href="#i-help"/></svg>Не знаю <kbd>N</kbd></button>
              ${multi ? `<button class="btn btn-primary" data-act="check" id="check-btn" disabled><svg class="ic"><use href="#i-check"/></svg>Проверить (<span id="check-n">0</span>)</button>` : ''}
            ` : `<button class="btn btn-next" data-act="next">Дальше <svg class="ic"><use href="#i-arrow-r"/></svg></button>`}
          </div>
-         <div class="kbd-line mono">клавиши: <kbd>1–9</kbd> ответ · <kbd>H</kbd> подсказка · <kbd>Enter</kbd> ${S.phase === 'question' ? 'проверить' : 'дальше'} · клик по фото — полный экран</div>
-         <span class="sr-only" role="status">${S.reveal ? (S.reveal.ok ? 'Верно, карточка выучена' : 'Неверно, правильные варианты подсвечены') : ''}</span>
+         <div class="kbd-line mono">клавиши: <kbd>1–9</kbd> ответ · <kbd>H</kbd> подсказка · <kbd>N</kbd> не знаю · <kbd>Enter</kbd> ${S.phase === 'question' ? 'проверить' : 'дальше'} · клик по фото — полный экран</div>
+         <span class="sr-only" role="status">${S.reveal ? (S.reveal.ok ? 'Верно, карточка выучена. Нажмите «Дальше», когда будете готовы' : 'Неверно, правильные варианты подсвечены. Нажмите «Дальше»') : ''}</span>
        </div>
      </div></div>`;
 
@@ -318,8 +317,7 @@ function resultsHtml() {
   const acc = Math.round(S.total / (S.total + st.errors) * 100);
   const perfect = st.errors === 0;
   const stumbles = Object.entries(st.perCard).sort((a, b) => b[1] - a[1]);
-  const tile = (v, label, acc_) =>
-    `<div class="res-tile acc-${acc_}"><b>${v}</b><span>${label}</span></div>`;
+  const tile = (v, label, a) => `<div class="res-tile acc-${a}"><b>${v}</b><span>${label}</span></div>`;
   return `<div class="results">
     <div class="trophy-wrap"><svg class="ic trophy"><use href="#i-trophy"/></svg></div>
     <h1 class="res-title">ВСЁ <span class="grad-text">ВЫУЧЕНО!</span></h1>

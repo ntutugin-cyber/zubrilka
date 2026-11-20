@@ -2,13 +2,39 @@
   "version": 1,
   "decks": [
     {
+      "id": "millionaire",
+      "path": "millionaire/deck.xml",
+      "title": "Кто хочет стать миллионером",
+      "description": "Общие развивающие вопросы",
+      "emoji": "📚",
+      "accent": "violet",
+      "tags": [],
+      "count": 298
+    },
+    {
+      "id": "verbs",
+      "path": "verbs/deck.xml",
+      "title": "Неправильные глаголы",
+      "description": "Три формы английского глагола: выбор одной или нескольких верных.",
+      "emoji": "🗣️",
+      "accent": "magenta",
+      "tags": [
+        "английский",
+        "языки"
+      ],
+      "count": 10
+    },
+    {
       "id": "capitals",
       "path": "capitals/deck.xml",
       "title": "Столицы и флаги",
       "description": "Флаги стран и их столицы: картинки, подсказки и карточка на внимательность.",
       "emoji": "🌍",
       "accent": "cyan",
-      "tags": ["география", "медиа"],
+      "tags": [
+        "география",
+        "медиа"
+      ],
       "count": 13
     },
     {
@@ -18,17 +44,10 @@
       "description": "Типы, GC, async и строки — база, которую спрашивают на собеседованиях.",
       "emoji": "🧩",
       "accent": "violet",
-      "tags": ["программирование", "c#"],
-      "count": 10
-    },
-    {
-      "id": "verbs",
-      "path": "verbs/deck.xml",
-      "title": "Неправильные глаголы",
-      "description": "Три формы английского глагола: выбор одной или нескольких верных.",
-      "emoji": "🗣️",
-      "accent": "magenta",
-      "tags": ["английский", "языки"],
+      "tags": [
+        "программирование",
+        "c#"
+      ],
       "count": 10
     }
   ]

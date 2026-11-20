@@ -1,19 +1,33 @@
-/* Медиа: реестр файлов колоды, резолв (локальные файлы → http рядом с XML → media/),
-   objectURL-кэш, рендер картинок и аудиоплеера. */
+/* Медиа: реестр файлов колоды, резолв (локальные файлы → media/ → рядом с XML),
+   objectURL с правильным MIME, запасной прямой URL, рендер картинок и аудио.
+   Картинки всегда сохраняют соотношение сторон. */
 import * as idb from './idb.js';
 import { settings } from './store.js';
 import { esc, uid } from './utils.js';
 
-const regs = new Map();   // deckId → { files:Map(name→Blob), base:URL|null }
-const cache = new Map();  // deckId|name → { url, kind, blob } | { missing:true }
+const regs = new Map();
+const cache = new Map();
 const pending = new Map();
 
 const IMG = ['png', 'jpg', 'jpeg', 'gif', 'webp', 'svg', 'avif', 'bmp'];
 const AUD = ['mp3', 'ogg', 'wav', 'm4a', 'aac', 'flac'];
+const MIME = {
+  svg: 'image/svg+xml', png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg',
+  gif: 'image/gif', webp: 'image/webp', avif: 'image/avif', bmp: 'image/bmp',
+  mp3: 'audio/mpeg', ogg: 'audio/ogg', wav: 'audio/wav', m4a: 'audio/mp4',
+  aac: 'audio/aac', flac: 'audio/flac'
+};
+
+const extOf = n => String(n).split('.').pop().toLowerCase();
 export const kindOf = n => {
-  const e = String(n).split('.').pop().toLowerCase();
+  const e = extOf(n);
   return IMG.includes(e) ? 'image' : AUD.includes(e) ? 'audio' : null;
 };
+
+function typedBlob(name, blob) {
+  const want = MIME[extOf(name)];
+  return want && blob.type !== want ? new Blob([blob], { type: want }) : blob;
+}
 
 const reg = id => {
   let r = regs.get(id);
@@ -21,7 +35,6 @@ const reg = id => {
   return r;
 };
 
-/* items: File[] или [{name, blob, path?}] */
 export function registerFiles(id, items) {
   const r = reg(id);
   for (const it of items || []) {
@@ -74,19 +87,25 @@ export async function resolve(id, name) {
   if (pending.has(key)) return pending.get(key);
   const p = (async () => {
     const r = reg(id);
+    const base = name.split('/').pop();
     let blob = findLocal(r, name);
     if (!blob && r.base) {
-      const base = name.split('/').pop();
-      for (const cand of [name, 'media/' + base, base]) {
+      for (const cand of [...new Set(['media/' + base, name, base])]) {
         try {
           const resp = await fetch(new URL(cand, r.base));
           if (resp.ok) { blob = await resp.blob(); break; }
-        } catch { /* пробуем следующий путь */ }
+        } catch { /* следующий путь */ }
       }
     }
-    const res = blob
-      ? { url: URL.createObjectURL(blob), kind: kindOf(name) || 'image', blob }
-      : { missing: true };
+    let res;
+    if (blob) {
+      blob = typedBlob(name, blob);
+      res = { url: URL.createObjectURL(blob), kind: kindOf(name) || 'image', blob };
+    } else if (r.base) {
+      res = { url: new URL('media/' + base, r.base).href, kind: kindOf(name) || 'image', direct: true };
+    } else {
+      res = { missing: true };
+    }
     cache.set(key, res);
     return res;
   })();
@@ -97,7 +116,7 @@ export async function resolve(id, name) {
 export function release(id) {
   for (const [k, v] of [...cache]) {
     if (k.startsWith(id + '|')) {
-      if (v.url) URL.revokeObjectURL(v.url);
+      if (v.url && v.url.startsWith('blob:')) URL.revokeObjectURL(v.url);
       cache.delete(k);
     }
   }
@@ -126,7 +145,40 @@ export async function gatherBlobs(id, names) {
   return { items, missing };
 }
 
-/* Рендер медиа в контейнер. Токен защищает от устаревших асинхронных вставок. */
+function missingChip(base) {
+  const s = document.createElement('span');
+  s.className = 'media-missing';
+  s.textContent = '⚠ файл не найден: ' + base;
+  return s;
+}
+
+/* Картинка: width/height — только подсказка пропорций для браузера,
+   реальные размеры auto + max-ограничения → растяжения не бывает. */
+function buildImage(url, base, small) {
+  const fig = document.createElement('figure');
+  fig.className = 'media-fig' + (small ? ' small' : '');
+  const img = document.createElement('img');
+  img.src = url;
+  img.alt = base;
+  img.loading = 'lazy';
+  img.decoding = 'async';
+  img.dataset.lightbox = url;
+  img.style.width = 'auto';
+  img.style.height = 'auto';
+  img.style.maxWidth = '100%';
+  img.style.maxHeight = small ? '96px' : 'min(56vh, 460px)';
+  img.style.objectFit = 'contain';
+  img.addEventListener('load', () => {
+    if (img.naturalWidth && img.naturalHeight) {
+      img.setAttribute('width', img.naturalWidth);
+      img.setAttribute('height', img.naturalHeight);
+    }
+  }, { once: true });
+  img.addEventListener('error', () => fig.replaceWith(missingChip(base)), { once: true });
+  fig.append(img);
+  return fig;
+}
+
 export async function renderInto(container, id, names, opts = {}) {
   if (!container || !names?.length) return;
   const token = uid();
@@ -135,19 +187,10 @@ export async function renderInto(container, id, names, opts = {}) {
     const r = await resolve(id, name);
     if (!container.isConnected || container.dataset.mtok !== token) return;
     const base = name.split('/').pop();
-    if (r.missing) {
-      container.insertAdjacentHTML('beforeend',
-        `<span class="media-missing">⚠ файл не найден: ${esc(base)}</span>`);
-      continue;
-    }
-    if (r.kind === 'image') {
-      const fig = document.createElement('figure');
-      fig.className = 'media-fig' + (opts.small ? ' small' : '');
-      fig.innerHTML = `<img src="${r.url}" alt="${esc(base)}" loading="lazy" data-lightbox="${r.url}">`;
-      container.append(fig);
-    } else {
-      container.append(buildAudio(r.url, base));
-    }
+    if (r.missing) { container.append(missingChip(base)); continue; }
+    container.append(r.kind === 'image'
+      ? buildImage(r.url, base, !!opts.small)
+      : buildAudio(r.url, base));
   }
 }
 
@@ -179,6 +222,7 @@ function buildAudio(url, name) {
   audio.addEventListener('play', () => setIcon(true));
   audio.addEventListener('pause', () => setIcon(false));
   audio.addEventListener('ended', () => { setIcon(false); fill.style.width = '0%'; time.textContent = '0:00'; });
+  audio.addEventListener('error', () => wrap.replaceWith(missingChip(name)), { once: true });
   audio.addEventListener('timeupdate', () => {
     if (audio.duration) {
       fill.style.width = (audio.currentTime / audio.duration * 100) + '%';

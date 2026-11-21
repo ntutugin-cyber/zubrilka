@@ -38,6 +38,76 @@
       "count": 13
     },
     {
+      "id": "Грибы",
+      "path": "Грибы/deck.xml",
+      "title": "Узнай гриб по фото",
+      "description": "",
+      "emoji": "📚",
+      "accent": "violet",
+      "tags": [],
+      "count": 241
+    },
+    {
+      "id": "Деревья",
+      "path": "Деревья/deck.xml",
+      "title": "Узнай дерево по фото",
+      "description": "",
+      "emoji": "📚",
+      "accent": "violet",
+      "tags": [],
+      "count": 503
+    },
+    {
+      "id": "Автомобили",
+      "path": "Автомобили/deck.xml",
+      "title": "Узнай автомобиль по фото",
+      "description": "",
+      "emoji": "📚",
+      "accent": "violet",
+      "tags": [],
+      "count": 150
+    },
+    {
+      "id": "Птицы",
+      "path": "Птицы/deck.xml",
+      "title": "Что за птица на фото",
+      "description": "",
+      "emoji": "📚",
+      "accent": "violet",
+      "tags": [],
+      "count": 555
+    },
+    {
+      "id": "Города",
+      "path": "Города/deck.xml",
+      "title": "Что это за город",
+      "description": "",
+      "emoji": "📚",
+      "accent": "violet",
+      "tags": [],
+      "count": 300
+    },
+    {
+      "id": "Рыбы",
+      "path": "Рыбы/deck.xml",
+      "title": "Что это за рыба",
+      "description": "",
+      "emoji": "📚",
+      "accent": "violet",
+      "tags": [],
+      "count": 362
+    },
+    {
+      "id": "Цветы",
+      "path": "Цветы/deck.xml",
+      "title": "Что это за цветок",
+      "description": "",
+      "emoji": "📚",
+      "accent": "violet",
+      "tags": [],
+      "count": 357
+    },
+    {
       "id": "dotnet",
       "path": "dotnet/deck.xml",
       "title": "C# и .NET: основы",

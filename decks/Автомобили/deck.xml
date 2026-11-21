@@ -1,0 +1,1803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<deck title="Узнай по фото">
+  <card>
+    <question media="01_Toyota_1.jpg">Кто изображён на фото №1?</question>
+    <answers>
+      <answer>Land Rover</answer>
+      <answer>Tesla</answer>
+      <answer correct="true">Toyota</answer>
+      <answer>Lexus</answer>
+      <answer>Volkswagen</answer>
+    </answers>
+    <hint>Самый продаваемый автомобиль в истории — Corolla; японский внедорожник Land Cruiser</hint>
+    <explanation>Японская марка. Основана в 1937 г. Киитиро Тоёдой; Corolla — самый массовый автомобиль в истории (более 50 млн). Camry, RAV4, Land Cruiser, Prius — первый массовый гибрид.</explanation>
+  </card>
+  <card>
+    <question media="01_Toyota_2.jpg">Кто изображён на фото №2?</question>
+    <answers>
+      <answer>Alfa Romeo</answer>
+      <answer>Mercedes-Benz</answer>
+      <answer>Peugeot</answer>
+      <answer>Aston Martin</answer>
+      <answer correct="true">Toyota</answer>
+    </answers>
+    <hint>Самый продаваемый автомобиль в истории — Corolla; японский внедорожник Land Cruiser</hint>
+    <explanation>Японская марка. Основана в 1937 г. Киитиро Тоёдой; Corolla — самый массовый автомобиль в истории (более 50 млн). Camry, RAV4, Land Cruiser, Prius — первый массовый гибрид.</explanation>
+  </card>
+  <card>
+    <question media="01_Toyota_3.jpg">Кто изображён на фото №3?</question>
+    <answers>
+      <answer>Volvo</answer>
+      <answer correct="true">Toyota</answer>
+      <answer>Maserati</answer>
+      <answer>Alfa Romeo</answer>
+      <answer>Porsche</answer>
+    </answers>
+    <hint>Самый продаваемый автомобиль в истории — Corolla; японский внедорожник Land Cruiser</hint>
+    <explanation>Японская марка. Основана в 1937 г. Киитиро Тоёдой; Corolla — самый массовый автомобиль в истории (более 50 млн). Camry, RAV4, Land Cruiser, Prius — первый массовый гибрид.</explanation>
+  </card>
+  <card>
+    <question media="01_Toyota_4.jpg">Кто изображён на фото №4?</question>
+    <answers>
+      <answer>Jeep</answer>
+      <answer correct="true">Toyota</answer>
+      <answer>Lexus</answer>
+      <answer>Audi</answer>
+      <answer>Cadillac</answer>
+    </answers>
+    <hint>Самый продаваемый автомобиль в истории — Corolla; японский внедорожник Land Cruiser</hint>
+    <explanation>Японская марка. Основана в 1937 г. Киитиро Тоёдой; Corolla — самый массовый автомобиль в истории (более 50 млн). Camry, RAV4, Land Cruiser, Prius — первый массовый гибрид.</explanation>
+  </card>
+  <card>
+    <question media="01_Toyota_5.jpg">Кто изображён на фото №5?</question>
+    <answers>
+      <answer>Peugeot</answer>
+      <answer>Rolls-Royce</answer>
+      <answer correct="true">Toyota</answer>
+      <answer>Cadillac</answer>
+      <answer>Ford</answer>
+    </answers>
+    <hint>Самый продаваемый автомобиль в истории — Corolla; японский внедорожник Land Cruiser</hint>
+    <explanation>Японская марка. Основана в 1937 г. Киитиро Тоёдой; Corolla — самый массовый автомобиль в истории (более 50 млн). Camry, RAV4, Land Cruiser, Prius — первый массовый гибрид.</explanation>
+  </card>
+  <card>
+    <question media="02_Mercedes-Benz_1.jpg">Кто изображён на фото №6?</question>
+    <answers>
+      <answer>Mazda</answer>
+      <answer>Toyota</answer>
+      <answer correct="true">Mercedes-Benz</answer>
+      <answer>Citroën</answer>
+      <answer>BMW</answer>
+    </answers>
+    <hint>Трёхлучевая звезда в кольце; немецкий премиум с 1926 года</hint>
+    <explanation>Немецкая марка, объединение Daimler и Benz. Премиум-седаны S-класса, внедорожники G-класса, спортивные AMG. Считается, что именно Карл Бенц создал первый автомобиль в 1886 году.</explanation>
+  </card>
+  <card>
+    <question media="02_Mercedes-Benz_2.jpg">Кто изображён на фото №7?</question>
+    <answers>
+      <answer correct="true">Mercedes-Benz</answer>
+      <answer>BMW</answer>
+      <answer>Lexus</answer>
+      <answer>Alfa Romeo</answer>
+      <answer>Porsche</answer>
+    </answers>
+    <hint>Трёхлучевая звезда в кольце; немецкий премиум с 1926 года</hint>
+    <explanation>Немецкая марка, объединение Daimler и Benz. Премиум-седаны S-класса, внедорожники G-класса, спортивные AMG. Считается, что именно Карл Бенц создал первый автомобиль в 1886 году.</explanation>
+  </card>
+  <card>
+    <question media="02_Mercedes-Benz_3.jpg">Кто изображён на фото №8?</question>
+    <answers>
+      <answer>Porsche</answer>
+      <answer correct="true">Mercedes-Benz</answer>
+      <answer>Ford</answer>
+      <answer>Citroën</answer>
+      <answer>Nissan</answer>
+    </answers>
+    <hint>Трёхлучевая звезда в кольце; немецкий премиум с 1926 года</hint>
+    <explanation>Немецкая марка, объединение Daimler и Benz. Премиум-седаны S-класса, внедорожники G-класса, спортивные AMG. Считается, что именно Карл Бенц создал первый автомобиль в 1886 году.</explanation>
+  </card>
+  <card>
+    <question media="02_Mercedes-Benz_4.jpg">Кто изображён на фото №9?</question>
+    <answers>
+      <answer>Jeep</answer>
+      <answer correct="true">Mercedes-Benz</answer>
+      <answer>Maserati</answer>
+      <answer>Porsche</answer>
+      <answer>Audi</answer>
+    </answers>
+    <hint>Трёхлучевая звезда в кольце; немецкий премиум с 1926 года</hint>
+    <explanation>Немецкая марка, объединение Daimler и Benz. Премиум-седаны S-класса, внедорожники G-класса, спортивные AMG. Считается, что именно Карл Бенц создал первый автомобиль в 1886 году.</explanation>
+  </card>
+  <card>
+    <question media="02_Mercedes-Benz_5.jpg">Кто изображён на фото №10?</question>
+    <answers>
+      <answer>Renault</answer>
+      <answer correct="true">Mercedes-Benz</answer>
+      <answer>Cadillac</answer>
+      <answer>Ferrari</answer>
+      <answer>Ford</answer>
+    </answers>
+    <hint>Трёхлучевая звезда в кольце; немецкий премиум с 1926 года</hint>
+    <explanation>Немецкая марка, объединение Daimler и Benz. Премиум-седаны S-класса, внедорожники G-класса, спортивные AMG. Считается, что именно Карл Бенц создал первый автомобиль в 1886 году.</explanation>
+  </card>
+  <card>
+    <question media="03_BMW_1.jpg">Кто изображён на фото №11?</question>
+    <answers>
+      <answer correct="true">BMW</answer>
+      <answer>Land Rover</answer>
+      <answer>Bentley</answer>
+      <answer>Porsche</answer>
+      <answer>Jeep</answer>
+    </answers>
+    <hint>Баварские моторы; сине-белый пропеллер в круге; решётка «ноздри»</hint>
+    <explanation>Немецкая марка (Bayerische Motoren Werke). Известна 3-й, 5-й и 7-й сериями, кроссоверами X-серии и спортивным подразделением M. Девиз «Sheer Driving Pleasure».</explanation>
+  </card>
+  <card>
+    <question media="03_BMW_2.jpg">Кто изображён на фото №12?</question>
+    <answers>
+      <answer>Tesla</answer>
+      <answer>Aston Martin</answer>
+      <answer correct="true">BMW</answer>
+      <answer>Honda</answer>
+      <answer>Ford</answer>
+    </answers>
+    <hint>Баварские моторы; сине-белый пропеллер в круге; решётка «ноздри»</hint>
+    <explanation>Немецкая марка (Bayerische Motoren Werke). Известна 3-й, 5-й и 7-й сериями, кроссоверами X-серии и спортивным подразделением M. Девиз «Sheer Driving Pleasure».</explanation>
+  </card>
+  <card>
+    <question media="03_BMW_3.jpg">Кто изображён на фото №13?</question>
+    <answers>
+      <answer correct="true">BMW</answer>
+      <answer>Audi</answer>
+      <answer>Nissan</answer>
+      <answer>Maserati</answer>
+      <answer>Rolls-Royce</answer>
+    </answers>
+    <hint>Баварские моторы; сине-белый пропеллер в круге; решётка «ноздри»</hint>
+    <explanation>Немецкая марка (Bayerische Motoren Werke). Известна 3-й, 5-й и 7-й сериями, кроссоверами X-серии и спортивным подразделением M. Девиз «Sheer Driving Pleasure».</explanation>
+  </card>
+  <card>
+    <question media="03_BMW_4.jpg">Кто изображён на фото №14?</question>
+    <answers>
+      <answer>Volvo</answer>
+      <answer>Toyota</answer>
+      <answer>Lamborghini</answer>
+      <answer correct="true">BMW</answer>
+      <answer>Aston Martin</answer>
+    </answers>
+    <hint>Баварские моторы; сине-белый пропеллер в круге; решётка «ноздри»</hint>
+    <explanation>Немецкая марка (Bayerische Motoren Werke). Известна 3-й, 5-й и 7-й сериями, кроссоверами X-серии и спортивным подразделением M. Девиз «Sheer Driving Pleasure».</explanation>
+  </card>
+  <card>
+    <question media="03_BMW_5.jpg">Кто изображён на фото №15?</question>
+    <answers>
+      <answer correct="true">BMW</answer>
+      <answer>Ford</answer>
+      <answer>Mercedes-Benz</answer>
+      <answer>Bentley</answer>
+      <answer>Renault</answer>
+    </answers>
+    <hint>Баварские моторы; сине-белый пропеллер в круге; решётка «ноздри»</hint>
+    <explanation>Немецкая марка (Bayerische Motoren Werke). Известна 3-й, 5-й и 7-й сериями, кроссоверами X-серии и спортивным подразделением M. Девиз «Sheer Driving Pleasure».</explanation>
+  </card>
+  <card>
+    <question media="04_Audi_1.jpg">Кто изображён на фото №16?</question>
+    <answers>
+      <answer correct="true">Audi</answer>
+      <answer>Subaru</answer>
+      <answer>Ford</answer>
+      <answer>Renault</answer>
+      <answer>Lexus</answer>
+    </answers>
+    <hint>Четыре переплетённых кольца; немецкий премиум «большой тройки»</hint>
+    <explanation>Немецкая марка концерна Volkswagen. Кольца символизируют слияние четырёх компаний Auto Union в 1932 г. Известна полным приводом quattro, моделями A4/A6/A8 и кроссоверами Q-серии.</explanation>
+  </card>
+  <card>
+    <question media="04_Audi_2.jpg">Кто изображён на фото №17?</question>
+    <answers>
+      <answer correct="true">Audi</answer>
+      <answer>Toyota</answer>
+      <answer>Kia</answer>
+      <answer>Bentley</answer>
+      <answer>Jaguar</answer>
+    </answers>
+    <hint>Четыре переплетённых кольца; немецкий премиум «большой тройки»</hint>
+    <explanation>Немецкая марка концерна Volkswagen. Кольца символизируют слияние четырёх компаний Auto Union в 1932 г. Известна полным приводом quattro, моделями A4/A6/A8 и кроссоверами Q-серии.</explanation>
+  </card>
+  <card>
+    <question media="04_Audi_3.jpg">Кто изображён на фото №18?</question>
+    <answers>
+      <answer>Aston Martin</answer>
+      <answer>Jaguar</answer>
+      <answer>Renault</answer>
+      <answer correct="true">Audi</answer>
+      <answer>Kia</answer>
+    </answers>
+    <hint>Четыре переплетённых кольца; немецкий премиум «большой тройки»</hint>
+    <explanation>Немецкая марка концерна Volkswagen. Кольца символизируют слияние четырёх компаний Auto Union в 1932 г. Известна полным приводом quattro, моделями A4/A6/A8 и кроссоверами Q-серии.</explanation>
+  </card>
+  <card>
+    <question media="04_Audi_4.jpg">Кто изображён на фото №19?</question>
+    <answers>
+      <answer>Subaru</answer>
+      <answer>Jeep</answer>
+      <answer>Hyundai</answer>
+      <answer correct="true">Audi</answer>
+      <answer>Land Rover</answer>
+    </answers>
+    <hint>Четыре переплетённых кольца; немецкий премиум «большой тройки»</hint>
+    <explanation>Немецкая марка концерна Volkswagen. Кольца символизируют слияние четырёх компаний Auto Union в 1932 г. Известна полным приводом quattro, моделями A4/A6/A8 и кроссоверами Q-серии.</explanation>
+  </card>
+  <card>
+    <question media="04_Audi_5.jpg">Кто изображён на фото №20?</question>
+    <answers>
+      <answer>Jeep</answer>
+      <answer>Bentley</answer>
+      <answer>Alfa Romeo</answer>
+      <answer correct="true">Audi</answer>
+      <answer>Ford</answer>
+    </answers>
+    <hint>Четыре переплетённых кольца; немецкий премиум «большой тройки»</hint>
+    <explanation>Немецкая марка концерна Volkswagen. Кольца символизируют слияние четырёх компаний Auto Union в 1932 г. Известна полным приводом quattro, моделями A4/A6/A8 и кроссоверами Q-серии.</explanation>
+  </card>
+  <card>
+    <question media="05_Volkswagen_1.jpg">Кто изображён на фото №21?</question>
+    <answers>
+      <answer>Lamborghini</answer>
+      <answer>Lexus</answer>
+      <answer>Ferrari</answer>
+      <answer>Cadillac</answer>
+      <answer correct="true">Volkswagen</answer>
+    </answers>
+    <hint>«Народный автомобиль» по-немецки; Golf, Beetle, Passat</hint>
+    <explanation>Немецкая марка, крупнейший автопроизводитель Европы. Beetle — символ послевоенной Германии; Golf дал имя целому классу. Концерн включает Audi, Porsche, Lamborghini, Bentley, Bugatti, Škoda, SEAT.</explanation>
+  </card>
+  <card>
+    <question media="05_Volkswagen_2.jpg">Кто изображён на фото №22?</question>
+    <answers>
+      <answer>Jaguar</answer>
+      <answer>Peugeot</answer>
+      <answer>Volvo</answer>
+      <answer correct="true">Volkswagen</answer>
+      <answer>Hyundai</answer>
+    </answers>
+    <hint>«Народный автомобиль» по-немецки; Golf, Beetle, Passat</hint>
+    <explanation>Немецкая марка, крупнейший автопроизводитель Европы. Beetle — символ послевоенной Германии; Golf дал имя целому классу. Концерн включает Audi, Porsche, Lamborghini, Bentley, Bugatti, Škoda, SEAT.</explanation>
+  </card>
+  <card>
+    <question media="05_Volkswagen_3.jpg">Кто изображён на фото №23?</question>
+    <answers>
+      <answer>Rolls-Royce</answer>
+      <answer correct="true">Volkswagen</answer>
+      <answer>Aston Martin</answer>
+      <answer>Alfa Romeo</answer>
+      <answer>Volvo</answer>
+    </answers>
+    <hint>«Народный автомобиль» по-немецки; Golf, Beetle, Passat</hint>
+    <explanation>Немецкая марка, крупнейший автопроизводитель Европы. Beetle — символ послевоенной Германии; Golf дал имя целому классу. Концерн включает Audi, Porsche, Lamborghini, Bentley, Bugatti, Škoda, SEAT.</explanation>
+  </card>
+  <card>
+    <question media="05_Volkswagen_4.jpg">Кто изображён на фото №24?</question>
+    <answers>
+      <answer correct="true">Volkswagen</answer>
+      <answer>Maserati</answer>
+      <answer>Alfa Romeo</answer>
+      <answer>Mercedes-Benz</answer>
+      <answer>Hyundai</answer>
+    </answers>
+    <hint>«Народный автомобиль» по-немецки; Golf, Beetle, Passat</hint>
+    <explanation>Немецкая марка, крупнейший автопроизводитель Европы. Beetle — символ послевоенной Германии; Golf дал имя целому классу. Концерн включает Audi, Porsche, Lamborghini, Bentley, Bugatti, Škoda, SEAT.</explanation>
+  </card>
+  <card>
+    <question media="05_Volkswagen_5.jpg">Кто изображён на фото №25?</question>
+    <answers>
+      <answer>Jaguar</answer>
+      <answer>Citroën</answer>
+      <answer>Toyota</answer>
+      <answer>Cadillac</answer>
+      <answer correct="true">Volkswagen</answer>
+    </answers>
+    <hint>«Народный автомобиль» по-немецки; Golf, Beetle, Passat</hint>
+    <explanation>Немецкая марка, крупнейший автопроизводитель Европы. Beetle — символ послевоенной Германии; Golf дал имя целому классу. Концерн включает Audi, Porsche, Lamborghini, Bentley, Bugatti, Škoda, SEAT.</explanation>
+  </card>
+  <card>
+    <question media="06_Ford_1.jpg">Кто изображён на фото №26?</question>
+    <answers>
+      <answer>Land Rover</answer>
+      <answer>Honda</answer>
+      <answer>Alfa Romeo</answer>
+      <answer>Peugeot</answer>
+      <answer correct="true">Ford</answer>
+    </answers>
+    <hint>Синий овал; основатель конвейерной сборки; Mustang</hint>
+    <explanation>Американская марка, основана Генри Фордом в 1903 г. Model T (1908) сделала автомобиль массовым. F-150 — самый продаваемый пикап в США десятилетиями; Mustang — культовый маслкар с 1964 г.</explanation>
+  </card>
+  <card>
+    <question media="06_Ford_2.jpg">Кто изображён на фото №27?</question>
+    <answers>
+      <answer correct="true">Ford</answer>
+      <answer>Ferrari</answer>
+      <answer>Lexus</answer>
+      <answer>Toyota</answer>
+      <answer>Maserati</answer>
+    </answers>
+    <hint>Синий овал; основатель конвейерной сборки; Mustang</hint>
+    <explanation>Американская марка, основана Генри Фордом в 1903 г. Model T (1908) сделала автомобиль массовым. F-150 — самый продаваемый пикап в США десятилетиями; Mustang — культовый маслкар с 1964 г.</explanation>
+  </card>
+  <card>
+    <question media="06_Ford_3.jpg">Кто изображён на фото №28?</question>
+    <answers>
+      <answer>Volvo</answer>
+      <answer>Lexus</answer>
+      <answer>Cadillac</answer>
+      <answer>Mazda</answer>
+      <answer correct="true">Ford</answer>
+    </answers>
+    <hint>Синий овал; основатель конвейерной сборки; Mustang</hint>
+    <explanation>Американская марка, основана Генри Фордом в 1903 г. Model T (1908) сделала автомобиль массовым. F-150 — самый продаваемый пикап в США десятилетиями; Mustang — культовый маслкар с 1964 г.</explanation>
+  </card>
+  <card>
+    <question media="06_Ford_4.jpg">Кто изображён на фото №29?</question>
+    <answers>
+      <answer correct="true">Ford</answer>
+      <answer>Cadillac</answer>
+      <answer>Nissan</answer>
+      <answer>Land Rover</answer>
+      <answer>Honda</answer>
+    </answers>
+    <hint>Синий овал; основатель конвейерной сборки; Mustang</hint>
+    <explanation>Американская марка, основана Генри Фордом в 1903 г. Model T (1908) сделала автомобиль массовым. F-150 — самый продаваемый пикап в США десятилетиями; Mustang — культовый маслкар с 1964 г.</explanation>
+  </card>
+  <card>
+    <question media="06_Ford_5.jpg">Кто изображён на фото №30?</question>
+    <answers>
+      <answer>Peugeot</answer>
+      <answer>Volkswagen</answer>
+      <answer>Mercedes-Benz</answer>
+      <answer>Hyundai</answer>
+      <answer correct="true">Ford</answer>
+    </answers>
+    <hint>Синий овал; основатель конвейерной сборки; Mustang</hint>
+    <explanation>Американская марка, основана Генри Фордом в 1903 г. Model T (1908) сделала автомобиль массовым. F-150 — самый продаваемый пикап в США десятилетиями; Mustang — культовый маслкар с 1964 г.</explanation>
+  </card>
+  <card>
+    <question media="07_Honda_1.jpg">Кто изображён на фото №31?</question>
+    <answers>
+      <answer correct="true">Honda</answer>
+      <answer>Tesla</answer>
+      <answer>Jaguar</answer>
+      <answer>Ferrari</answer>
+      <answer>Alfa Romeo</answer>
+    </answers>
+    <hint>Японская марка; Civic, Accord, CR-V; эмблема в виде буквы H</hint>
+    <explanation>Основана Соитиро Хондой в 1948 г. Известна надёжностью двигателей; Civic и Accord — бестселлеры в США. В мотоциклах — крупнейший производитель в мире. NSX — японский суперкар.</explanation>
+  </card>
+  <card>
+    <question media="07_Honda_2.jpg">Кто изображён на фото №32?</question>
+    <answers>
+      <answer>Volkswagen</answer>
+      <answer correct="true">Honda</answer>
+      <answer>Renault</answer>
+      <answer>Toyota</answer>
+      <answer>Mercedes-Benz</answer>
+    </answers>
+    <hint>Японская марка; Civic, Accord, CR-V; эмблема в виде буквы H</hint>
+    <explanation>Основана Соитиро Хондой в 1948 г. Известна надёжностью двигателей; Civic и Accord — бестселлеры в США. В мотоциклах — крупнейший производитель в мире. NSX — японский суперкар.</explanation>
+  </card>
+  <card>
+    <question media="07_Honda_3.jpg">Кто изображён на фото №33?</question>
+    <answers>
+      <answer>Maserati</answer>
+      <answer>Audi</answer>
+      <answer correct="true">Honda</answer>
+      <answer>Nissan</answer>
+      <answer>BMW</answer>
+    </answers>
+    <hint>Японская марка; Civic, Accord, CR-V; эмблема в виде буквы H</hint>
+    <explanation>Основана Соитиро Хондой в 1948 г. Известна надёжностью двигателей; Civic и Accord — бестселлеры в США. В мотоциклах — крупнейший производитель в мире. NSX — японский суперкар.</explanation>
+  </card>
+  <card>
+    <question media="07_Honda_4.jpg">Кто изображён на фото №34?</question>
+    <answers>
+      <answer correct="true">Honda</answer>
+      <answer>Subaru</answer>
+      <answer>Kia</answer>
+      <answer>Lexus</answer>
+      <answer>Toyota</answer>
+    </answers>
+    <hint>Японская марка; Civic, Accord, CR-V; эмблема в виде буквы H</hint>
+    <explanation>Основана Соитиро Хондой в 1948 г. Известна надёжностью двигателей; Civic и Accord — бестселлеры в США. В мотоциклах — крупнейший производитель в мире. NSX — японский суперкар.</explanation>
+  </card>
+  <card>
+    <question media="07_Honda_5.jpg">Кто изображён на фото №35?</question>
+    <answers>
+      <answer>Audi</answer>
+      <answer>Aston Martin</answer>
+      <answer>Porsche</answer>
+      <answer correct="true">Honda</answer>
+      <answer>Ferrari</answer>
+    </answers>
+    <hint>Японская марка; Civic, Accord, CR-V; эмблема в виде буквы H</hint>
+    <explanation>Основана Соитиро Хондой в 1948 г. Известна надёжностью двигателей; Civic и Accord — бестселлеры в США. В мотоциклах — крупнейший производитель в мире. NSX — японский суперкар.</explanation>
+  </card>
+  <card>
+    <question media="08_Nissan_1.jpg">Кто изображён на фото №36?</question>
+    <answers>
+      <answer>Alfa Romeo</answer>
+      <answer>Jeep</answer>
+      <answer correct="true">Nissan</answer>
+      <answer>Toyota</answer>
+      <answer>Porsche</answer>
+    </answers>
+    <hint>Японская марка; GT-R «Годзилла», Leaf — один из первых массовых электромобилей</hint>
+    <explanation>Основана в 1933 г. (Nihon Sangyo). GT-R — легенда тюнинга и японского автоспорта; Patrol — рамный внедорожник. В альянсе с Renault с 1999 г.</explanation>
+  </card>
+  <card>
+    <question media="08_Nissan_2.jpg">Кто изображён на фото №37?</question>
+    <answers>
+      <answer>Mazda</answer>
+      <answer>Volvo</answer>
+      <answer>Jaguar</answer>
+      <answer>Toyota</answer>
+      <answer correct="true">Nissan</answer>
+    </answers>
+    <hint>Японская марка; GT-R «Годзилла», Leaf — один из первых массовых электромобилей</hint>
+    <explanation>Основана в 1933 г. (Nihon Sangyo). GT-R — легенда тюнинга и японского автоспорта; Patrol — рамный внедорожник. В альянсе с Renault с 1999 г.</explanation>
+  </card>
+  <card>
+    <question media="08_Nissan_3.jpg">Кто изображён на фото №38?</question>
+    <answers>
+      <answer correct="true">Nissan</answer>
+      <answer>Volvo</answer>
+      <answer>Mazda</answer>
+      <answer>Honda</answer>
+      <answer>Toyota</answer>
+    </answers>
+    <hint>Японская марка; GT-R «Годзилла», Leaf — один из первых массовых электромобилей</hint>
+    <explanation>Основана в 1933 г. (Nihon Sangyo). GT-R — легенда тюнинга и японского автоспорта; Patrol — рамный внедорожник. В альянсе с Renault с 1999 г.</explanation>
+  </card>
+  <card>
+    <question media="08_Nissan_4.jpg">Кто изображён на фото №39?</question>
+    <answers>
+      <answer>Citroën</answer>
+      <answer>Bentley</answer>
+      <answer correct="true">Nissan</answer>
+      <answer>Audi</answer>
+      <answer>Mercedes-Benz</answer>
+    </answers>
+    <hint>Японская марка; GT-R «Годзилла», Leaf — один из первых массовых электромобилей</hint>
+    <explanation>Основана в 1933 г. (Nihon Sangyo). GT-R — легенда тюнинга и японского автоспорта; Patrol — рамный внедорожник. В альянсе с Renault с 1999 г.</explanation>
+  </card>
+  <card>
+    <question media="08_Nissan_5.jpg">Кто изображён на фото №40?</question>
+    <answers>
+      <answer>Cadillac</answer>
+      <answer>Ford</answer>
+      <answer>Audi</answer>
+      <answer>Subaru</answer>
+      <answer correct="true">Nissan</answer>
+    </answers>
+    <hint>Японская марка; GT-R «Годзилла», Leaf — один из первых массовых электромобилей</hint>
+    <explanation>Основана в 1933 г. (Nihon Sangyo). GT-R — легенда тюнинга и японского автоспорта; Patrol — рамный внедорожник. В альянсе с Renault с 1999 г.</explanation>
+  </card>
+  <card>
+    <question media="09_Ferrari_1.jpg">Кто изображён на фото №41?</question>
+    <answers>
+      <answer>Porsche</answer>
+      <answer correct="true">Ferrari</answer>
+      <answer>Tesla</answer>
+      <answer>Hyundai</answer>
+      <answer>Ford</answer>
+    </answers>
+    <hint>Гарцующая лошадь на жёлтом фоне; красные суперкары из Маранелло</hint>
+    <explanation>Итальянская марка, основана Энцо Феррари в 1947 г. Символ автоспорта: 16 титулов конструкторов Формулы-1. F40, Enzo, LaFerrara, 250 GTO — культовые модели. Акции торгуются отдельно от Fiat.</explanation>
+  </card>
+  <card>
+    <question media="09_Ferrari_2.jpg">Кто изображён на фото №42?</question>
+    <answers>
+      <answer correct="true">Ferrari</answer>
+      <answer>Maserati</answer>
+      <answer>Renault</answer>
+      <answer>BMW</answer>
+      <answer>Alfa Romeo</answer>
+    </answers>
+    <hint>Гарцующая лошадь на жёлтом фоне; красные суперкары из Маранелло</hint>
+    <explanation>Итальянская марка, основана Энцо Феррари в 1947 г. Символ автоспорта: 16 титулов конструкторов Формулы-1. F40, Enzo, LaFerrara, 250 GTO — культовые модели. Акции торгуются отдельно от Fiat.</explanation>
+  </card>
+  <card>
+    <question media="09_Ferrari_3.jpg">Кто изображён на фото №43?</question>
+    <answers>
+      <answer>Aston Martin</answer>
+      <answer>Peugeot</answer>
+      <answer>Renault</answer>
+      <answer correct="true">Ferrari</answer>
+      <answer>Subaru</answer>
+    </answers>
+    <hint>Гарцующая лошадь на жёлтом фоне; красные суперкары из Маранелло</hint>
+    <explanation>Итальянская марка, основана Энцо Феррари в 1947 г. Символ автоспорта: 16 титулов конструкторов Формулы-1. F40, Enzo, LaFerrara, 250 GTO — культовые модели. Акции торгуются отдельно от Fiat.</explanation>
+  </card>
+  <card>
+    <question media="09_Ferrari_4.jpg">Кто изображён на фото №44?</question>
+    <answers>
+      <answer>Volkswagen</answer>
+      <answer>Mercedes-Benz</answer>
+      <answer>Cadillac</answer>
+      <answer correct="true">Ferrari</answer>
+      <answer>Tesla</answer>
+    </answers>
+    <hint>Гарцующая лошадь на жёлтом фоне; красные суперкары из Маранелло</hint>
+    <explanation>Итальянская марка, основана Энцо Феррари в 1947 г. Символ автоспорта: 16 титулов конструкторов Формулы-1. F40, Enzo, LaFerrara, 250 GTO — культовые модели. Акции торгуются отдельно от Fiat.</explanation>
+  </card>
+  <card>
+    <question media="09_Ferrari_5.jpg">Кто изображён на фото №45?</question>
+    <answers>
+      <answer>Honda</answer>
+      <answer correct="true">Ferrari</answer>
+      <answer>Audi</answer>
+      <answer>Rolls-Royce</answer>
+      <answer>Ford</answer>
+    </answers>
+    <hint>Гарцующая лошадь на жёлтом фоне; красные суперкары из Маранелло</hint>
+    <explanation>Итальянская марка, основана Энцо Феррари в 1947 г. Символ автоспорта: 16 титулов конструкторов Формулы-1. F40, Enzo, LaFerrara, 250 GTO — культовые модели. Акции торгуются отдельно от Fiat.</explanation>
+  </card>
+  <card>
+    <question media="10_Lamborghini_1.jpg">Кто изображён на фото №46?</question>
+    <answers>
+      <answer>Maserati</answer>
+      <answer>Land Rover</answer>
+      <answer>Jeep</answer>
+      <answer>BMW</answer>
+      <answer correct="true">Lamborghini</answer>
+    </answers>
+    <hint>Бык на щите; итальянские суперкары с клиновидным дизайном</hint>
+    <explanation>Основана Ферруччо Ламборгини в 1963 г. — изначально он делал тракторы. Miura (1966) — первый суперкар с центральным расположением двигателя. Countach, Diablo, Aventador, Huracán. Принадлежит Audi (Volkswagen).</explanation>
+  </card>
+  <card>
+    <question media="10_Lamborghini_2.jpg">Кто изображён на фото №47?</question>
+    <answers>
+      <answer correct="true">Lamborghini</answer>
+      <answer>Ferrari</answer>
+      <answer>Renault</answer>
+      <answer>Mercedes-Benz</answer>
+      <answer>Ford</answer>
+    </answers>
+    <hint>Бык на щите; итальянские суперкары с клиновидным дизайном</hint>
+    <explanation>Основана Ферруччо Ламборгини в 1963 г. — изначально он делал тракторы. Miura (1966) — первый суперкар с центральным расположением двигателя. Countach, Diablo, Aventador, Huracán. Принадлежит Audi (Volkswagen).</explanation>
+  </card>
+  <card>
+    <question media="10_Lamborghini_3.jpg">Кто изображён на фото №48?</question>
+    <answers>
+      <answer>Volkswagen</answer>
+      <answer>Land Rover</answer>
+      <answer>Subaru</answer>
+      <answer>Citroën</answer>
+      <answer correct="true">Lamborghini</answer>
+    </answers>
+    <hint>Бык на щите; итальянские суперкары с клиновидным дизайном</hint>
+    <explanation>Основана Ферруччо Ламборгини в 1963 г. — изначально он делал тракторы. Miura (1966) — первый суперкар с центральным расположением двигателя. Countach, Diablo, Aventador, Huracán. Принадлежит Audi (Volkswagen).</explanation>
+  </card>
+  <card>
+    <question media="10_Lamborghini_4.jpg">Кто изображён на фото №49?</question>
+    <answers>
+      <answer>Maserati</answer>
+      <answer>Rolls-Royce</answer>
+      <answer correct="true">Lamborghini</answer>
+      <answer>Hyundai</answer>
+      <answer>Subaru</answer>
+    </answers>
+    <hint>Бык на щите; итальянские суперкары с клиновидным дизайном</hint>
+    <explanation>Основана Ферруччо Ламборгини в 1963 г. — изначально он делал тракторы. Miura (1966) — первый суперкар с центральным расположением двигателя. Countach, Diablo, Aventador, Huracán. Принадлежит Audi (Volkswagen).</explanation>
+  </card>
+  <card>
+    <question media="10_Lamborghini_5.jpg">Кто изображён на фото №50?</question>
+    <answers>
+      <answer>Bentley</answer>
+      <answer>Aston Martin</answer>
+      <answer>Maserati</answer>
+      <answer>Ford</answer>
+      <answer correct="true">Lamborghini</answer>
+    </answers>
+    <hint>Бык на щите; итальянские суперкары с клиновидным дизайном</hint>
+    <explanation>Основана Ферруччо Ламборгини в 1963 г. — изначально он делал тракторы. Miura (1966) — первый суперкар с центральным расположением двигателя. Countach, Diablo, Aventador, Huracán. Принадлежит Audi (Volkswagen).</explanation>
+  </card>
+  <card>
+    <question media="11_Porsche_1.jpg">Кто изображён на фото №51?</question>
+    <answers>
+      <answer>Cadillac</answer>
+      <answer>Toyota</answer>
+      <answer>Mazda</answer>
+      <answer>Renault</answer>
+      <answer correct="true">Porsche</answer>
+    </answers>
+    <hint>Немецкие спорткары; 911 — самый узнаваемый силуэт; герб с лошадью и оленьими рогами</hint>
+    <explanation>Основана Фердинандом Порше в 1931 г. 911 выпускается с 1963 г. — редчайший случай дизайна-долгожителя. Cayenne и Macan сделали марку массовой. Cayman, Boxster, Taycan (электрический).</explanation>
+  </card>
+  <card>
+    <question media="11_Porsche_2.jpg">Кто изображён на фото №52?</question>
+    <answers>
+      <answer>Audi</answer>
+      <answer>Aston Martin</answer>
+      <answer>Alfa Romeo</answer>
+      <answer>Kia</answer>
+      <answer correct="true">Porsche</answer>
+    </answers>
+    <hint>Немецкие спорткары; 911 — самый узнаваемый силуэт; герб с лошадью и оленьими рогами</hint>
+    <explanation>Основана Фердинандом Порше в 1931 г. 911 выпускается с 1963 г. — редчайший случай дизайна-долгожителя. Cayenne и Macan сделали марку массовой. Cayman, Boxster, Taycan (электрический).</explanation>
+  </card>
+  <card>
+    <question media="11_Porsche_3.jpg">Кто изображён на фото №53?</question>
+    <answers>
+      <answer correct="true">Porsche</answer>
+      <answer>BMW</answer>
+      <answer>Alfa Romeo</answer>
+      <answer>Nissan</answer>
+      <answer>Maserati</answer>
+    </answers>
+    <hint>Немецкие спорткары; 911 — самый узнаваемый силуэт; герб с лошадью и оленьими рогами</hint>
+    <explanation>Основана Фердинандом Порше в 1931 г. 911 выпускается с 1963 г. — редчайший случай дизайна-долгожителя. Cayenne и Macan сделали марку массовой. Cayman, Boxster, Taycan (электрический).</explanation>
+  </card>
+  <card>
+    <question media="11_Porsche_4.jpg">Кто изображён на фото №54?</question>
+    <answers>
+      <answer>Nissan</answer>
+      <answer>Jeep</answer>
+      <answer>Honda</answer>
+      <answer correct="true">Porsche</answer>
+      <answer>Kia</answer>
+    </answers>
+    <hint>Немецкие спорткары; 911 — самый узнаваемый силуэт; герб с лошадью и оленьими рогами</hint>
+    <explanation>Основана Фердинандом Порше в 1931 г. 911 выпускается с 1963 г. — редчайший случай дизайна-долгожителя. Cayenne и Macan сделали марку массовой. Cayman, Boxster, Taycan (электрический).</explanation>
+  </card>
+  <card>
+    <question media="11_Porsche_5.jpg">Кто изображён на фото №55?</question>
+    <answers>
+      <answer>Mercedes-Benz</answer>
+      <answer correct="true">Porsche</answer>
+      <answer>Lamborghini</answer>
+      <answer>Bentley</answer>
+      <answer>Land Rover</answer>
+    </answers>
+    <hint>Немецкие спорткары; 911 — самый узнаваемый силуэт; герб с лошадью и оленьими рогами</hint>
+    <explanation>Основана Фердинандом Порше в 1931 г. 911 выпускается с 1963 г. — редчайший случай дизайна-долгожителя. Cayenne и Macan сделали марку массовой. Cayman, Boxster, Taycan (электрический).</explanation>
+  </card>
+  <card>
+    <question media="12_Tesla_1.jpg">Кто изображён на фото №56?</question>
+    <answers>
+      <answer>Rolls-Royce</answer>
+      <answer>Lamborghini</answer>
+      <answer>Subaru</answer>
+      <answer correct="true">Tesla</answer>
+      <answer>Bentley</answer>
+    </answers>
+    <hint>Американский электромобиль; назван в честь изобретателя переменного тока; Илон Маск</hint>
+    <explanation>Основана в 2003 г. Мартином Эберхардом и Марком Тарпеннингом; Илон Маск — с 2004 г. Model S (2012) изменила представление об электромобилях. Model 3 — самый продаваемый электромобиль в истории. Автопилот и гигазаводы.</explanation>
+  </card>
+  <card>
+    <question media="12_Tesla_2.jpg">Кто изображён на фото №57?</question>
+    <answers>
+      <answer>Citroën</answer>
+      <answer correct="true">Tesla</answer>
+      <answer>Hyundai</answer>
+      <answer>Bentley</answer>
+      <answer>Lexus</answer>
+    </answers>
+    <hint>Американский электромобиль; назван в честь изобретателя переменного тока; Илон Маск</hint>
+    <explanation>Основана в 2003 г. Мартином Эберхардом и Марком Тарпеннингом; Илон Маск — с 2004 г. Model S (2012) изменила представление об электромобилях. Model 3 — самый продаваемый электромобиль в истории. Автопилот и гигазаводы.</explanation>
+  </card>
+  <card>
+    <question media="12_Tesla_3.jpg">Кто изображён на фото №58?</question>
+    <answers>
+      <answer>Lamborghini</answer>
+      <answer>Cadillac</answer>
+      <answer>Land Rover</answer>
+      <answer correct="true">Tesla</answer>
+      <answer>Rolls-Royce</answer>
+    </answers>
+    <hint>Американский электромобиль; назван в честь изобретателя переменного тока; Илон Маск</hint>
+    <explanation>Основана в 2003 г. Мартином Эберхардом и Марком Тарпеннингом; Илон Маск — с 2004 г. Model S (2012) изменила представление об электромобилях. Model 3 — самый продаваемый электромобиль в истории. Автопилот и гигазаводы.</explanation>
+  </card>
+  <card>
+    <question media="12_Tesla_4.jpg">Кто изображён на фото №59?</question>
+    <answers>
+      <answer>Lexus</answer>
+      <answer>Mazda</answer>
+      <answer>Porsche</answer>
+      <answer>BMW</answer>
+      <answer correct="true">Tesla</answer>
+    </answers>
+    <hint>Американский электромобиль; назван в честь изобретателя переменного тока; Илон Маск</hint>
+    <explanation>Основана в 2003 г. Мартином Эберхардом и Марком Тарпеннингом; Илон Маск — с 2004 г. Model S (2012) изменила представление об электромобилях. Model 3 — самый продаваемый электромобиль в истории. Автопилот и гигазаводы.</explanation>
+  </card>
+  <card>
+    <question media="12_Tesla_5.jpg">Кто изображён на фото №60?</question>
+    <answers>
+      <answer>Land Rover</answer>
+      <answer>Bentley</answer>
+      <answer correct="true">Tesla</answer>
+      <answer>Volkswagen</answer>
+      <answer>Lamborghini</answer>
+    </answers>
+    <hint>Американский электромобиль; назван в честь изобретателя переменного тока; Илон Маск</hint>
+    <explanation>Основана в 2003 г. Мартином Эберхардом и Марком Тарпеннингом; Илон Маск — с 2004 г. Model S (2012) изменила представление об электромобилях. Model 3 — самый продаваемый электромобиль в истории. Автопилот и гигазаводы.</explanation>
+  </card>
+  <card>
+    <question media="13_Lexus_1.jpg">Кто изображён на фото №61?</question>
+    <answers>
+      <answer>Kia</answer>
+      <answer>Citroën</answer>
+      <answer>Toyota</answer>
+      <answer>Audi</answer>
+      <answer correct="true">Lexus</answer>
+    </answers>
+    <hint>Японский премиум-бренд; создан Toyota в 1989 г. для рынка США</hint>
+    <explanation>Появился с моделью LS 400, которая шокировала немецких конкурентов тишиной и качеством. RX — один из первых люкс-кроссоверов. LFA — суперкар с V10 и карбоновым кузовом, один из самых ценных японских автомобилей.</explanation>
+  </card>
+  <card>
+    <question media="13_Lexus_2.jpg">Кто изображён на фото №62?</question>
+    <answers>
+      <answer>Maserati</answer>
+      <answer>Porsche</answer>
+      <answer>Lamborghini</answer>
+      <answer>Aston Martin</answer>
+      <answer correct="true">Lexus</answer>
+    </answers>
+    <hint>Японский премиум-бренд; создан Toyota в 1989 г. для рынка США</hint>
+    <explanation>Появился с моделью LS 400, которая шокировала немецких конкурентов тишиной и качеством. RX — один из первых люкс-кроссоверов. LFA — суперкар с V10 и карбоновым кузовом, один из самых ценных японских автомобилей.</explanation>
+  </card>
+  <card>
+    <question media="13_Lexus_3.jpg">Кто изображён на фото №63?</question>
+    <answers>
+      <answer>Jaguar</answer>
+      <answer>Hyundai</answer>
+      <answer correct="true">Lexus</answer>
+      <answer>Renault</answer>
+      <answer>Tesla</answer>
+    </answers>
+    <hint>Японский премиум-бренд; создан Toyota в 1989 г. для рынка США</hint>
+    <explanation>Появился с моделью LS 400, которая шокировала немецких конкурентов тишиной и качеством. RX — один из первых люкс-кроссоверов. LFA — суперкар с V10 и карбоновым кузовом, один из самых ценных японских автомобилей.</explanation>
+  </card>
+  <card>
+    <question media="13_Lexus_4.jpg">Кто изображён на фото №64?</question>
+    <answers>
+      <answer>Nissan</answer>
+      <answer>Jaguar</answer>
+      <answer>Jeep</answer>
+      <answer>Honda</answer>
+      <answer correct="true">Lexus</answer>
+    </answers>
+    <hint>Японский премиум-бренд; создан Toyota в 1989 г. для рынка США</hint>
+    <explanation>Появился с моделью LS 400, которая шокировала немецких конкурентов тишиной и качеством. RX — один из первых люкс-кроссоверов. LFA — суперкар с V10 и карбоновым кузовом, один из самых ценных японских автомобилей.</explanation>
+  </card>
+  <card>
+    <question media="13_Lexus_5.jpg">Кто изображён на фото №65?</question>
+    <answers>
+      <answer>Volkswagen</answer>
+      <answer correct="true">Lexus</answer>
+      <answer>Rolls-Royce</answer>
+      <answer>Bentley</answer>
+      <answer>Toyota</answer>
+    </answers>
+    <hint>Японский премиум-бренд; создан Toyota в 1989 г. для рынка США</hint>
+    <explanation>Появился с моделью LS 400, которая шокировала немецких конкурентов тишиной и качеством. RX — один из первых люкс-кроссоверов. LFA — суперкар с V10 и карбоновым кузовом, один из самых ценных японских автомобилей.</explanation>
+  </card>
+  <card>
+    <question media="14_Hyundai_1.jpg">Кто изображён на фото №66?</question>
+    <answers>
+      <answer>Jaguar</answer>
+      <answer>Peugeot</answer>
+      <answer>Tesla</answer>
+      <answer>Mazda</answer>
+      <answer correct="true">Hyundai</answer>
+    </answers>
+    <hint>Южнокорейская марка; эмблема — стилизованная H в овале</hint>
+    <explanation>Основана в 1967 г. Чон Чжу-Ёном. Путь от бюджетных авто 90-х до премиума: Genesis выделен в отдельный бренд. Ioniq — электрическая линейка. Соната, Tucson, Santa Fe — массовые модели.</explanation>
+  </card>
+  <card>
+    <question media="14_Hyundai_2.jpg">Кто изображён на фото №67?</question>
+    <answers>
+      <answer>Porsche</answer>
+      <answer>Subaru</answer>
+      <answer>Bentley</answer>
+      <answer>Aston Martin</answer>
+      <answer correct="true">Hyundai</answer>
+    </answers>
+    <hint>Южнокорейская марка; эмблема — стилизованная H в овале</hint>
+    <explanation>Основана в 1967 г. Чон Чжу-Ёном. Путь от бюджетных авто 90-х до премиума: Genesis выделен в отдельный бренд. Ioniq — электрическая линейка. Соната, Tucson, Santa Fe — массовые модели.</explanation>
+  </card>
+  <card>
+    <question media="14_Hyundai_3.jpg">Кто изображён на фото №68?</question>
+    <answers>
+      <answer correct="true">Hyundai</answer>
+      <answer>Tesla</answer>
+      <answer>Renault</answer>
+      <answer>Ferrari</answer>
+      <answer>Peugeot</answer>
+    </answers>
+    <hint>Южнокорейская марка; эмблема — стилизованная H в овале</hint>
+    <explanation>Основана в 1967 г. Чон Чжу-Ёном. Путь от бюджетных авто 90-х до премиума: Genesis выделен в отдельный бренд. Ioniq — электрическая линейка. Соната, Tucson, Santa Fe — массовые модели.</explanation>
+  </card>
+  <card>
+    <question media="14_Hyundai_4.jpg">Кто изображён на фото №69?</question>
+    <answers>
+      <answer>Toyota</answer>
+      <answer correct="true">Hyundai</answer>
+      <answer>Rolls-Royce</answer>
+      <answer>Bentley</answer>
+      <answer>Jeep</answer>
+    </answers>
+    <hint>Южнокорейская марка; эмблема — стилизованная H в овале</hint>
+    <explanation>Основана в 1967 г. Чон Чжу-Ёном. Путь от бюджетных авто 90-х до премиума: Genesis выделен в отдельный бренд. Ioniq — электрическая линейка. Соната, Tucson, Santa Fe — массовые модели.</explanation>
+  </card>
+  <card>
+    <question media="14_Hyundai_5.jpg">Кто изображён на фото №70?</question>
+    <answers>
+      <answer>Tesla</answer>
+      <answer>Volkswagen</answer>
+      <answer correct="true">Hyundai</answer>
+      <answer>Audi</answer>
+      <answer>Peugeot</answer>
+    </answers>
+    <hint>Южнокорейская марка; эмблема — стилизованная H в овале</hint>
+    <explanation>Основана в 1967 г. Чон Чжу-Ёном. Путь от бюджетных авто 90-х до премиума: Genesis выделен в отдельный бренд. Ioniq — электрическая линейка. Соната, Tucson, Santa Fe — массовые модели.</explanation>
+  </card>
+  <card>
+    <question media="15_Kia_1.jpg">Кто изображён на фото №71?</question>
+    <answers>
+      <answer correct="true">Kia</answer>
+      <answer>Alfa Romeo</answer>
+      <answer>Cadillac</answer>
+      <answer>Ford</answer>
+      <answer>Lexus</answer>
+    </answers>
+    <hint>Южнокорейская марка; новый логотип KN с 2021 года; Stinger, Telluride</hint>
+    <explanation>Основана в 1944 г. как производитель велосипедов. С 1998 г. в одном концерне с Hyundai. Дизайн под руководством Питера Шрайера (экс-дизайнер Audi) поднял марку. EV6 — электрический хит.</explanation>
+  </card>
+  <card>
+    <question media="15_Kia_2.jpg">Кто изображён на фото №72?</question>
+    <answers>
+      <answer>Alfa Romeo</answer>
+      <answer>Nissan</answer>
+      <answer correct="true">Kia</answer>
+      <answer>Volkswagen</answer>
+      <answer>Audi</answer>
+    </answers>
+    <hint>Южнокорейская марка; новый логотип KN с 2021 года; Stinger, Telluride</hint>
+    <explanation>Основана в 1944 г. как производитель велосипедов. С 1998 г. в одном концерне с Hyundai. Дизайн под руководством Питера Шрайера (экс-дизайнер Audi) поднял марку. EV6 — электрический хит.</explanation>
+  </card>
+  <card>
+    <question media="15_Kia_3.jpg">Кто изображён на фото №73?</question>
+    <answers>
+      <answer>Land Rover</answer>
+      <answer>Mazda</answer>
+      <answer>Ferrari</answer>
+      <answer>Volkswagen</answer>
+      <answer correct="true">Kia</answer>
+    </answers>
+    <hint>Южнокорейская марка; новый логотип KN с 2021 года; Stinger, Telluride</hint>
+    <explanation>Основана в 1944 г. как производитель велосипедов. С 1998 г. в одном концерне с Hyundai. Дизайн под руководством Питера Шрайера (экс-дизайнер Audi) поднял марку. EV6 — электрический хит.</explanation>
+  </card>
+  <card>
+    <question media="15_Kia_4.jpg">Кто изображён на фото №74?</question>
+    <answers>
+      <answer>Tesla</answer>
+      <answer>Lamborghini</answer>
+      <answer>Ferrari</answer>
+      <answer>Mazda</answer>
+      <answer correct="true">Kia</answer>
+    </answers>
+    <hint>Южнокорейская марка; новый логотип KN с 2021 года; Stinger, Telluride</hint>
+    <explanation>Основана в 1944 г. как производитель велосипедов. С 1998 г. в одном концерне с Hyundai. Дизайн под руководством Питера Шрайера (экс-дизайнер Audi) поднял марку. EV6 — электрический хит.</explanation>
+  </card>
+  <card>
+    <question media="15_Kia_5.jpg">Кто изображён на фото №75?</question>
+    <answers>
+      <answer>Ford</answer>
+      <answer correct="true">Kia</answer>
+      <answer>Lexus</answer>
+      <answer>Jaguar</answer>
+      <answer>Bentley</answer>
+    </answers>
+    <hint>Южнокорейская марка; новый логотип KN с 2021 года; Stinger, Telluride</hint>
+    <explanation>Основана в 1944 г. как производитель велосипедов. С 1998 г. в одном концерне с Hyundai. Дизайн под руководством Питера Шрайера (экс-дизайнер Audi) поднял марку. EV6 — электрический хит.</explanation>
+  </card>
+  <card>
+    <question media="16_Volvo_1.jpg">Кто изображён на фото №76?</question>
+    <answers>
+      <answer>Bentley</answer>
+      <answer>Cadillac</answer>
+      <answer correct="true">Volvo</answer>
+      <answer>Land Rover</answer>
+      <answer>Peugeot</answer>
+    </answers>
+    <hint>Шведская марка; символ — круг со стрелой (мужской знак Марса)</hint>
+    <explanation>Основана в 1927 г. в Гётеборге. Мировой лидер по безопасности: изобрела трёхточечный ремень (1959) и отказалась от патента, чтобы спасти жизни. XC90, XC60, V-серия. С 2010 г. принадлежит Geely (Китай).</explanation>
+  </card>
+  <card>
+    <question media="16_Volvo_2.jpg">Кто изображён на фото №77?</question>
+    <answers>
+      <answer>Mercedes-Benz</answer>
+      <answer>Land Rover</answer>
+      <answer correct="true">Volvo</answer>
+      <answer>Honda</answer>
+      <answer>Citroën</answer>
+    </answers>
+    <hint>Шведская марка; символ — круг со стрелой (мужской знак Марса)</hint>
+    <explanation>Основана в 1927 г. в Гётеборге. Мировой лидер по безопасности: изобрела трёхточечный ремень (1959) и отказалась от патента, чтобы спасти жизни. XC90, XC60, V-серия. С 2010 г. принадлежит Geely (Китай).</explanation>
+  </card>
+  <card>
+    <question media="16_Volvo_3.jpg">Кто изображён на фото №78?</question>
+    <answers>
+      <answer>Honda</answer>
+      <answer>Mazda</answer>
+      <answer>Lamborghini</answer>
+      <answer>Rolls-Royce</answer>
+      <answer correct="true">Volvo</answer>
+    </answers>
+    <hint>Шведская марка; символ — круг со стрелой (мужской знак Марса)</hint>
+    <explanation>Основана в 1927 г. в Гётеборге. Мировой лидер по безопасности: изобрела трёхточечный ремень (1959) и отказалась от патента, чтобы спасти жизни. XC90, XC60, V-серия. С 2010 г. принадлежит Geely (Китай).</explanation>
+  </card>
+  <card>
+    <question media="16_Volvo_4.jpg">Кто изображён на фото №79?</question>
+    <answers>
+      <answer>Porsche</answer>
+      <answer>Land Rover</answer>
+      <answer>Kia</answer>
+      <answer>BMW</answer>
+      <answer correct="true">Volvo</answer>
+    </answers>
+    <hint>Шведская марка; символ — круг со стрелой (мужской знак Марса)</hint>
+    <explanation>Основана в 1927 г. в Гётеборге. Мировой лидер по безопасности: изобрела трёхточечный ремень (1959) и отказалась от патента, чтобы спасти жизни. XC90, XC60, V-серия. С 2010 г. принадлежит Geely (Китай).</explanation>
+  </card>
+  <card>
+    <question media="16_Volvo_5.jpg">Кто изображён на фото №80?</question>
+    <answers>
+      <answer>Rolls-Royce</answer>
+      <answer>Jaguar</answer>
+      <answer correct="true">Volvo</answer>
+      <answer>Nissan</answer>
+      <answer>Jeep</answer>
+    </answers>
+    <hint>Шведская марка; символ — круг со стрелой (мужской знак Марса)</hint>
+    <explanation>Основана в 1927 г. в Гётеборге. Мировой лидер по безопасности: изобрела трёхточечный ремень (1959) и отказалась от патента, чтобы спасти жизни. XC90, XC60, V-серия. С 2010 г. принадлежит Geely (Китай).</explanation>
+  </card>
+  <card>
+    <question media="17_Jaguar_1.jpg">Кто изображён на фото №81?</question>
+    <answers>
+      <answer>Kia</answer>
+      <answer>Alfa Romeo</answer>
+      <answer correct="true">Jaguar</answer>
+      <answer>Toyota</answer>
+      <answer>Honda</answer>
+    </answers>
+    <hint>Британская марка; эмблема — прыгающий ягуар; спортивные седаны и купе</hint>
+    <explanation>Основана в 1922 г. как Swallow Sidecar. E-Type (1961) Энцо Феррари назвал «самым красивым автомобилем в мире». XJ, F-Type, F-PACE. С 2008 г. — часть Tata Motors вместе с Land Rover.</explanation>
+  </card>
+  <card>
+    <question media="17_Jaguar_2.jpg">Кто изображён на фото №82?</question>
+    <answers>
+      <answer correct="true">Jaguar</answer>
+      <answer>Peugeot</answer>
+      <answer>Subaru</answer>
+      <answer>Maserati</answer>
+      <answer>Land Rover</answer>
+    </answers>
+    <hint>Британская марка; эмблема — прыгающий ягуар; спортивные седаны и купе</hint>
+    <explanation>Основана в 1922 г. как Swallow Sidecar. E-Type (1961) Энцо Феррари назвал «самым красивым автомобилем в мире». XJ, F-Type, F-PACE. С 2008 г. — часть Tata Motors вместе с Land Rover.</explanation>
+  </card>
+  <card>
+    <question media="17_Jaguar_3.jpg">Кто изображён на фото №83?</question>
+    <answers>
+      <answer>Toyota</answer>
+      <answer>Citroën</answer>
+      <answer>Mazda</answer>
+      <answer>Rolls-Royce</answer>
+      <answer correct="true">Jaguar</answer>
+    </answers>
+    <hint>Британская марка; эмблема — прыгающий ягуар; спортивные седаны и купе</hint>
+    <explanation>Основана в 1922 г. как Swallow Sidecar. E-Type (1961) Энцо Феррари назвал «самым красивым автомобилем в мире». XJ, F-Type, F-PACE. С 2008 г. — часть Tata Motors вместе с Land Rover.</explanation>
+  </card>
+  <card>
+    <question media="17_Jaguar_4.jpg">Кто изображён на фото №84?</question>
+    <answers>
+      <answer>Volvo</answer>
+      <answer>Tesla</answer>
+      <answer correct="true">Jaguar</answer>
+      <answer>Nissan</answer>
+      <answer>Lexus</answer>
+    </answers>
+    <hint>Британская марка; эмблема — прыгающий ягуар; спортивные седаны и купе</hint>
+    <explanation>Основана в 1922 г. как Swallow Sidecar. E-Type (1961) Энцо Феррари назвал «самым красивым автомобилем в мире». XJ, F-Type, F-PACE. С 2008 г. — часть Tata Motors вместе с Land Rover.</explanation>
+  </card>
+  <card>
+    <question media="17_Jaguar_5.jpg">Кто изображён на фото №85?</question>
+    <answers>
+      <answer>Land Rover</answer>
+      <answer>Alfa Romeo</answer>
+      <answer>Volvo</answer>
+      <answer correct="true">Jaguar</answer>
+      <answer>Nissan</answer>
+    </answers>
+    <hint>Британская марка; эмблема — прыгающий ягуар; спортивные седаны и купе</hint>
+    <explanation>Основана в 1922 г. как Swallow Sidecar. E-Type (1961) Энцо Феррари назвал «самым красивым автомобилем в мире». XJ, F-Type, F-PACE. С 2008 г. — часть Tata Motors вместе с Land Rover.</explanation>
+  </card>
+  <card>
+    <question media="18_Land_Rover_1.jpg">Кто изображён на фото №86?</question>
+    <answers>
+      <answer>Aston Martin</answer>
+      <answer>Jeep</answer>
+      <answer>Maserati</answer>
+      <answer>Kia</answer>
+      <answer correct="true">Land Rover</answer>
+    </answers>
+    <hint>Британские внедорожники; Defender, Range Rover, Discovery</hint>
+    <explanation>Основана в 1948 г. на базе Jeep. Range Rover (1970) создал класс люкс-SUV. Defender — культовый утилитарный внедорожник. С 2008 г. принадлежит индийской Tata Motors.</explanation>
+  </card>
+  <card>
+    <question media="18_Land_Rover_2.jpg">Кто изображён на фото №87?</question>
+    <answers>
+      <answer correct="true">Land Rover</answer>
+      <answer>Nissan</answer>
+      <answer>Lexus</answer>
+      <answer>Honda</answer>
+      <answer>Rolls-Royce</answer>
+    </answers>
+    <hint>Британские внедорожники; Defender, Range Rover, Discovery</hint>
+    <explanation>Основана в 1948 г. на базе Jeep. Range Rover (1970) создал класс люкс-SUV. Defender — культовый утилитарный внедорожник. С 2008 г. принадлежит индийской Tata Motors.</explanation>
+  </card>
+  <card>
+    <question media="18_Land_Rover_3.jpg">Кто изображён на фото №88?</question>
+    <answers>
+      <answer>Tesla</answer>
+      <answer correct="true">Land Rover</answer>
+      <answer>Jaguar</answer>
+      <answer>Volvo</answer>
+      <answer>Ferrari</answer>
+    </answers>
+    <hint>Британские внедорожники; Defender, Range Rover, Discovery</hint>
+    <explanation>Основана в 1948 г. на базе Jeep. Range Rover (1970) создал класс люкс-SUV. Defender — культовый утилитарный внедорожник. С 2008 г. принадлежит индийской Tata Motors.</explanation>
+  </card>
+  <card>
+    <question media="18_Land_Rover_4.jpg">Кто изображён на фото №89?</question>
+    <answers>
+      <answer correct="true">Land Rover</answer>
+      <answer>Mazda</answer>
+      <answer>Tesla</answer>
+      <answer>Volvo</answer>
+      <answer>Jeep</answer>
+    </answers>
+    <hint>Британские внедорожники; Defender, Range Rover, Discovery</hint>
+    <explanation>Основана в 1948 г. на базе Jeep. Range Rover (1970) создал класс люкс-SUV. Defender — культовый утилитарный внедорожник. С 2008 г. принадлежит индийской Tata Motors.</explanation>
+  </card>
+  <card>
+    <question media="18_Land_Rover_5.jpg">Кто изображён на фото №90?</question>
+    <answers>
+      <answer>Toyota</answer>
+      <answer correct="true">Land Rover</answer>
+      <answer>Ferrari</answer>
+      <answer>Audi</answer>
+      <answer>Citroën</answer>
+    </answers>
+    <hint>Британские внедорожники; Defender, Range Rover, Discovery</hint>
+    <explanation>Основана в 1948 г. на базе Jeep. Range Rover (1970) создал класс люкс-SUV. Defender — культовый утилитарный внедорожник. С 2008 г. принадлежит индийской Tata Motors.</explanation>
+  </card>
+  <card>
+    <question media="19_Mazda_1.jpg">Кто изображён на фото №91?</question>
+    <answers>
+      <answer>Ferrari</answer>
+      <answer>Ford</answer>
+      <answer>Subaru</answer>
+      <answer>BMW</answer>
+      <answer correct="true">Mazda</answer>
+    </answers>
+    <hint>Японская марка; роторный двигатель Ванкеля; лозунг «Zoom-Zoom»</hint>
+    <explanation>Основана в 1920 г. в Хиросиме. MX-5 Miata — самый массовый родстер в истории. Роторные RX-7 и RX-8 уникальны для индустрии. В 2020-х — премиальные интерьеры и рядные «шестёрки» для CX-60/90.</explanation>
+  </card>
+  <card>
+    <question media="19_Mazda_2.jpg">Кто изображён на фото №92?</question>
+    <answers>
+      <answer correct="true">Mazda</answer>
+      <answer>Volvo</answer>
+      <answer>Citroën</answer>
+      <answer>Toyota</answer>
+      <answer>Cadillac</answer>
+    </answers>
+    <hint>Японская марка; роторный двигатель Ванкеля; лозунг «Zoom-Zoom»</hint>
+    <explanation>Основана в 1920 г. в Хиросиме. MX-5 Miata — самый массовый родстер в истории. Роторные RX-7 и RX-8 уникальны для индустрии. В 2020-х — премиальные интерьеры и рядные «шестёрки» для CX-60/90.</explanation>
+  </card>
+  <card>
+    <question media="19_Mazda_3.jpg">Кто изображён на фото №93?</question>
+    <answers>
+      <answer>Volkswagen</answer>
+      <answer>Nissan</answer>
+      <answer>Cadillac</answer>
+      <answer>Tesla</answer>
+      <answer correct="true">Mazda</answer>
+    </answers>
+    <hint>Японская марка; роторный двигатель Ванкеля; лозунг «Zoom-Zoom»</hint>
+    <explanation>Основана в 1920 г. в Хиросиме. MX-5 Miata — самый массовый родстер в истории. Роторные RX-7 и RX-8 уникальны для индустрии. В 2020-х — премиальные интерьеры и рядные «шестёрки» для CX-60/90.</explanation>
+  </card>
+  <card>
+    <question media="19_Mazda_4.jpg">Кто изображён на фото №94?</question>
+    <answers>
+      <answer>Honda</answer>
+      <answer>Mercedes-Benz</answer>
+      <answer>Hyundai</answer>
+      <answer correct="true">Mazda</answer>
+      <answer>BMW</answer>
+    </answers>
+    <hint>Японская марка; роторный двигатель Ванкеля; лозунг «Zoom-Zoom»</hint>
+    <explanation>Основана в 1920 г. в Хиросиме. MX-5 Miata — самый массовый родстер в истории. Роторные RX-7 и RX-8 уникальны для индустрии. В 2020-х — премиальные интерьеры и рядные «шестёрки» для CX-60/90.</explanation>
+  </card>
+  <card>
+    <question media="19_Mazda_5.jpg">Кто изображён на фото №95?</question>
+    <answers>
+      <answer correct="true">Mazda</answer>
+      <answer>Ferrari</answer>
+      <answer>Tesla</answer>
+      <answer>Audi</answer>
+      <answer>Citroën</answer>
+    </answers>
+    <hint>Японская марка; роторный двигатель Ванкеля; лозунг «Zoom-Zoom»</hint>
+    <explanation>Основана в 1920 г. в Хиросиме. MX-5 Miata — самый массовый родстер в истории. Роторные RX-7 и RX-8 уникальны для индустрии. В 2020-х — премиальные интерьеры и рядные «шестёрки» для CX-60/90.</explanation>
+  </card>
+  <card>
+    <question media="20_Subaru_1.jpg">Кто изображён на фото №96?</question>
+    <answers>
+      <answer correct="true">Subaru</answer>
+      <answer>BMW</answer>
+      <answer>Volkswagen</answer>
+      <answer>Porsche</answer>
+      <answer>Honda</answer>
+    </answers>
+    <hint>Японская марка; оппозитный двигатель и постоянный полный привод; Pleiades на эмблеме</hint>
+    <explanation>Подразделение Fuji Heavy Industries. Шесть звёзд на эмблеме — созвездие Плеяд. WRX STI — легенда ралли. Outback — создатель класса универсалов повышенной проходимости.</explanation>
+  </card>
+  <card>
+    <question media="20_Subaru_2.jpg">Кто изображён на фото №97?</question>
+    <answers>
+      <answer correct="true">Subaru</answer>
+      <answer>Tesla</answer>
+      <answer>Honda</answer>
+      <answer>Ford</answer>
+      <answer>Nissan</answer>
+    </answers>
+    <hint>Японская марка; оппозитный двигатель и постоянный полный привод; Pleiades на эмблеме</hint>
+    <explanation>Подразделение Fuji Heavy Industries. Шесть звёзд на эмблеме — созвездие Плеяд. WRX STI — легенда ралли. Outback — создатель класса универсалов повышенной проходимости.</explanation>
+  </card>
+  <card>
+    <question media="20_Subaru_3.jpg">Кто изображён на фото №98?</question>
+    <answers>
+      <answer>Cadillac</answer>
+      <answer>Ferrari</answer>
+      <answer>Ford</answer>
+      <answer correct="true">Subaru</answer>
+      <answer>Citroën</answer>
+    </answers>
+    <hint>Японская марка; оппозитный двигатель и постоянный полный привод; Pleiades на эмблеме</hint>
+    <explanation>Подразделение Fuji Heavy Industries. Шесть звёзд на эмблеме — созвездие Плеяд. WRX STI — легенда ралли. Outback — создатель класса универсалов повышенной проходимости.</explanation>
+  </card>
+  <card>
+    <question media="20_Subaru_4.jpg">Кто изображён на фото №99?</question>
+    <answers>
+      <answer correct="true">Subaru</answer>
+      <answer>Porsche</answer>
+      <answer>Aston Martin</answer>
+      <answer>Lamborghini</answer>
+      <answer>Mazda</answer>
+    </answers>
+    <hint>Японская марка; оппозитный двигатель и постоянный полный привод; Pleiades на эмблеме</hint>
+    <explanation>Подразделение Fuji Heavy Industries. Шесть звёзд на эмблеме — созвездие Плеяд. WRX STI — легенда ралли. Outback — создатель класса универсалов повышенной проходимости.</explanation>
+  </card>
+  <card>
+    <question media="20_Subaru_5.jpg">Кто изображён на фото №100?</question>
+    <answers>
+      <answer>Citroën</answer>
+      <answer>Lamborghini</answer>
+      <answer>Lexus</answer>
+      <answer correct="true">Subaru</answer>
+      <answer>Audi</answer>
+    </answers>
+    <hint>Японская марка; оппозитный двигатель и постоянный полный привод; Pleiades на эмблеме</hint>
+    <explanation>Подразделение Fuji Heavy Industries. Шесть звёзд на эмблеме — созвездие Плеяд. WRX STI — легенда ралли. Outback — создатель класса универсалов повышенной проходимости.</explanation>
+  </card>
+  <card>
+    <question media="21_Peugeot_1.jpg">Кто изображён на фото №101?</question>
+    <answers>
+      <answer correct="true">Peugeot</answer>
+      <answer>Maserati</answer>
+      <answer>Volvo</answer>
+      <answer>Hyundai</answer>
+      <answer>Volkswagen</answer>
+    </answers>
+    <hint>Французская марка; эмблема — лев; старейший автопроизводитель Франции</hint>
+    <explanation>Семья Пежо делает автомобили с 1889 г. (раньше — кофемолки и велосипеды). 205 GTI — икона хот-хэтчей. Современная линейка: 208, 308, 3008, 5008. В группе Stellantis с 2021 г.</explanation>
+  </card>
+  <card>
+    <question media="21_Peugeot_2.jpg">Кто изображён на фото №102?</question>
+    <answers>
+      <answer>Rolls-Royce</answer>
+      <answer>BMW</answer>
+      <answer>Aston Martin</answer>
+      <answer>Audi</answer>
+      <answer correct="true">Peugeot</answer>
+    </answers>
+    <hint>Французская марка; эмблема — лев; старейший автопроизводитель Франции</hint>
+    <explanation>Семья Пежо делает автомобили с 1889 г. (раньше — кофемолки и велосипеды). 205 GTI — икона хот-хэтчей. Современная линейка: 208, 308, 3008, 5008. В группе Stellantis с 2021 г.</explanation>
+  </card>
+  <card>
+    <question media="21_Peugeot_3.jpg">Кто изображён на фото №103?</question>
+    <answers>
+      <answer>Maserati</answer>
+      <answer>Porsche</answer>
+      <answer correct="true">Peugeot</answer>
+      <answer>Cadillac</answer>
+      <answer>Toyota</answer>
+    </answers>
+    <hint>Французская марка; эмблема — лев; старейший автопроизводитель Франции</hint>
+    <explanation>Семья Пежо делает автомобили с 1889 г. (раньше — кофемолки и велосипеды). 205 GTI — икона хот-хэтчей. Современная линейка: 208, 308, 3008, 5008. В группе Stellantis с 2021 г.</explanation>
+  </card>
+  <card>
+    <question media="21_Peugeot_4.jpg">Кто изображён на фото №104?</question>
+    <answers>
+      <answer correct="true">Peugeot</answer>
+      <answer>Volvo</answer>
+      <answer>Nissan</answer>
+      <answer>Volkswagen</answer>
+      <answer>Citroën</answer>
+    </answers>
+    <hint>Французская марка; эмблема — лев; старейший автопроизводитель Франции</hint>
+    <explanation>Семья Пежо делает автомобили с 1889 г. (раньше — кофемолки и велосипеды). 205 GTI — икона хот-хэтчей. Современная линейка: 208, 308, 3008, 5008. В группе Stellantis с 2021 г.</explanation>
+  </card>
+  <card>
+    <question media="21_Peugeot_5.jpg">Кто изображён на фото №105?</question>
+    <answers>
+      <answer>Tesla</answer>
+      <answer>Renault</answer>
+      <answer>Maserati</answer>
+      <answer correct="true">Peugeot</answer>
+      <answer>Land Rover</answer>
+    </answers>
+    <hint>Французская марка; эмблема — лев; старейший автопроизводитель Франции</hint>
+    <explanation>Семья Пежо делает автомобили с 1889 г. (раньше — кофемолки и велосипеды). 205 GTI — икона хот-хэтчей. Современная линейка: 208, 308, 3008, 5008. В группе Stellantis с 2021 г.</explanation>
+  </card>
+  <card>
+    <question media="22_Renault_1.png">Кто изображён на фото №106?</question>
+    <answers>
+      <answer correct="true">Renault</answer>
+      <answer>Toyota</answer>
+      <answer>Cadillac</answer>
+      <answer>Hyundai</answer>
+      <answer>Citroën</answer>
+    </answers>
+    <hint>Французская марка; эмблема — ромб (лосанж); Clio, Mégane, Captur</hint>
+    <explanation>Основана братьями Рено в 1899 г. Формула-1: собственный заводской коллектив и поставки двигателей. Twingo — родоначальник компактных однообъёмников. Zoe — ранний массовый электромобиль. В альянсе с Nissan и Mitsubishi.</explanation>
+  </card>
+  <card>
+    <question media="22_Renault_2.jpg">Кто изображён на фото №107?</question>
+    <answers>
+      <answer>Volkswagen</answer>
+      <answer>Honda</answer>
+      <answer>Toyota</answer>
+      <answer>Aston Martin</answer>
+      <answer correct="true">Renault</answer>
+    </answers>
+    <hint>Французская марка; эмблема — ромб (лосанж); Clio, Mégane, Captur</hint>
+    <explanation>Основана братьями Рено в 1899 г. Формула-1: собственный заводской коллектив и поставки двигателей. Twingo — родоначальник компактных однообъёмников. Zoe — ранний массовый электромобиль. В альянсе с Nissan и Mitsubishi.</explanation>
+  </card>
+  <card>
+    <question media="22_Renault_3.jpg">Кто изображён на фото №108?</question>
+    <answers>
+      <answer>Aston Martin</answer>
+      <answer>Jaguar</answer>
+      <answer>BMW</answer>
+      <answer correct="true">Renault</answer>
+      <answer>Citroën</answer>
+    </answers>
+    <hint>Французская марка; эмблема — ромб (лосанж); Clio, Mégane, Captur</hint>
+    <explanation>Основана братьями Рено в 1899 г. Формула-1: собственный заводской коллектив и поставки двигателей. Twingo — родоначальник компактных однообъёмников. Zoe — ранний массовый электромобиль. В альянсе с Nissan и Mitsubishi.</explanation>
+  </card>
+  <card>
+    <question media="22_Renault_4.jpg">Кто изображён на фото №109?</question>
+    <answers>
+      <answer>Aston Martin</answer>
+      <answer>Alfa Romeo</answer>
+      <answer>Cadillac</answer>
+      <answer>Hyundai</answer>
+      <answer correct="true">Renault</answer>
+    </answers>
+    <hint>Французская марка; эмблема — ромб (лосанж); Clio, Mégane, Captur</hint>
+    <explanation>Основана братьями Рено в 1899 г. Формула-1: собственный заводской коллектив и поставки двигателей. Twingo — родоначальник компактных однообъёмников. Zoe — ранний массовый электромобиль. В альянсе с Nissan и Mitsubishi.</explanation>
+  </card>
+  <card>
+    <question media="22_Renault_5.jpg">Кто изображён на фото №110?</question>
+    <answers>
+      <answer correct="true">Renault</answer>
+      <answer>Mercedes-Benz</answer>
+      <answer>Subaru</answer>
+      <answer>Maserati</answer>
+      <answer>Nissan</answer>
+    </answers>
+    <hint>Французская марка; эмблема — ромб (лосанж); Clio, Mégane, Captur</hint>
+    <explanation>Основана братьями Рено в 1899 г. Формула-1: собственный заводской коллектив и поставки двигателей. Twingo — родоначальник компактных однообъёмников. Zoe — ранний массовый электромобиль. В альянсе с Nissan и Mitsubishi.</explanation>
+  </card>
+  <card>
+    <question media="23_Citroën_1.jpg">Кто изображён на фото №111?</question>
+    <answers>
+      <answer>Toyota</answer>
+      <answer correct="true">Citroën</answer>
+      <answer>Land Rover</answer>
+      <answer>Hyundai</answer>
+      <answer>Rolls-Royce</answer>
+    </answers>
+    <hint>Французская марка; двойной шеврон; гидравлическая подвеска</hint>
+    <explanation>Основана Андре Ситроеном в 1919 г. Traction Avant — первый массовый переднеприводный автомобиль (1934). DS (1955) — революционный дизайн и гидропневматика. 2CV — «народный» автомобиль Франции.</explanation>
+  </card>
+  <card>
+    <question media="23_Citroën_2.jpg">Кто изображён на фото №112?</question>
+    <answers>
+      <answer>Mazda</answer>
+      <answer>Mercedes-Benz</answer>
+      <answer correct="true">Citroën</answer>
+      <answer>Hyundai</answer>
+      <answer>Aston Martin</answer>
+    </answers>
+    <hint>Французская марка; двойной шеврон; гидравлическая подвеска</hint>
+    <explanation>Основана Андре Ситроеном в 1919 г. Traction Avant — первый массовый переднеприводный автомобиль (1934). DS (1955) — революционный дизайн и гидропневматика. 2CV — «народный» автомобиль Франции.</explanation>
+  </card>
+  <card>
+    <question media="23_Citroën_3.jpg">Кто изображён на фото №113?</question>
+    <answers>
+      <answer>Honda</answer>
+      <answer correct="true">Citroën</answer>
+      <answer>Aston Martin</answer>
+      <answer>Audi</answer>
+      <answer>Land Rover</answer>
+    </answers>
+    <hint>Французская марка; двойной шеврон; гидравлическая подвеска</hint>
+    <explanation>Основана Андре Ситроеном в 1919 г. Traction Avant — первый массовый переднеприводный автомобиль (1934). DS (1955) — революционный дизайн и гидропневматика. 2CV — «народный» автомобиль Франции.</explanation>
+  </card>
+  <card>
+    <question media="23_Citroën_4.jpg">Кто изображён на фото №114?</question>
+    <answers>
+      <answer>Honda</answer>
+      <answer>Audi</answer>
+      <answer correct="true">Citroën</answer>
+      <answer>Jaguar</answer>
+      <answer>Rolls-Royce</answer>
+    </answers>
+    <hint>Французская марка; двойной шеврон; гидравлическая подвеска</hint>
+    <explanation>Основана Андре Ситроеном в 1919 г. Traction Avant — первый массовый переднеприводный автомобиль (1934). DS (1955) — революционный дизайн и гидропневматика. 2CV — «народный» автомобиль Франции.</explanation>
+  </card>
+  <card>
+    <question media="23_Citroën_5.jpg">Кто изображён на фото №115?</question>
+    <answers>
+      <answer>Porsche</answer>
+      <answer>Volkswagen</answer>
+      <answer correct="true">Citroën</answer>
+      <answer>Maserati</answer>
+      <answer>Kia</answer>
+    </answers>
+    <hint>Французская марка; двойной шеврон; гидравлическая подвеска</hint>
+    <explanation>Основана Андре Ситроеном в 1919 г. Traction Avant — первый массовый переднеприводный автомобиль (1934). DS (1955) — революционный дизайн и гидропневматика. 2CV — «народный» автомобиль Франции.</explanation>
+  </card>
+  <card>
+    <question media="24_Maserati_1.jpg">Кто изображён на фото №116?</question>
+    <answers>
+      <answer>Honda</answer>
+      <answer>Alfa Romeo</answer>
+      <answer>Renault</answer>
+      <answer correct="true">Maserati</answer>
+      <answer>BMW</answer>
+    </answers>
+    <hint>Итальянская марка; трезубец Нептуна; гран-туризмо с Феррари-корнями</hint>
+    <explanation>Основана братьями Мазерати в 1914 г. в Болонье. Трезубец — символ города. Долгое время двигатели поставляла Ferrari. Quattroporte, GranTurismo, MC20 — современный суперкар. Принадлежит Stellantis.</explanation>
+  </card>
+  <card>
+    <question media="24_Maserati_2.jpg">Кто изображён на фото №117?</question>
+    <answers>
+      <answer>Jaguar</answer>
+      <answer>Subaru</answer>
+      <answer>Citroën</answer>
+      <answer>Volvo</answer>
+      <answer correct="true">Maserati</answer>
+    </answers>
+    <hint>Итальянская марка; трезубец Нептуна; гран-туризмо с Феррари-корнями</hint>
+    <explanation>Основана братьями Мазерати в 1914 г. в Болонье. Трезубец — символ города. Долгое время двигатели поставляла Ferrari. Quattroporte, GranTurismo, MC20 — современный суперкар. Принадлежит Stellantis.</explanation>
+  </card>
+  <card>
+    <question media="24_Maserati_3.jpg">Кто изображён на фото №118?</question>
+    <answers>
+      <answer correct="true">Maserati</answer>
+      <answer>Lamborghini</answer>
+      <answer>Jeep</answer>
+      <answer>Lexus</answer>
+      <answer>Jaguar</answer>
+    </answers>
+    <hint>Итальянская марка; трезубец Нептуна; гран-туризмо с Феррари-корнями</hint>
+    <explanation>Основана братьями Мазерати в 1914 г. в Болонье. Трезубец — символ города. Долгое время двигатели поставляла Ferrari. Quattroporte, GranTurismo, MC20 — современный суперкар. Принадлежит Stellantis.</explanation>
+  </card>
+  <card>
+    <question media="24_Maserati_4.jpg">Кто изображён на фото №119?</question>
+    <answers>
+      <answer>Rolls-Royce</answer>
+      <answer correct="true">Maserati</answer>
+      <answer>Nissan</answer>
+      <answer>Alfa Romeo</answer>
+      <answer>Peugeot</answer>
+    </answers>
+    <hint>Итальянская марка; трезубец Нептуна; гран-туризмо с Феррари-корнями</hint>
+    <explanation>Основана братьями Мазерати в 1914 г. в Болонье. Трезубец — символ города. Долгое время двигатели поставляла Ferrari. Quattroporte, GranTurismo, MC20 — современный суперкар. Принадлежит Stellantis.</explanation>
+  </card>
+  <card>
+    <question media="24_Maserati_5.jpg">Кто изображён на фото №120?</question>
+    <answers>
+      <answer>Rolls-Royce</answer>
+      <answer>Audi</answer>
+      <answer correct="true">Maserati</answer>
+      <answer>Honda</answer>
+      <answer>Nissan</answer>
+    </answers>
+    <hint>Итальянская марка; трезубец Нептуна; гран-туризмо с Феррари-корнями</hint>
+    <explanation>Основана братьями Мазерати в 1914 г. в Болонье. Трезубец — символ города. Долгое время двигатели поставляла Ferrari. Quattroporte, GranTurismo, MC20 — современный суперкар. Принадлежит Stellantis.</explanation>
+  </card>
+  <card>
+    <question media="25_Alfa_Romeo_1.jpg">Кто изображён на фото №121?</question>
+    <answers>
+      <answer>Renault</answer>
+      <answer correct="true">Alfa Romeo</answer>
+      <answer>Peugeot</answer>
+      <answer>Lexus</answer>
+      <answer>Audi</answer>
+    </answers>
+    <hint>Итальянская марка; красный крест Милана и змей Висконти на эмблеме</hint>
+    <explanation>Основана в 1910 г. (Anonima Lombarda Fabbrica Automobili). Джулия, Стелвио, 4C. Славится спортивным характером и «сердцем» автомобилей. В кино — любимый автомобиль итальянских фильмов.</explanation>
+  </card>
+  <card>
+    <question media="25_Alfa_Romeo_2.jpg">Кто изображён на фото №122?</question>
+    <answers>
+      <answer>Land Rover</answer>
+      <answer correct="true">Alfa Romeo</answer>
+      <answer>Peugeot</answer>
+      <answer>BMW</answer>
+      <answer>Honda</answer>
+    </answers>
+    <hint>Итальянская марка; красный крест Милана и змей Висконти на эмблеме</hint>
+    <explanation>Основана в 1910 г. (Anonima Lombarda Fabbrica Automobili). Джулия, Стелвио, 4C. Славится спортивным характером и «сердцем» автомобилей. В кино — любимый автомобиль итальянских фильмов.</explanation>
+  </card>
+  <card>
+    <question media="25_Alfa_Romeo_3.jpg">Кто изображён на фото №123?</question>
+    <answers>
+      <answer>Land Rover</answer>
+      <answer correct="true">Alfa Romeo</answer>
+      <answer>Citroën</answer>
+      <answer>Peugeot</answer>
+      <answer>Aston Martin</answer>
+    </answers>
+    <hint>Итальянская марка; красный крест Милана и змей Висконти на эмблеме</hint>
+    <explanation>Основана в 1910 г. (Anonima Lombarda Fabbrica Automobili). Джулия, Стелвио, 4C. Славится спортивным характером и «сердцем» автомобилей. В кино — любимый автомобиль итальянских фильмов.</explanation>
+  </card>
+  <card>
+    <question media="25_Alfa_Romeo_4.jpg">Кто изображён на фото №124?</question>
+    <answers>
+      <answer>Land Rover</answer>
+      <answer correct="true">Alfa Romeo</answer>
+      <answer>Aston Martin</answer>
+      <answer>Volvo</answer>
+      <answer>Porsche</answer>
+    </answers>
+    <hint>Итальянская марка; красный крест Милана и змей Висконти на эмблеме</hint>
+    <explanation>Основана в 1910 г. (Anonima Lombarda Fabbrica Automobili). Джулия, Стелвио, 4C. Славится спортивным характером и «сердцем» автомобилей. В кино — любимый автомобиль итальянских фильмов.</explanation>
+  </card>
+  <card>
+    <question media="25_Alfa_Romeo_5.jpg">Кто изображён на фото №125?</question>
+    <answers>
+      <answer>Cadillac</answer>
+      <answer correct="true">Alfa Romeo</answer>
+      <answer>Land Rover</answer>
+      <answer>Ford</answer>
+      <answer>Lexus</answer>
+    </answers>
+    <hint>Итальянская марка; красный крест Милана и змей Висконти на эмблеме</hint>
+    <explanation>Основана в 1910 г. (Anonima Lombarda Fabbrica Automobili). Джулия, Стелвио, 4C. Славится спортивным характером и «сердцем» автомобилей. В кино — любимый автомобиль итальянских фильмов.</explanation>
+  </card>
+  <card>
+    <question media="26_Rolls-Royce_1.jpg">Кто изображён на фото №126?</question>
+    <answers>
+      <answer>Honda</answer>
+      <answer>Jaguar</answer>
+      <answer>Volvo</answer>
+      <answer correct="true">Rolls-Royce</answer>
+      <answer>Maserati</answer>
+    </answers>
+    <hint>Британский супер-люкс; фигурка «Дух экстаза» на капоте; Phantom, Ghost</hint>
+    <explanation>Основана Чарльзом Роллсом и Генри Ройсом в 1904 г. Эталон роскоши; ручной сборки. Phantom, Ghost, Wraith, Cullinan (первый SUV марки). С 1998 г. принадлежит BMW. Девиз «Take the best that exists and make it better».</explanation>
+  </card>
+  <card>
+    <question media="26_Rolls-Royce_2.jpg">Кто изображён на фото №127?</question>
+    <answers>
+      <answer>Ferrari</answer>
+      <answer>Audi</answer>
+      <answer>Land Rover</answer>
+      <answer correct="true">Rolls-Royce</answer>
+      <answer>Mercedes-Benz</answer>
+    </answers>
+    <hint>Британский супер-люкс; фигурка «Дух экстаза» на капоте; Phantom, Ghost</hint>
+    <explanation>Основана Чарльзом Роллсом и Генри Ройсом в 1904 г. Эталон роскоши; ручной сборки. Phantom, Ghost, Wraith, Cullinan (первый SUV марки). С 1998 г. принадлежит BMW. Девиз «Take the best that exists and make it better».</explanation>
+  </card>
+  <card>
+    <question media="26_Rolls-Royce_3.jpg">Кто изображён на фото №128?</question>
+    <answers>
+      <answer>Toyota</answer>
+      <answer correct="true">Rolls-Royce</answer>
+      <answer>Audi</answer>
+      <answer>Porsche</answer>
+      <answer>Aston Martin</answer>
+    </answers>
+    <hint>Британский супер-люкс; фигурка «Дух экстаза» на капоте; Phantom, Ghost</hint>
+    <explanation>Основана Чарльзом Роллсом и Генри Ройсом в 1904 г. Эталон роскоши; ручной сборки. Phantom, Ghost, Wraith, Cullinan (первый SUV марки). С 1998 г. принадлежит BMW. Девиз «Take the best that exists and make it better».</explanation>
+  </card>
+  <card>
+    <question media="26_Rolls-Royce_4.jpg">Кто изображён на фото №129?</question>
+    <answers>
+      <answer>Maserati</answer>
+      <answer>Ferrari</answer>
+      <answer>Cadillac</answer>
+      <answer>Subaru</answer>
+      <answer correct="true">Rolls-Royce</answer>
+    </answers>
+    <hint>Британский супер-люкс; фигурка «Дух экстаза» на капоте; Phantom, Ghost</hint>
+    <explanation>Основана Чарльзом Роллсом и Генри Ройсом в 1904 г. Эталон роскоши; ручной сборки. Phantom, Ghost, Wraith, Cullinan (первый SUV марки). С 1998 г. принадлежит BMW. Девиз «Take the best that exists and make it better».</explanation>
+  </card>
+  <card>
+    <question media="26_Rolls-Royce_5.jpg">Кто изображён на фото №130?</question>
+    <answers>
+      <answer>Volvo</answer>
+      <answer correct="true">Rolls-Royce</answer>
+      <answer>Jaguar</answer>
+      <answer>Citroën</answer>
+      <answer>Lexus</answer>
+    </answers>
+    <hint>Британский супер-люкс; фигурка «Дух экстаза» на капоте; Phantom, Ghost</hint>
+    <explanation>Основана Чарльзом Роллсом и Генри Ройсом в 1904 г. Эталон роскоши; ручной сборки. Phantom, Ghost, Wraith, Cullinan (первый SUV марки). С 1998 г. принадлежит BMW. Девиз «Take the best that exists and make it better».</explanation>
+  </card>
+  <card>
+    <question media="27_Bentley_1.jpg">Кто изображён на фото №131?</question>
+    <answers>
+      <answer>Mazda</answer>
+      <answer>Ford</answer>
+      <answer>Renault</answer>
+      <answer>Audi</answer>
+      <answer correct="true">Bentley</answer>
+    </answers>
+    <hint>Британский люкс; крылатая буква B; Continental GT, Flying Spur, Bentayga</hint>
+    <explanation>Основана Уолтером Бентли в 1919 г. Пять побед в Ле-Мане в 1920-х. После слияния с Rolls-Royce в 1931 г. и разделения в 1998 г. — часть Volkswagen. Mulsanne, Continental GT, Bentayga.</explanation>
+  </card>
+  <card>
+    <question media="27_Bentley_2.jpg">Кто изображён на фото №132?</question>
+    <answers>
+      <answer>Rolls-Royce</answer>
+      <answer>Porsche</answer>
+      <answer>Lexus</answer>
+      <answer correct="true">Bentley</answer>
+      <answer>Volvo</answer>
+    </answers>
+    <hint>Британский люкс; крылатая буква B; Continental GT, Flying Spur, Bentayga</hint>
+    <explanation>Основана Уолтером Бентли в 1919 г. Пять побед в Ле-Мане в 1920-х. После слияния с Rolls-Royce в 1931 г. и разделения в 1998 г. — часть Volkswagen. Mulsanne, Continental GT, Bentayga.</explanation>
+  </card>
+  <card>
+    <question media="27_Bentley_3.jpg">Кто изображён на фото №133?</question>
+    <answers>
+      <answer>Peugeot</answer>
+      <answer>Lexus</answer>
+      <answer correct="true">Bentley</answer>
+      <answer>Volkswagen</answer>
+      <answer>Audi</answer>
+    </answers>
+    <hint>Британский люкс; крылатая буква B; Continental GT, Flying Spur, Bentayga</hint>
+    <explanation>Основана Уолтером Бентли в 1919 г. Пять побед в Ле-Мане в 1920-х. После слияния с Rolls-Royce в 1931 г. и разделения в 1998 г. — часть Volkswagen. Mulsanne, Continental GT, Bentayga.</explanation>
+  </card>
+  <card>
+    <question media="27_Bentley_4.jpg">Кто изображён на фото №134?</question>
+    <answers>
+      <answer>Maserati</answer>
+      <answer correct="true">Bentley</answer>
+      <answer>Lamborghini</answer>
+      <answer>Jeep</answer>
+      <answer>Nissan</answer>
+    </answers>
+    <hint>Британский люкс; крылатая буква B; Continental GT, Flying Spur, Bentayga</hint>
+    <explanation>Основана Уолтером Бентли в 1919 г. Пять побед в Ле-Мане в 1920-х. После слияния с Rolls-Royce в 1931 г. и разделения в 1998 г. — часть Volkswagen. Mulsanne, Continental GT, Bentayga.</explanation>
+  </card>
+  <card>
+    <question media="27_Bentley_5.jpg">Кто изображён на фото №135?</question>
+    <answers>
+      <answer>Land Rover</answer>
+      <answer>Tesla</answer>
+      <answer>BMW</answer>
+      <answer>Volkswagen</answer>
+      <answer correct="true">Bentley</answer>
+    </answers>
+    <hint>Британский люкс; крылатая буква B; Continental GT, Flying Spur, Bentayga</hint>
+    <explanation>Основана Уолтером Бентли в 1919 г. Пять побед в Ле-Мане в 1920-х. После слияния с Rolls-Royce в 1931 г. и разделения в 1998 г. — часть Volkswagen. Mulsanne, Continental GT, Bentayga.</explanation>
+  </card>
+  <card>
+    <question media="28_Aston_Martin_1.jpg">Кто изображён на фото №136?</question>
+    <answers>
+      <answer>Citroën</answer>
+      <answer>Porsche</answer>
+      <answer>Mazda</answer>
+      <answer correct="true">Aston Martin</answer>
+      <answer>Toyota</answer>
+    </answers>
+    <hint>Британские гран-туризмо; крылатый жук на эмблеме; автомобили Джеймса Бонда</hint>
+    <explanation>Основана в 1913 г. DB5 (1963) — машина агента 007. V8 Vantage, DB9, DBS, Vanquish, Valkyrie (гиперкар). Много раз была на грани банкротства; с 2020-х — инвестиции Mercedes и Lawrence Stroll.</explanation>
+  </card>
+  <card>
+    <question media="28_Aston_Martin_2.jpg">Кто изображён на фото №137?</question>
+    <answers>
+      <answer>Ferrari</answer>
+      <answer>Toyota</answer>
+      <answer correct="true">Aston Martin</answer>
+      <answer>Ford</answer>
+      <answer>Porsche</answer>
+    </answers>
+    <hint>Британские гран-туризмо; крылатый жук на эмблеме; автомобили Джеймса Бонда</hint>
+    <explanation>Основана в 1913 г. DB5 (1963) — машина агента 007. V8 Vantage, DB9, DBS, Vanquish, Valkyrie (гиперкар). Много раз была на грани банкротства; с 2020-х — инвестиции Mercedes и Lawrence Stroll.</explanation>
+  </card>
+  <card>
+    <question media="28_Aston_Martin_3.jpg">Кто изображён на фото №138?</question>
+    <answers>
+      <answer correct="true">Aston Martin</answer>
+      <answer>Rolls-Royce</answer>
+      <answer>Mercedes-Benz</answer>
+      <answer>Renault</answer>
+      <answer>BMW</answer>
+    </answers>
+    <hint>Британские гран-туризмо; крылатый жук на эмблеме; автомобили Джеймса Бонда</hint>
+    <explanation>Основана в 1913 г. DB5 (1963) — машина агента 007. V8 Vantage, DB9, DBS, Vanquish, Valkyrie (гиперкар). Много раз была на грани банкротства; с 2020-х — инвестиции Mercedes и Lawrence Stroll.</explanation>
+  </card>
+  <card>
+    <question media="28_Aston_Martin_4.jpg">Кто изображён на фото №139?</question>
+    <answers>
+      <answer>Porsche</answer>
+      <answer>Renault</answer>
+      <answer correct="true">Aston Martin</answer>
+      <answer>Volvo</answer>
+      <answer>Honda</answer>
+    </answers>
+    <hint>Британские гран-туризмо; крылатый жук на эмблеме; автомобили Джеймса Бонда</hint>
+    <explanation>Основана в 1913 г. DB5 (1963) — машина агента 007. V8 Vantage, DB9, DBS, Vanquish, Valkyrie (гиперкар). Много раз была на грани банкротства; с 2020-х — инвестиции Mercedes и Lawrence Stroll.</explanation>
+  </card>
+  <card>
+    <question media="28_Aston_Martin_5.jpg">Кто изображён на фото №140?</question>
+    <answers>
+      <answer>Jaguar</answer>
+      <answer>Lamborghini</answer>
+      <answer>Ferrari</answer>
+      <answer>Ford</answer>
+      <answer correct="true">Aston Martin</answer>
+    </answers>
+    <hint>Британские гран-туризмо; крылатый жук на эмблеме; автомобили Джеймса Бонда</hint>
+    <explanation>Основана в 1913 г. DB5 (1963) — машина агента 007. V8 Vantage, DB9, DBS, Vanquish, Valkyrie (гиперкар). Много раз была на грани банкротства; с 2020-х — инвестиции Mercedes и Lawrence Stroll.</explanation>
+  </card>
+  <card>
+    <question media="29_Cadillac_1.jpg">Кто изображён на фото №141?</question>
+    <answers>
+      <answer>Porsche</answer>
+      <answer correct="true">Cadillac</answer>
+      <answer>Alfa Romeo</answer>
+      <answer>Honda</answer>
+      <answer>Rolls-Royce</answer>
+    </answers>
+    <hint>Американский премиум; щит-эмблема; основан в честь французского исследователя</hint>
+    <explanation>Основан в 1902 г., назван в честь Антуана Ломе де Ла Мот-Кадийяка, основателя Детройта. Первый массовый автомобиль с электростартером (1912). Escalade, CT5-V Blackwing, Celestiq (электрический флагман). Принадлежит General Motors.</explanation>
+  </card>
+  <card>
+    <question media="29_Cadillac_2.jpg">Кто изображён на фото №142?</question>
+    <answers>
+      <answer>Volkswagen</answer>
+      <answer>Land Rover</answer>
+      <answer>Rolls-Royce</answer>
+      <answer correct="true">Cadillac</answer>
+      <answer>Audi</answer>
+    </answers>
+    <hint>Американский премиум; щит-эмблема; основан в честь французского исследователя</hint>
+    <explanation>Основан в 1902 г., назван в честь Антуана Ломе де Ла Мот-Кадийяка, основателя Детройта. Первый массовый автомобиль с электростартером (1912). Escalade, CT5-V Blackwing, Celestiq (электрический флагман). Принадлежит General Motors.</explanation>
+  </card>
+  <card>
+    <question media="29_Cadillac_3.jpg">Кто изображён на фото №143?</question>
+    <answers>
+      <answer>Audi</answer>
+      <answer correct="true">Cadillac</answer>
+      <answer>Volvo</answer>
+      <answer>Hyundai</answer>
+      <answer>Jaguar</answer>
+    </answers>
+    <hint>Американский премиум; щит-эмблема; основан в честь французского исследователя</hint>
+    <explanation>Основан в 1902 г., назван в честь Антуана Ломе де Ла Мот-Кадийяка, основателя Детройта. Первый массовый автомобиль с электростартером (1912). Escalade, CT5-V Blackwing, Celestiq (электрический флагман). Принадлежит General Motors.</explanation>
+  </card>
+  <card>
+    <question media="29_Cadillac_4.jpg">Кто изображён на фото №144?</question>
+    <answers>
+      <answer correct="true">Cadillac</answer>
+      <answer>Porsche</answer>
+      <answer>Rolls-Royce</answer>
+      <answer>Mazda</answer>
+      <answer>Kia</answer>
+    </answers>
+    <hint>Американский премиум; щит-эмблема; основан в честь французского исследователя</hint>
+    <explanation>Основан в 1902 г., назван в честь Антуана Ломе де Ла Мот-Кадийяка, основателя Детройта. Первый массовый автомобиль с электростартером (1912). Escalade, CT5-V Blackwing, Celestiq (электрический флагман). Принадлежит General Motors.</explanation>
+  </card>
+  <card>
+    <question media="29_Cadillac_5.jpg">Кто изображён на фото №145?</question>
+    <answers>
+      <answer>Audi</answer>
+      <answer>Mazda</answer>
+      <answer>Nissan</answer>
+      <answer>Maserati</answer>
+      <answer correct="true">Cadillac</answer>
+    </answers>
+    <hint>Американский премиум; щит-эмблема; основан в честь французского исследователя</hint>
+    <explanation>Основан в 1902 г., назван в честь Антуана Ломе де Ла Мот-Кадийяка, основателя Детройта. Первый массовый автомобиль с электростартером (1912). Escalade, CT5-V Blackwing, Celestiq (электрический флагман). Принадлежит General Motors.</explanation>
+  </card>
+  <card>
+    <question media="30_Jeep_1.jpg">Кто изображён на фото №146?</question>
+    <answers>
+      <answer>Renault</answer>
+      <answer>Maserati</answer>
+      <answer correct="true">Jeep</answer>
+      <answer>Hyundai</answer>
+      <answer>Audi</answer>
+    </answers>
+    <hint>Американские внедорожники; семь прорезей решётки; Wrangler, Grand Cherokee</hint>
+    <explanation>Родился как военный Willys MB (1941). Название — от произношения GP (General Purpose). Wrangler — прямой наследник армейского джипа. Grand Cherokee, Gladiator. С 2021 г. — часть Stellantis.</explanation>
+  </card>
+  <card>
+    <question media="30_Jeep_2.jpg">Кто изображён на фото №147?</question>
+    <answers>
+      <answer>Subaru</answer>
+      <answer correct="true">Jeep</answer>
+      <answer>Renault</answer>
+      <answer>Bentley</answer>
+      <answer>Mazda</answer>
+    </answers>
+    <hint>Американские внедорожники; семь прорезей решётки; Wrangler, Grand Cherokee</hint>
+    <explanation>Родился как военный Willys MB (1941). Название — от произношения GP (General Purpose). Wrangler — прямой наследник армейского джипа. Grand Cherokee, Gladiator. С 2021 г. — часть Stellantis.</explanation>
+  </card>
+  <card>
+    <question media="30_Jeep_3.jpg">Кто изображён на фото №148?</question>
+    <answers>
+      <answer>Jaguar</answer>
+      <answer correct="true">Jeep</answer>
+      <answer>Kia</answer>
+      <answer>Tesla</answer>
+      <answer>Honda</answer>
+    </answers>
+    <hint>Американские внедорожники; семь прорезей решётки; Wrangler, Grand Cherokee</hint>
+    <explanation>Родился как военный Willys MB (1941). Название — от произношения GP (General Purpose). Wrangler — прямой наследник армейского джипа. Grand Cherokee, Gladiator. С 2021 г. — часть Stellantis.</explanation>
+  </card>
+  <card>
+    <question media="30_Jeep_4.jpg">Кто изображён на фото №149?</question>
+    <answers>
+      <answer correct="true">Jeep</answer>
+      <answer>Hyundai</answer>
+      <answer>Kia</answer>
+      <answer>Volkswagen</answer>
+      <answer>Subaru</answer>
+    </answers>
+    <hint>Американские внедорожники; семь прорезей решётки; Wrangler, Grand Cherokee</hint>
+    <explanation>Родился как военный Willys MB (1941). Название — от произношения GP (General Purpose). Wrangler — прямой наследник армейского джипа. Grand Cherokee, Gladiator. С 2021 г. — часть Stellantis.</explanation>
+  </card>
+  <card>
+    <question media="30_Jeep_5.jpg">Кто изображён на фото №150?</question>
+    <answers>
+      <answer>Hyundai</answer>
+      <answer>Peugeot</answer>
+      <answer correct="true">Jeep</answer>
+      <answer>Mazda</answer>
+      <answer>Ford</answer>
+    </answers>
+    <hint>Американские внедорожники; семь прорезей решётки; Wrangler, Grand Cherokee</hint>
+    <explanation>Родился как военный Willys MB (1941). Название — от произношения GP (General Purpose). Wrangler — прямой наследник армейского джипа. Grand Cherokee, Gladiator. С 2021 г. — часть Stellantis.</explanation>
+  </card>
+</deck>

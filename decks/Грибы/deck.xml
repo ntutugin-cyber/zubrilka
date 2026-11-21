@@ -1,0 +1,2896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<deck title="Узнай гриб по фото">
+  <card>
+    <question media="01_Белый_гриб_1.jpg">Что за гриб изображён на фото №1?</question>
+    <answers>
+      <answer>Свинушка тонкая</answer>
+      <answer correct="true">Белый гриб</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer>Сыроежка</answer>
+    </answers>
+    <hint>Царь леса; трубчатый, с белой ножкой и коричневой шляпкой; мякоть не темнеет</hint>
+    <explanation>Главный съедобный гриб России. Boletus edulus — «съедобный боровик». Растёт в хвойных и лиственных лесах. Мякоть на срезе не меняет цвет — главный признак отличия от ядовитых двойников.</explanation>
+  </card>
+  <card>
+    <question media="01_Белый_гриб_2.jpg">Что за гриб изображён на фото №2?</question>
+    <answers>
+      <answer correct="true">Белый гриб</answer>
+      <answer>Сморчок</answer>
+      <answer>Чесночник</answer>
+      <answer>Моховик</answer>
+      <answer>Груздь настоящий</answer>
+    </answers>
+    <hint>Царь леса; трубчатый, с белой ножкой и коричневой шляпкой; мякоть не темнеет</hint>
+    <explanation>Главный съедобный гриб России. Boletus edulus — «съедобный боровик». Растёт в хвойных и лиственных лесах. Мякоть на срезе не меняет цвет — главный признак отличия от ядовитых двойников.</explanation>
+  </card>
+  <card>
+    <question media="01_Белый_гриб_3.jpg">Что за гриб изображён на фото №3?</question>
+    <answers>
+      <answer>Говорушка серая</answer>
+      <answer correct="true">Белый гриб</answer>
+      <answer>Козляк</answer>
+      <answer>Цезарский гриб</answer>
+      <answer>Сатанинский гриб</answer>
+    </answers>
+    <hint>Царь леса; трубчатый, с белой ножкой и коричневой шляпкой; мякоть не темнеет</hint>
+    <explanation>Главный съедобный гриб России. Boletus edulus — «съедобный боровик». Растёт в хвойных и лиственных лесах. Мякоть на срезе не меняет цвет — главный признак отличия от ядовитых двойников.</explanation>
+  </card>
+  <card>
+    <question media="01_Белый_гриб_4.jpg">Что за гриб изображён на фото №4?</question>
+    <answers>
+      <answer>Зонтик пёстрый</answer>
+      <answer>Волнушка</answer>
+      <answer>Рядовка серая</answer>
+      <answer>Маслёнок</answer>
+      <answer correct="true">Белый гриб</answer>
+    </answers>
+    <hint>Царь леса; трубчатый, с белой ножкой и коричневой шляпкой; мякоть не темнеет</hint>
+    <explanation>Главный съедобный гриб России. Boletus edulus — «съедобный боровик». Растёт в хвойных и лиственных лесах. Мякоть на срезе не меняет цвет — главный признак отличия от ядовитых двойников.</explanation>
+  </card>
+  <card>
+    <question media="01_Белый_гриб_5.jpg">Что за гриб изображён на фото №5?</question>
+    <answers>
+      <answer correct="true">Белый гриб</answer>
+      <answer>Строчок</answer>
+      <answer>Навозник белый</answer>
+      <answer>Опёнок осенний</answer>
+      <answer>Мухомор пантерный</answer>
+    </answers>
+    <hint>Царь леса; трубчатый, с белой ножкой и коричневой шляпкой; мякоть не темнеет</hint>
+    <explanation>Главный съедобный гриб России. Boletus edulus — «съедобный боровик». Растёт в хвойных и лиственных лесах. Мякоть на срезе не меняет цвет — главный признак отличия от ядовитых двойников.</explanation>
+  </card>
+  <card>
+    <question media="02_Подберёзовик_1.jpg">Что за гриб изображён на фото №6?</question>
+    <answers>
+      <answer correct="true">Подберёзовик</answer>
+      <answer>Чага</answer>
+      <answer>Трюфель чёрный</answer>
+      <answer>Польский гриб</answer>
+      <answer>Ежовик жёлтый</answer>
+    </answers>
+    <hint>Трубчатый гриб с длинной белой ножкой в чёрных чешуйках; растёт под берёзами</hint>
+    <explanation>Leccinum scabrum. Ножка покрыта тёмными чешуйками — главный признак. Мякоть на срезе чуть розовеет. Один из самых распространённых съедобных грибов средней полосы.</explanation>
+  </card>
+  <card>
+    <question media="02_Подберёзовик_2.jpg">Что за гриб изображён на фото №7?</question>
+    <answers>
+      <answer>Грифола курчавая</answer>
+      <answer correct="true">Подберёзовик</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Маслёнок</answer>
+      <answer>Моховик</answer>
+    </answers>
+    <hint>Трубчатый гриб с длинной белой ножкой в чёрных чешуйках; растёт под берёзами</hint>
+    <explanation>Leccinum scabrum. Ножка покрыта тёмными чешуйками — главный признак. Мякоть на срезе чуть розовеет. Один из самых распространённых съедобных грибов средней полосы.</explanation>
+  </card>
+  <card>
+    <question media="02_Подберёзовик_3.jpg">Что за гриб изображён на фото №8?</question>
+    <answers>
+      <answer>Цезарский гриб</answer>
+      <answer>Говорушка серая</answer>
+      <answer correct="true">Подберёзовик</answer>
+      <answer>Рыжик</answer>
+      <answer>Грифола курчавая</answer>
+    </answers>
+    <hint>Трубчатый гриб с длинной белой ножкой в чёрных чешуйках; растёт под берёзами</hint>
+    <explanation>Leccinum scabrum. Ножка покрыта тёмными чешуйками — главный признак. Мякоть на срезе чуть розовеет. Один из самых распространённых съедобных грибов средней полосы.</explanation>
+  </card>
+  <card>
+    <question media="02_Подберёзовик_4.jpg">Что за гриб изображён на фото №9?</question>
+    <answers>
+      <answer>Белый гриб</answer>
+      <answer correct="true">Подберёзовик</answer>
+      <answer>Сморчок</answer>
+      <answer>Шампиньон луговой</answer>
+      <answer>Грифола курчавая</answer>
+    </answers>
+    <hint>Трубчатый гриб с длинной белой ножкой в чёрных чешуйках; растёт под берёзами</hint>
+    <explanation>Leccinum scabrum. Ножка покрыта тёмными чешуйками — главный признак. Мякоть на срезе чуть розовеет. Один из самых распространённых съедобных грибов средней полосы.</explanation>
+  </card>
+  <card>
+    <question media="02_Подберёзовик_5.jpg">Что за гриб изображён на фото №10?</question>
+    <answers>
+      <answer>Белый гриб</answer>
+      <answer>Свинушка тонкая</answer>
+      <answer>Маслёнок</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer correct="true">Подберёзовик</answer>
+    </answers>
+    <hint>Трубчатый гриб с длинной белой ножкой в чёрных чешуйках; растёт под берёзами</hint>
+    <explanation>Leccinum scabrum. Ножка покрыта тёмными чешуйками — главный признак. Мякоть на срезе чуть розовеет. Один из самых распространённых съедобных грибов средней полосы.</explanation>
+  </card>
+  <card>
+    <question media="03_Подосиновик_1.jpg">Что за гриб изображён на фото №11?</question>
+    <answers>
+      <answer>Польский гриб</answer>
+      <answer correct="true">Подосиновик</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer>Мухомор красный</answer>
+    </answers>
+    <hint>Трубчатый гриб с ярко-оранжевой шляпкой; мякоть на срезе синеет</hint>
+    <explanation>Leccinum aurantiacum. Растёт под осинами, но встречается и под другими деревьями. Быстрое посинение мякоти на срезе — характерный признак. Отличный съедобный гриб.</explanation>
+  </card>
+  <card>
+    <question media="03_Подосиновик_2.jpg">Что за гриб изображён на фото №12?</question>
+    <answers>
+      <answer>Грифола курчавая</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Сыроежка</answer>
+      <answer>Дождевик гигантский</answer>
+      <answer correct="true">Подосиновик</answer>
+    </answers>
+    <hint>Трубчатый гриб с ярко-оранжевой шляпкой; мякоть на срезе синеет</hint>
+    <explanation>Leccinum aurantiacum. Растёт под осинами, но встречается и под другими деревьями. Быстрое посинение мякоти на срезе — характерный признак. Отличный съедобный гриб.</explanation>
+  </card>
+  <card>
+    <question media="03_Подосиновик_3.jpg">Что за гриб изображён на фото №13?</question>
+    <answers>
+      <answer>Грифола курчавая</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Рядовка серая</answer>
+      <answer correct="true">Подосиновик</answer>
+      <answer>Энтолома ядовитая</answer>
+    </answers>
+    <hint>Трубчатый гриб с ярко-оранжевой шляпкой; мякоть на срезе синеет</hint>
+    <explanation>Leccinum aurantiacum. Растёт под осинами, но встречается и под другими деревьями. Быстрое посинение мякоти на срезе — характерный признак. Отличный съедобный гриб.</explanation>
+  </card>
+  <card>
+    <question media="03_Подосиновик_4.jpg">Что за гриб изображён на фото №14?</question>
+    <answers>
+      <answer>Зонтик пёстрый</answer>
+      <answer correct="true">Подосиновик</answer>
+      <answer>Подберёзовик</answer>
+      <answer>Ежовик жёлтый</answer>
+      <answer>Галерина окаймлённая</answer>
+    </answers>
+    <hint>Трубчатый гриб с ярко-оранжевой шляпкой; мякоть на срезе синеет</hint>
+    <explanation>Leccinum aurantiacum. Растёт под осинами, но встречается и под другими деревьями. Быстрое посинение мякоти на срезе — характерный признак. Отличный съедобный гриб.</explanation>
+  </card>
+  <card>
+    <question media="03_Подосиновик_5.jpg">Что за гриб изображён на фото №15?</question>
+    <answers>
+      <answer>Навозник белый</answer>
+      <answer>Волнушка</answer>
+      <answer>Колпак кольчатый</answer>
+      <answer>Вешенка</answer>
+      <answer correct="true">Подосиновик</answer>
+    </answers>
+    <hint>Трубчатый гриб с ярко-оранжевой шляпкой; мякоть на срезе синеет</hint>
+    <explanation>Leccinum aurantiacum. Растёт под осинами, но встречается и под другими деревьями. Быстрое посинение мякоти на срезе — характерный признак. Отличный съедобный гриб.</explanation>
+  </card>
+  <card>
+    <question media="04_Маслёнок_1.jpg">Что за гриб изображён на фото №16?</question>
+    <answers>
+      <answer>Трюфель чёрный</answer>
+      <answer>Шампиньон луговой</answer>
+      <answer>Козляк</answer>
+      <answer>Опёнок зимний</answer>
+      <answer correct="true">Маслёнок</answer>
+    </answers>
+    <hint>Трубчатый гриб со скользкой слизистой шляпкой; плёнка снизу у молодых</hint>
+    <explanation>Suillus luteus. Растёт под соснами. Плёнку со шляпки перед готовкой снимают — она даёт горечь. Один из самых ранних осенних грибов.</explanation>
+  </card>
+  <card>
+    <question media="04_Маслёнок_2.jpg">Что за гриб изображён на фото №17?</question>
+    <answers>
+      <answer correct="true">Маслёнок</answer>
+      <answer>Колпак кольчатый</answer>
+      <answer>Волнушка</answer>
+      <answer>Говорушка серая</answer>
+      <answer>Сыроежка</answer>
+    </answers>
+    <hint>Трубчатый гриб со скользкой слизистой шляпкой; плёнка снизу у молодых</hint>
+    <explanation>Suillus luteus. Растёт под соснами. Плёнку со шляпки перед готовкой снимают — она даёт горечь. Один из самых ранних осенних грибов.</explanation>
+  </card>
+  <card>
+    <question media="04_Маслёнок_3.jpg">Что за гриб изображён на фото №18?</question>
+    <answers>
+      <answer>Груздь настоящий</answer>
+      <answer>Сморчок</answer>
+      <answer>Козляк</answer>
+      <answer correct="true">Маслёнок</answer>
+      <answer>Белый гриб</answer>
+    </answers>
+    <hint>Трубчатый гриб со скользкой слизистой шляпкой; плёнка снизу у молодых</hint>
+    <explanation>Suillus luteus. Растёт под соснами. Плёнку со шляпки перед готовкой снимают — она даёт горечь. Один из самых ранних осенних грибов.</explanation>
+  </card>
+  <card>
+    <question media="04_Маслёнок_4.jpg">Что за гриб изображён на фото №19?</question>
+    <answers>
+      <answer>Волнушка</answer>
+      <answer>Сыроежка</answer>
+      <answer>Колпак кольчатый</answer>
+      <answer>Бледная поганка</answer>
+      <answer correct="true">Маслёнок</answer>
+    </answers>
+    <hint>Трубчатый гриб со скользкой слизистой шляпкой; плёнка снизу у молодых</hint>
+    <explanation>Suillus luteus. Растёт под соснами. Плёнку со шляпки перед готовкой снимают — она даёт горечь. Один из самых ранних осенних грибов.</explanation>
+  </card>
+  <card>
+    <question media="04_Маслёнок_5.jpg">Что за гриб изображён на фото №20?</question>
+    <answers>
+      <answer>Строчок</answer>
+      <answer>Вешенка</answer>
+      <answer>Свинушка тонкая</answer>
+      <answer correct="true">Маслёнок</answer>
+      <answer>Лисичка настоящая</answer>
+    </answers>
+    <hint>Трубчатый гриб со скользкой слизистой шляпкой; плёнка снизу у молодых</hint>
+    <explanation>Suillus luteus. Растёт под соснами. Плёнку со шляпки перед готовкой снимают — она даёт горечь. Один из самых ранних осенних грибов.</explanation>
+  </card>
+  <card>
+    <question media="05_Лисичка_настоящая_1.jpg">Что за гриб изображён на фото №21?</question>
+    <answers>
+      <answer>Дождевик гигантский</answer>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Навозник белый</answer>
+      <answer correct="true">Лисичка настоящая</answer>
+      <answer>Грифола курчавая</answer>
+    </answers>
+    <hint>Ярко-жёлтая, воронковидная, со сросшимися пластинками-складками</hint>
+    <explanation>Cantharellus cibarius. Никогда не бывает червивой — содержит хиноманнозу, убивающую паразитов. Растёт группами в лиственных и хвойных лесах. Отличный съедобный гриб.</explanation>
+  </card>
+  <card>
+    <question media="05_Лисичка_настоящая_2.jpg">Что за гриб изображён на фото №22?</question>
+    <answers>
+      <answer>Рыжик</answer>
+      <answer correct="true">Лисичка настоящая</answer>
+      <answer>Зонтик пёстрый</answer>
+      <answer>Рядовка серая</answer>
+      <answer>Моховик</answer>
+    </answers>
+    <hint>Ярко-жёлтая, воронковидная, со сросшимися пластинками-складками</hint>
+    <explanation>Cantharellus cibarius. Никогда не бывает червивой — содержит хиноманнозу, убивающую паразитов. Растёт группами в лиственных и хвойных лесах. Отличный съедобный гриб.</explanation>
+  </card>
+  <card>
+    <question media="05_Лисичка_настоящая_3.jpg">Что за гриб изображён на фото №23?</question>
+    <answers>
+      <answer>Трюфель чёрный</answer>
+      <answer>Белый гриб</answer>
+      <answer>Цезарский гриб</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer correct="true">Лисичка настоящая</answer>
+    </answers>
+    <hint>Ярко-жёлтая, воронковидная, со сросшимися пластинками-складками</hint>
+    <explanation>Cantharellus cibarius. Никогда не бывает червивой — содержит хиноманнозу, убивающую паразитов. Растёт группами в лиственных и хвойных лесах. Отличный съедобный гриб.</explanation>
+  </card>
+  <card>
+    <question media="05_Лисичка_настоящая_4.jpg">Что за гриб изображён на фото №24?</question>
+    <answers>
+      <answer correct="true">Лисичка настоящая</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer>Вешенка</answer>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Цезарский гриб</answer>
+    </answers>
+    <hint>Ярко-жёлтая, воронковидная, со сросшимися пластинками-складками</hint>
+    <explanation>Cantharellus cibarius. Никогда не бывает червивой — содержит хиноманнозу, убивающую паразитов. Растёт группами в лиственных и хвойных лесах. Отличный съедобный гриб.</explanation>
+  </card>
+  <card>
+    <question media="05_Лисичка_настоящая_5.jpg">Что за гриб изображён на фото №25?</question>
+    <answers>
+      <answer>Подберёзовик</answer>
+      <answer>Волнушка</answer>
+      <answer>Польский гриб</answer>
+      <answer>Бледная поганка</answer>
+      <answer correct="true">Лисичка настоящая</answer>
+    </answers>
+    <hint>Ярко-жёлтая, воронковидная, со сросшимися пластинками-складками</hint>
+    <explanation>Cantharellus cibarius. Никогда не бывает червивой — содержит хиноманнозу, убивающую паразитов. Растёт группами в лиственных и хвойных лесах. Отличный съедобный гриб.</explanation>
+  </card>
+  <card>
+    <question media="06_Рыжик_1.jpg">Что за гриб изображён на фото №26?</question>
+    <answers>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer>Сыроежка</answer>
+      <answer>Колпак кольчатый</answer>
+      <answer>Груздь настоящий</answer>
+      <answer correct="true">Рыжик</answer>
+    </answers>
+    <hint>Оранжевый пластинчатый гриб; млечный сок оранжевый, зеленеет на воздухе</hint>
+    <explanation>Lactarius deliciosus. Растёт под соснами. Млечный сок на воздухе зеленеет — уникальный признак. Можно есть сырым с солью. Один из самых ценных грибов.</explanation>
+  </card>
+  <card>
+    <question media="06_Рыжик_2.jpg">Что за гриб изображён на фото №27?</question>
+    <answers>
+      <answer correct="true">Рыжик</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer>Цезарский гриб</answer>
+      <answer>Маслёнок</answer>
+      <answer>Дубовик</answer>
+    </answers>
+    <hint>Оранжевый пластинчатый гриб; млечный сок оранжевый, зеленеет на воздухе</hint>
+    <explanation>Lactarius deliciosus. Растёт под соснами. Млечный сок на воздухе зеленеет — уникальный признак. Можно есть сырым с солью. Один из самых ценных грибов.</explanation>
+  </card>
+  <card>
+    <question media="06_Рыжик_3.jpg">Что за гриб изображён на фото №28?</question>
+    <answers>
+      <answer>Дождевик съедобный</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Вешенка</answer>
+      <answer correct="true">Рыжик</answer>
+      <answer>Галерина окаймлённая</answer>
+    </answers>
+    <hint>Оранжевый пластинчатый гриб; млечный сок оранжевый, зеленеет на воздухе</hint>
+    <explanation>Lactarius deliciosus. Растёт под соснами. Млечный сок на воздухе зеленеет — уникальный признак. Можно есть сырым с солью. Один из самых ценных грибов.</explanation>
+  </card>
+  <card>
+    <question media="06_Рыжик_4.jpg">Что за гриб изображён на фото №29?</question>
+    <answers>
+      <answer>Козляк</answer>
+      <answer>Говорушка серая</answer>
+      <answer>Бледная поганка</answer>
+      <answer>Галерина окаймлённая</answer>
+      <answer correct="true">Рыжик</answer>
+    </answers>
+    <hint>Оранжевый пластинчатый гриб; млечный сок оранжевый, зеленеет на воздухе</hint>
+    <explanation>Lactarius deliciosus. Растёт под соснами. Млечный сок на воздухе зеленеет — уникальный признак. Можно есть сырым с солью. Один из самых ценных грибов.</explanation>
+  </card>
+  <card>
+    <question media="06_Рыжик_5.png">Что за гриб изображён на фото №30?</question>
+    <answers>
+      <answer>Лисичка настоящая</answer>
+      <answer>Опёнок зимний</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer>Навозник белый</answer>
+      <answer correct="true">Рыжик</answer>
+    </answers>
+    <hint>Оранжевый пластинчатый гриб; млечный сок оранжевый, зеленеет на воздухе</hint>
+    <explanation>Lactarius deliciosus. Растёт под соснами. Млечный сок на воздухе зеленеет — уникальный признак. Можно есть сырым с солью. Один из самых ценных грибов.</explanation>
+  </card>
+  <card>
+    <question media="07_Опёнок_осенний_1.jpg">Что за гриб изображён на фото №31?</question>
+    <answers>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer correct="true">Опёнок осенний</answer>
+      <answer>Рядовка серая</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer>Польский гриб</answer>
+    </answers>
+    <hint>Пластинчатый, растёт большими пучками на пнях; кольцо на ножке</hint>
+    <explanation>Armillaria mellea. Один из самых массовых осенних грибов. Кольцо на ножке — главный признак отличия от ядовитых ложноопят. Условно-съедобный: требует отваривания.</explanation>
+  </card>
+  <card>
+    <question media="07_Опёнок_осенний_2.jpg">Что за гриб изображён на фото №32?</question>
+    <answers>
+      <answer>Энтолома ядовитая</answer>
+      <answer>Польский гриб</answer>
+      <answer>Рядовка серая</answer>
+      <answer>Цезарский гриб</answer>
+      <answer correct="true">Опёнок осенний</answer>
+    </answers>
+    <hint>Пластинчатый, растёт большими пучками на пнях; кольцо на ножке</hint>
+    <explanation>Armillaria mellea. Один из самых массовых осенних грибов. Кольцо на ножке — главный признак отличия от ядовитых ложноопят. Условно-съедобный: требует отваривания.</explanation>
+  </card>
+  <card>
+    <question media="07_Опёнок_осенний_3.jpg">Что за гриб изображён на фото №33?</question>
+    <answers>
+      <answer>Лисичка настоящая</answer>
+      <answer>Цезарский гриб</answer>
+      <answer correct="true">Опёнок осенний</answer>
+      <answer>Говорушка серая</answer>
+      <answer>Сыроежка</answer>
+    </answers>
+    <hint>Пластинчатый, растёт большими пучками на пнях; кольцо на ножке</hint>
+    <explanation>Armillaria mellea. Один из самых массовых осенних грибов. Кольцо на ножке — главный признак отличия от ядовитых ложноопят. Условно-съедобный: требует отваривания.</explanation>
+  </card>
+  <card>
+    <question media="07_Опёнок_осенний_4.jpg">Что за гриб изображён на фото №34?</question>
+    <answers>
+      <answer>Мухомор пантерный</answer>
+      <answer correct="true">Опёнок осенний</answer>
+      <answer>Белый гриб</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer>Дождевик съедобный</answer>
+    </answers>
+    <hint>Пластинчатый, растёт большими пучками на пнях; кольцо на ножке</hint>
+    <explanation>Armillaria mellea. Один из самых массовых осенних грибов. Кольцо на ножке — главный признак отличия от ядовитых ложноопят. Условно-съедобный: требует отваривания.</explanation>
+  </card>
+  <card>
+    <question media="07_Опёнок_осенний_5.jpg">Что за гриб изображён на фото №35?</question>
+    <answers>
+      <answer correct="true">Опёнок осенний</answer>
+      <answer>Сморчок</answer>
+      <answer>Говорушка серая</answer>
+      <answer>Мухомор красный</answer>
+      <answer>Энтолома ядовитая</answer>
+    </answers>
+    <hint>Пластинчатый, растёт большими пучками на пнях; кольцо на ножке</hint>
+    <explanation>Armillaria mellea. Один из самых массовых осенних грибов. Кольцо на ножке — главный признак отличия от ядовитых ложноопят. Условно-съедобный: требует отваривания.</explanation>
+  </card>
+  <card>
+    <question media="08_Шампиньон_луговой_1.jpg">Что за гриб изображён на фото №36?</question>
+    <answers>
+      <answer correct="true">Шампиньон луговой</answer>
+      <answer>Трюфель чёрный</answer>
+      <answer>Рыжик</answer>
+      <answer>Грифола курчавая</answer>
+      <answer>Сатанинский гриб</answer>
+    </answers>
+    <hint>Пластинчатый, белый, с кольцом; растёт на лугах и в садах</hint>
+    <explanation>Agaricus campestris. Пластинки у молодых розовые, у старых — шоколадно-коричневые. Мякоть желтеет. Отличать от смертельной бледной поганки: у шампиньона нет вольвы и пластинки не белые!</explanation>
+  </card>
+  <card>
+    <question media="08_Шампиньон_луговой_2.jpg">Что за гриб изображён на фото №37?</question>
+    <answers>
+      <answer>Грифола курчавая</answer>
+      <answer correct="true">Шампиньон луговой</answer>
+      <answer>Опёнок осенний</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer>Белый гриб</answer>
+    </answers>
+    <hint>Пластинчатый, белый, с кольцом; растёт на лугах и в садах</hint>
+    <explanation>Agaricus campestris. Пластинки у молодых розовые, у старых — шоколадно-коричневые. Мякоть желтеет. Отличать от смертельной бледной поганки: у шампиньона нет вольвы и пластинки не белые!</explanation>
+  </card>
+  <card>
+    <question media="08_Шампиньон_луговой_3.jpg">Что за гриб изображён на фото №38?</question>
+    <answers>
+      <answer>Мухомор красный</answer>
+      <answer correct="true">Шампиньон луговой</answer>
+      <answer>Моховик</answer>
+      <answer>Дождевик гигантский</answer>
+      <answer>Маслёнок</answer>
+    </answers>
+    <hint>Пластинчатый, белый, с кольцом; растёт на лугах и в садах</hint>
+    <explanation>Agaricus campestris. Пластинки у молодых розовые, у старых — шоколадно-коричневые. Мякоть желтеет. Отличать от смертельной бледной поганки: у шампиньона нет вольвы и пластинки не белые!</explanation>
+  </card>
+  <card>
+    <question media="08_Шампиньон_луговой_4.jpg">Что за гриб изображён на фото №39?</question>
+    <answers>
+      <answer>Мухомор красный</answer>
+      <answer correct="true">Шампиньон луговой</answer>
+      <answer>Цезарский гриб</answer>
+      <answer>Ежовик жёлтый</answer>
+      <answer>Подберёзовик</answer>
+    </answers>
+    <hint>Пластинчатый, белый, с кольцом; растёт на лугах и в садах</hint>
+    <explanation>Agaricus campestris. Пластинки у молодых розовые, у старых — шоколадно-коричневые. Мякоть желтеет. Отличать от смертельной бледной поганки: у шампиньона нет вольвы и пластинки не белые!</explanation>
+  </card>
+  <card>
+    <question media="08_Шампиньон_луговой_5.jpg">Что за гриб изображён на фото №40?</question>
+    <answers>
+      <answer correct="true">Шампиньон луговой</answer>
+      <answer>Опёнок осенний</answer>
+      <answer>Подосиновик</answer>
+      <answer>Чесночник</answer>
+      <answer>Маслёнок</answer>
+    </answers>
+    <hint>Пластинчатый, белый, с кольцом; растёт на лугах и в садах</hint>
+    <explanation>Agaricus campestris. Пластинки у молодых розовые, у старых — шоколадно-коричневые. Мякоть желтеет. Отличать от смертельной бледной поганки: у шампиньона нет вольвы и пластинки не белые!</explanation>
+  </card>
+  <card>
+    <question media="10_Моховик_1.jpg">Что за гриб изображён на фото №41?</question>
+    <answers>
+      <answer>Грифола курчавая</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer>Груздь настоящий</answer>
+      <answer correct="true">Моховик</answer>
+      <answer>Лисичка настоящая</answer>
+    </answers>
+    <hint>Трубчатый, растёт во мху; мякоть синеет на срезе</hint>
+    <explanation>Xerocomus. Шляпка часто бархатистая, может трескаться. Мякоть быстро синеет — безвредно. Съедобный, но уступает белому по вкусу. Часто путают с польским грибом.</explanation>
+  </card>
+  <card>
+    <question media="10_Моховик_2.jpg">Что за гриб изображён на фото №42?</question>
+    <answers>
+      <answer correct="true">Моховик</answer>
+      <answer>Дождевик гигантский</answer>
+      <answer>Маслёнок</answer>
+      <answer>Ежовик жёлтый</answer>
+      <answer>Волнушка</answer>
+    </answers>
+    <hint>Трубчатый, растёт во мху; мякоть синеет на срезе</hint>
+    <explanation>Xerocomus. Шляпка часто бархатистая, может трескаться. Мякоть быстро синеет — безвредно. Съедобный, но уступает белому по вкусу. Часто путают с польским грибом.</explanation>
+  </card>
+  <card>
+    <question media="10_Моховик_3.jpg">Что за гриб изображён на фото №43?</question>
+    <answers>
+      <answer>Маслёнок</answer>
+      <answer>Трюфель чёрный</answer>
+      <answer>Вешенка</answer>
+      <answer correct="true">Моховик</answer>
+      <answer>Шампиньон луговой</answer>
+    </answers>
+    <hint>Трубчатый, растёт во мху; мякоть синеет на срезе</hint>
+    <explanation>Xerocomus. Шляпка часто бархатистая, может трескаться. Мякоть быстро синеет — безвредно. Съедобный, но уступает белому по вкусу. Часто путают с польским грибом.</explanation>
+  </card>
+  <card>
+    <question media="10_Моховик_4.jpg">Что за гриб изображён на фото №44?</question>
+    <answers>
+      <answer correct="true">Моховик</answer>
+      <answer>Груздь настоящий</answer>
+      <answer>Волнушка</answer>
+      <answer>Говорушка серая</answer>
+      <answer>Опёнок осенний</answer>
+    </answers>
+    <hint>Трубчатый, растёт во мху; мякоть синеет на срезе</hint>
+    <explanation>Xerocomus. Шляпка часто бархатистая, может трескаться. Мякоть быстро синеет — безвредно. Съедобный, но уступает белому по вкусу. Часто путают с польским грибом.</explanation>
+  </card>
+  <card>
+    <question media="10_Моховик_5.jpg">Что за гриб изображён на фото №45?</question>
+    <answers>
+      <answer correct="true">Моховик</answer>
+      <answer>Говорушка серая</answer>
+      <answer>Вешенка</answer>
+      <answer>Рыжик</answer>
+      <answer>Мухомор красный</answer>
+    </answers>
+    <hint>Трубчатый, растёт во мху; мякоть синеет на срезе</hint>
+    <explanation>Xerocomus. Шляпка часто бархатистая, может трескаться. Мякоть быстро синеет — безвредно. Съедобный, но уступает белому по вкусу. Часто путают с польским грибом.</explanation>
+  </card>
+  <card>
+    <question media="11_Сыроежка_1.jpg">Что за гриб изображён на фото №46?</question>
+    <answers>
+      <answer>Белый гриб</answer>
+      <answer correct="true">Сыроежка</answer>
+      <answer>Рыжик</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer>Лисичка настоящая</answer>
+    </answers>
+    <hint>Пластинчатый, с яркой шляпкой (красная, жёлтая, зелёная); хрупкая ножка</hint>
+    <explanation>Russula. Более 200 видов. Большинство съедобны после отваривания. Жгуче-едкие виды (R. emetica) несъедобны. Хрупкость ножки — характерный признак.</explanation>
+  </card>
+  <card>
+    <question media="11_Сыроежка_2.jpg">Что за гриб изображён на фото №47?</question>
+    <answers>
+      <answer>Дождевик съедобный</answer>
+      <answer correct="true">Сыроежка</answer>
+      <answer>Говорушка серая</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer>Груздь настоящий</answer>
+    </answers>
+    <hint>Пластинчатый, с яркой шляпкой (красная, жёлтая, зелёная); хрупкая ножка</hint>
+    <explanation>Russula. Более 200 видов. Большинство съедобны после отваривания. Жгуче-едкие виды (R. emetica) несъедобны. Хрупкость ножки — характерный признак.</explanation>
+  </card>
+  <card>
+    <question media="11_Сыроежка_3.jpg">Что за гриб изображён на фото №48?</question>
+    <answers>
+      <answer>Грифола курчавая</answer>
+      <answer correct="true">Сыроежка</answer>
+      <answer>Опёнок осенний</answer>
+      <answer>Подберёзовик</answer>
+      <answer>Ежовик жёлтый</answer>
+    </answers>
+    <hint>Пластинчатый, с яркой шляпкой (красная, жёлтая, зелёная); хрупкая ножка</hint>
+    <explanation>Russula. Более 200 видов. Большинство съедобны после отваривания. Жгуче-едкие виды (R. emetica) несъедобны. Хрупкость ножки — характерный признак.</explanation>
+  </card>
+  <card>
+    <question media="11_Сыроежка_4.jpg">Что за гриб изображён на фото №49?</question>
+    <answers>
+      <answer>Рыжик</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer correct="true">Сыроежка</answer>
+      <answer>Польский гриб</answer>
+      <answer>Рядовка серая</answer>
+    </answers>
+    <hint>Пластинчатый, с яркой шляпкой (красная, жёлтая, зелёная); хрупкая ножка</hint>
+    <explanation>Russula. Более 200 видов. Большинство съедобны после отваривания. Жгуче-едкие виды (R. emetica) несъедобны. Хрупкость ножки — характерный признак.</explanation>
+  </card>
+  <card>
+    <question media="11_Сыроежка_5.jpg">Что за гриб изображён на фото №50?</question>
+    <answers>
+      <answer>Рыжик</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer>Говорушка серая</answer>
+      <answer correct="true">Сыроежка</answer>
+    </answers>
+    <hint>Пластинчатый, с яркой шляпкой (красная, жёлтая, зелёная); хрупкая ножка</hint>
+    <explanation>Russula. Более 200 видов. Большинство съедобны после отваривания. Жгуче-едкие виды (R. emetica) несъедобны. Хрупкость ножки — характерный признак.</explanation>
+  </card>
+  <card>
+    <question media="12_Груздь_настоящий_1.jpg">Что за гриб изображён на фото №51?</question>
+    <answers>
+      <answer>Чага</answer>
+      <answer>Трюфель чёрный</answer>
+      <answer correct="true">Груздь настоящий</answer>
+      <answer>Опёнок зимний</answer>
+      <answer>Волнушка</answer>
+    </answers>
+    <hint>Белый пластинчатый с воронковидной шляпкой; млечный сок едкий, желтеет</hint>
+    <explanation>Lactarius resimus. Один из самых ценных грибов для засолки. Требует длительного вымачивания — млечный сок очень едкий. Растёт под берёзами.</explanation>
+  </card>
+  <card>
+    <question media="12_Груздь_настоящий_2.png">Что за гриб изображён на фото №52?</question>
+    <answers>
+      <answer correct="true">Груздь настоящий</answer>
+      <answer>Рыжик</answer>
+      <answer>Вешенка</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Галерина окаймлённая</answer>
+    </answers>
+    <hint>Белый пластинчатый с воронковидной шляпкой; млечный сок едкий, желтеет</hint>
+    <explanation>Lactarius resimus. Один из самых ценных грибов для засолки. Требует длительного вымачивания — млечный сок очень едкий. Растёт под берёзами.</explanation>
+  </card>
+  <card>
+    <question media="12_Груздь_настоящий_3.jpg">Что за гриб изображён на фото №53?</question>
+    <answers>
+      <answer correct="true">Груздь настоящий</answer>
+      <answer>Мухомор пантерный</answer>
+      <answer>Сморчок</answer>
+      <answer>Козляк</answer>
+      <answer>Подосиновик</answer>
+    </answers>
+    <hint>Белый пластинчатый с воронковидной шляпкой; млечный сок едкий, желтеет</hint>
+    <explanation>Lactarius resimus. Один из самых ценных грибов для засолки. Требует длительного вымачивания — млечный сок очень едкий. Растёт под берёзами.</explanation>
+  </card>
+  <card>
+    <question media="12_Груздь_настоящий_4.jpg">Что за гриб изображён на фото №54?</question>
+    <answers>
+      <answer>Рядовка серая</answer>
+      <answer correct="true">Груздь настоящий</answer>
+      <answer>Рыжик</answer>
+      <answer>Мухомор красный</answer>
+      <answer>Подберёзовик</answer>
+    </answers>
+    <hint>Белый пластинчатый с воронковидной шляпкой; млечный сок едкий, желтеет</hint>
+    <explanation>Lactarius resimus. Один из самых ценных грибов для засолки. Требует длительного вымачивания — млечный сок очень едкий. Растёт под берёзами.</explanation>
+  </card>
+  <card>
+    <question media="12_Груздь_настоящий_5.jpg">Что за гриб изображён на фото №55?</question>
+    <answers>
+      <answer>Маслёнок</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer correct="true">Груздь настоящий</answer>
+      <answer>Сморчок</answer>
+      <answer>Мухомор пантерный</answer>
+    </answers>
+    <hint>Белый пластинчатый с воронковидной шляпкой; млечный сок едкий, желтеет</hint>
+    <explanation>Lactarius resimus. Один из самых ценных грибов для засолки. Требует длительного вымачивания — млечный сок очень едкий. Растёт под берёзами.</explanation>
+  </card>
+  <card>
+    <question media="13_Волнушка_1.jpg">Что за гриб изображён на фото №56?</question>
+    <answers>
+      <answer>Белый гриб</answer>
+      <answer correct="true">Волнушка</answer>
+      <answer>Сморчок</answer>
+      <answer>Навозник белый</answer>
+      <answer>Чесночник</answer>
+    </answers>
+    <hint>Розово-оранжевый пластинчатый с концентрическими зонами на шляпке</hint>
+    <explanation>Lactarius torminosus. Растёт под берёзами. Млечный сок белый, едкий. Условно-съедобный — только для засолки после вымачивания.</explanation>
+  </card>
+  <card>
+    <question media="13_Волнушка_2.jpg">Что за гриб изображён на фото №57?</question>
+    <answers>
+      <answer>Сморчок</answer>
+      <answer>Маслёнок</answer>
+      <answer>Белый гриб</answer>
+      <answer correct="true">Волнушка</answer>
+      <answer>Энтолома ядовитая</answer>
+    </answers>
+    <hint>Розово-оранжевый пластинчатый с концентрическими зонами на шляпке</hint>
+    <explanation>Lactarius torminosus. Растёт под берёзами. Млечный сок белый, едкий. Условно-съедобный — только для засолки после вымачивания.</explanation>
+  </card>
+  <card>
+    <question media="13_Волнушка_3.jpg">Что за гриб изображён на фото №58?</question>
+    <answers>
+      <answer>Грифола курчавая</answer>
+      <answer>Дождевик гигантский</answer>
+      <answer>Сыроежка</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer correct="true">Волнушка</answer>
+    </answers>
+    <hint>Розово-оранжевый пластинчатый с концентрическими зонами на шляпке</hint>
+    <explanation>Lactarius torminosus. Растёт под берёзами. Млечный сок белый, едкий. Условно-съедобный — только для засолки после вымачивания.</explanation>
+  </card>
+  <card>
+    <question media="13_Волнушка_4.jpg">Что за гриб изображён на фото №59?</question>
+    <answers>
+      <answer>Мухомор пантерный</answer>
+      <answer>Бледная поганка</answer>
+      <answer>Опёнок осенний</answer>
+      <answer correct="true">Волнушка</answer>
+      <answer>Дождевик гигантский</answer>
+    </answers>
+    <hint>Розово-оранжевый пластинчатый с концентрическими зонами на шляпке</hint>
+    <explanation>Lactarius torminosus. Растёт под берёзами. Млечный сок белый, едкий. Условно-съедобный — только для засолки после вымачивания.</explanation>
+  </card>
+  <card>
+    <question media="13_Волнушка_5.jpg">Что за гриб изображён на фото №60?</question>
+    <answers>
+      <answer>Ежовик жёлтый</answer>
+      <answer>Цезарский гриб</answer>
+      <answer correct="true">Волнушка</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer>Зонтик пёстрый</answer>
+    </answers>
+    <hint>Розово-оранжевый пластинчатый с концентрическими зонами на шляпке</hint>
+    <explanation>Lactarius torminosus. Растёт под берёзами. Млечный сок белый, едкий. Условно-съедобный — только для засолки после вымачивания.</explanation>
+  </card>
+  <card>
+    <question media="14_Польский_гриб_1.jpg">Что за гриб изображён на фото №61?</question>
+    <answers>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Вешенка</answer>
+      <answer>Подосиновик</answer>
+      <answer>Подберёзовик</answer>
+      <answer correct="true">Польский гриб</answer>
+    </answers>
+    <hint>Трубчатый, каштаново-коричневый; мякоть синеет; растёт в хвойниках</hint>
+    <explanation>Imleria badia (Xerocomus badius). Похож на моховик, но мякоть более явно синеет. Съедобный, вкусный. Часто встречается в сосновых лесах.</explanation>
+  </card>
+  <card>
+    <question media="14_Польский_гриб_2.jpg">Что за гриб изображён на фото №62?</question>
+    <answers>
+      <answer>Колпак кольчатый</answer>
+      <answer>Маслёнок</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer correct="true">Польский гриб</answer>
+      <answer>Сыроежка</answer>
+    </answers>
+    <hint>Трубчатый, каштаново-коричневый; мякоть синеет; растёт в хвойниках</hint>
+    <explanation>Imleria badia (Xerocomus badius). Похож на моховик, но мякоть более явно синеет. Съедобный, вкусный. Часто встречается в сосновых лесах.</explanation>
+  </card>
+  <card>
+    <question media="14_Польский_гриб_3.jpg">Что за гриб изображён на фото №63?</question>
+    <answers>
+      <answer>Вешенка</answer>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Подберёзовик</answer>
+      <answer>Бледная поганка</answer>
+      <answer correct="true">Польский гриб</answer>
+    </answers>
+    <hint>Трубчатый, каштаново-коричневый; мякоть синеет; растёт в хвойниках</hint>
+    <explanation>Imleria badia (Xerocomus badius). Похож на моховик, но мякоть более явно синеет. Съедобный, вкусный. Часто встречается в сосновых лесах.</explanation>
+  </card>
+  <card>
+    <question media="14_Польский_гриб_4.jpg">Что за гриб изображён на фото №64?</question>
+    <answers>
+      <answer>Говорушка серая</answer>
+      <answer>Вешенка</answer>
+      <answer>Трюфель чёрный</answer>
+      <answer>Белый гриб</answer>
+      <answer correct="true">Польский гриб</answer>
+    </answers>
+    <hint>Трубчатый, каштаново-коричневый; мякоть синеет; растёт в хвойниках</hint>
+    <explanation>Imleria badia (Xerocomus badius). Похож на моховик, но мякоть более явно синеет. Съедобный, вкусный. Часто встречается в сосновых лесах.</explanation>
+  </card>
+  <card>
+    <question media="14_Польский_гриб_5.jpg">Что за гриб изображён на фото №65?</question>
+    <answers>
+      <answer>Дубовик</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer correct="true">Польский гриб</answer>
+      <answer>Дождевик гигантский</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+    </answers>
+    <hint>Трубчатый, каштаново-коричневый; мякоть синеет; растёт в хвойниках</hint>
+    <explanation>Imleria badia (Xerocomus badius). Похож на моховик, но мякоть более явно синеет. Съедобный, вкусный. Часто встречается в сосновых лесах.</explanation>
+  </card>
+  <card>
+    <question media="15_Козляк_1.jpg">Что за гриб изображён на фото №66?</question>
+    <answers>
+      <answer correct="true">Козляк</answer>
+      <answer>Колпак кольчатый</answer>
+      <answer>Рыжик</answer>
+      <answer>Мухомор красный</answer>
+      <answer>Навозник белый</answer>
+    </answers>
+    <hint>Трубчатый, рыжевато-коричневый; крупные угловатые поры; растёт в сосняках</hint>
+    <explanation>Suillus bovinus. Похож на маслёнок, но без слизи и плёнки. Поры крупные, угловатые. Съедобный, но посредственный. Часто растёт рядом с маслятами.</explanation>
+  </card>
+  <card>
+    <question media="15_Козляк_2.jpg">Что за гриб изображён на фото №67?</question>
+    <answers>
+      <answer>Рядовка серая</answer>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Белый гриб</answer>
+      <answer>Волнушка</answer>
+      <answer correct="true">Козляк</answer>
+    </answers>
+    <hint>Трубчатый, рыжевато-коричневый; крупные угловатые поры; растёт в сосняках</hint>
+    <explanation>Suillus bovinus. Похож на маслёнок, но без слизи и плёнки. Поры крупные, угловатые. Съедобный, но посредственный. Часто растёт рядом с маслятами.</explanation>
+  </card>
+  <card>
+    <question media="15_Козляк_3.jpg">Что за гриб изображён на фото №68?</question>
+    <answers>
+      <answer>Дождевик гигантский</answer>
+      <answer correct="true">Козляк</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Колпак кольчатый</answer>
+      <answer>Опёнок осенний</answer>
+    </answers>
+    <hint>Трубчатый, рыжевато-коричневый; крупные угловатые поры; растёт в сосняках</hint>
+    <explanation>Suillus bovinus. Похож на маслёнок, но без слизи и плёнки. Поры крупные, угловатые. Съедобный, но посредственный. Часто растёт рядом с маслятами.</explanation>
+  </card>
+  <card>
+    <question media="15_Козляк_4.jpg">Что за гриб изображён на фото №69?</question>
+    <answers>
+      <answer correct="true">Козляк</answer>
+      <answer>Польский гриб</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer>Белый гриб</answer>
+      <answer>Дубовик</answer>
+    </answers>
+    <hint>Трубчатый, рыжевато-коричневый; крупные угловатые поры; растёт в сосняках</hint>
+    <explanation>Suillus bovinus. Похож на маслёнок, но без слизи и плёнки. Поры крупные, угловатые. Съедобный, но посредственный. Часто растёт рядом с маслятами.</explanation>
+  </card>
+  <card>
+    <question media="15_Козляк_5.jpg">Что за гриб изображён на фото №70?</question>
+    <answers>
+      <answer>Белый гриб</answer>
+      <answer>Трюфель чёрный</answer>
+      <answer>Чага</answer>
+      <answer>Рядовка серая</answer>
+      <answer correct="true">Козляк</answer>
+    </answers>
+    <hint>Трубчатый, рыжевато-коричневый; крупные угловатые поры; растёт в сосняках</hint>
+    <explanation>Suillus bovinus. Похож на маслёнок, но без слизи и плёнки. Поры крупные, угловатые. Съедобный, но посредственный. Часто растёт рядом с маслятами.</explanation>
+  </card>
+  <card>
+    <question media="16_Рядовка_серая_1.jpg">Что за гриб изображён на фото №71?</question>
+    <answers>
+      <answer>Дубовик</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer correct="true">Рядовка серая</answer>
+      <answer>Свинушка тонкая</answer>
+      <answer>Подосиновик</answer>
+    </answers>
+    <hint>Пластинчатый, серый, с мучнистым налётом на шляпке</hint>
+    <explanation>Tricholoma terreum. Съедобный гриб поздней осени. Растёт в сосновых лесах. Важно отличать от ядовитой рядовки тигровой (T. pardinum) — у неё чешуйки, а не гладкая шляпка.</explanation>
+  </card>
+  <card>
+    <question media="16_Рядовка_серая_2.jpg">Что за гриб изображён на фото №72?</question>
+    <answers>
+      <answer correct="true">Рядовка серая</answer>
+      <answer>Ежовик жёлтый</answer>
+      <answer>Дубовик</answer>
+      <answer>Мухомор пантерный</answer>
+      <answer>Дождевик гигантский</answer>
+    </answers>
+    <hint>Пластинчатый, серый, с мучнистым налётом на шляпке</hint>
+    <explanation>Tricholoma terreum. Съедобный гриб поздней осени. Растёт в сосновых лесах. Важно отличать от ядовитой рядовки тигровой (T. pardinum) — у неё чешуйки, а не гладкая шляпка.</explanation>
+  </card>
+  <card>
+    <question media="16_Рядовка_серая_3.jpg">Что за гриб изображён на фото №73?</question>
+    <answers>
+      <answer>Строчок</answer>
+      <answer correct="true">Рядовка серая</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer>Маслёнок</answer>
+      <answer>Колпак кольчатый</answer>
+    </answers>
+    <hint>Пластинчатый, серый, с мучнистым налётом на шляпке</hint>
+    <explanation>Tricholoma terreum. Съедобный гриб поздней осени. Растёт в сосновых лесах. Важно отличать от ядовитой рядовки тигровой (T. pardinum) — у неё чешуйки, а не гладкая шляпка.</explanation>
+  </card>
+  <card>
+    <question media="16_Рядовка_серая_4.jpg">Что за гриб изображён на фото №74?</question>
+    <answers>
+      <answer>Колпак кольчатый</answer>
+      <answer>Дубовик</answer>
+      <answer correct="true">Рядовка серая</answer>
+      <answer>Говорушка серая</answer>
+      <answer>Волнушка</answer>
+    </answers>
+    <hint>Пластинчатый, серый, с мучнистым налётом на шляпке</hint>
+    <explanation>Tricholoma terreum. Съедобный гриб поздней осени. Растёт в сосновых лесах. Важно отличать от ядовитой рядовки тигровой (T. pardinum) — у неё чешуйки, а не гладкая шляпка.</explanation>
+  </card>
+  <card>
+    <question media="16_Рядовка_серая_5.jpg">Что за гриб изображён на фото №75?</question>
+    <answers>
+      <answer>Вешенка</answer>
+      <answer>Дубовик</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer correct="true">Рядовка серая</answer>
+      <answer>Энтолома ядовитая</answer>
+    </answers>
+    <hint>Пластинчатый, серый, с мучнистым налётом на шляпке</hint>
+    <explanation>Tricholoma terreum. Съедобный гриб поздней осени. Растёт в сосновых лесах. Важно отличать от ядовитой рядовки тигровой (T. pardinum) — у неё чешуйки, а не гладкая шляпка.</explanation>
+  </card>
+  <card>
+    <question media="17_Ежовик_жёлтый_1.jpg">Что за гриб изображён на фото №76?</question>
+    <answers>
+      <answer>Подберёзовик</answer>
+      <answer>Свинушка тонкая</answer>
+      <answer correct="true">Ежовик жёлтый</answer>
+      <answer>Козляк</answer>
+      <answer>Говорушка серая</answer>
+    </answers>
+    <hint>Жёлто-оранжевый, снизу не пластинки и не трубочки, а шипики</hint>
+    <explanation>Hydnum repandum. Уникальный гриб — гименофор в виде шипиков. Съедобный, вкусный, не червивеет. Редко встречается, занесён в некоторые Красные книги.</explanation>
+  </card>
+  <card>
+    <question media="17_Ежовик_жёлтый_2.jpg">Что за гриб изображён на фото №77?</question>
+    <answers>
+      <answer>Зонтик пёстрый</answer>
+      <answer>Дождевик гигантский</answer>
+      <answer correct="true">Ежовик жёлтый</answer>
+      <answer>Грифола курчавая</answer>
+      <answer>Сморчок</answer>
+    </answers>
+    <hint>Жёлто-оранжевый, снизу не пластинки и не трубочки, а шипики</hint>
+    <explanation>Hydnum repandum. Уникальный гриб — гименофор в виде шипиков. Съедобный, вкусный, не червивеет. Редко встречается, занесён в некоторые Красные книги.</explanation>
+  </card>
+  <card>
+    <question media="17_Ежовик_жёлтый_3.jpg">Что за гриб изображён на фото №78?</question>
+    <answers>
+      <answer>Сатанинский гриб</answer>
+      <answer>Свинушка тонкая</answer>
+      <answer correct="true">Ежовик жёлтый</answer>
+      <answer>Подосиновик</answer>
+      <answer>Маслёнок</answer>
+    </answers>
+    <hint>Жёлто-оранжевый, снизу не пластинки и не трубочки, а шипики</hint>
+    <explanation>Hydnum repandum. Уникальный гриб — гименофор в виде шипиков. Съедобный, вкусный, не червивеет. Редко встречается, занесён в некоторые Красные книги.</explanation>
+  </card>
+  <card>
+    <question media="17_Ежовик_жёлтый_4.jpg">Что за гриб изображён на фото №79?</question>
+    <answers>
+      <answer correct="true">Ежовик жёлтый</answer>
+      <answer>Дождевик гигантский</answer>
+      <answer>Чага</answer>
+      <answer>Опёнок осенний</answer>
+      <answer>Моховик</answer>
+    </answers>
+    <hint>Жёлто-оранжевый, снизу не пластинки и не трубочки, а шипики</hint>
+    <explanation>Hydnum repandum. Уникальный гриб — гименофор в виде шипиков. Съедобный, вкусный, не червивеет. Редко встречается, занесён в некоторые Красные книги.</explanation>
+  </card>
+  <card>
+    <question media="17_Ежовик_жёлтый_5.jpg">Что за гриб изображён на фото №80?</question>
+    <answers>
+      <answer>Мухомор красный</answer>
+      <answer>Навозник белый</answer>
+      <answer>Вешенка</answer>
+      <answer>Дубовик</answer>
+      <answer correct="true">Ежовик жёлтый</answer>
+    </answers>
+    <hint>Жёлто-оранжевый, снизу не пластинки и не трубочки, а шипики</hint>
+    <explanation>Hydnum repandum. Уникальный гриб — гименофор в виде шипиков. Съедобный, вкусный, не червивеет. Редко встречается, занесён в некоторые Красные книги.</explanation>
+  </card>
+  <card>
+    <question media="18_Цезарский_гриб_1.jpg">Что за гриб изображён на фото №81?</question>
+    <answers>
+      <answer>Зонтик пёстрый</answer>
+      <answer>Дубовик</answer>
+      <answer>Груздь настоящий</answer>
+      <answer>Рядовка серая</answer>
+      <answer correct="true">Цезарский гриб</answer>
+    </answers>
+    <hint>Оранжевая шляпка, жёлтые пластинки и ножка, белая вольва</hint>
+    <explanation>Amanita caesarea. Съедобный мухомор! Деликатес древнего Рима. Растёт в Средиземноморье и на Кавказе. Опасно путать с мухомором красным: у цезарского пластинки жёлтые, у красного — белые!</explanation>
+  </card>
+  <card>
+    <question media="18_Цезарский_гриб_2.jpg">Что за гриб изображён на фото №82?</question>
+    <answers>
+      <answer>Подосиновик</answer>
+      <answer correct="true">Цезарский гриб</answer>
+      <answer>Бледная поганка</answer>
+      <answer>Строчок</answer>
+      <answer>Груздь настоящий</answer>
+    </answers>
+    <hint>Оранжевая шляпка, жёлтые пластинки и ножка, белая вольва</hint>
+    <explanation>Amanita caesarea. Съедобный мухомор! Деликатес древнего Рима. Растёт в Средиземноморье и на Кавказе. Опасно путать с мухомором красным: у цезарского пластинки жёлтые, у красного — белые!</explanation>
+  </card>
+  <card>
+    <question media="18_Цезарский_гриб_3.jpg">Что за гриб изображён на фото №83?</question>
+    <answers>
+      <answer>Подберёзовик</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer correct="true">Цезарский гриб</answer>
+      <answer>Белый гриб</answer>
+      <answer>Польский гриб</answer>
+    </answers>
+    <hint>Оранжевая шляпка, жёлтые пластинки и ножка, белая вольва</hint>
+    <explanation>Amanita caesarea. Съедобный мухомор! Деликатес древнего Рима. Растёт в Средиземноморье и на Кавказе. Опасно путать с мухомором красным: у цезарского пластинки жёлтые, у красного — белые!</explanation>
+  </card>
+  <card>
+    <question media="18_Цезарский_гриб_4.jpg">Что за гриб изображён на фото №84?</question>
+    <answers>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer correct="true">Цезарский гриб</answer>
+      <answer>Дубовик</answer>
+      <answer>Волнушка</answer>
+      <answer>Колпак кольчатый</answer>
+    </answers>
+    <hint>Оранжевая шляпка, жёлтые пластинки и ножка, белая вольва</hint>
+    <explanation>Amanita caesarea. Съедобный мухомор! Деликатес древнего Рима. Растёт в Средиземноморье и на Кавказе. Опасно путать с мухомором красным: у цезарского пластинки жёлтые, у красного — белые!</explanation>
+  </card>
+  <card>
+    <question media="18_Цезарский_гриб_5.jpg">Что за гриб изображён на фото №85?</question>
+    <answers>
+      <answer>Сморчок</answer>
+      <answer>Подберёзовик</answer>
+      <answer>Опёнок осенний</answer>
+      <answer correct="true">Цезарский гриб</answer>
+      <answer>Польский гриб</answer>
+    </answers>
+    <hint>Оранжевая шляпка, жёлтые пластинки и ножка, белая вольва</hint>
+    <explanation>Amanita caesarea. Съедобный мухомор! Деликатес древнего Рима. Растёт в Средиземноморье и на Кавказе. Опасно путать с мухомором красным: у цезарского пластинки жёлтые, у красного — белые!</explanation>
+  </card>
+  <card>
+    <question media="19_Дубовик_1.jpg">Что за гриб изображён на фото №86?</question>
+    <answers>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer correct="true">Дубовик</answer>
+      <answer>Подосиновик</answer>
+      <answer>Опёнок осенний</answer>
+      <answer>Говорушка серая</answer>
+    </answers>
+    <hint>Трубчатый, оливково-коричневый; поры красные; мякоть синеет</hint>
+    <explanation>Boletus luridus. Растёт под дубами. Поры красные — отличает от белого. Условно-съедобный: требует отваривания, сырой может вызвать расстройство.</explanation>
+  </card>
+  <card>
+    <question media="19_Дубовик_2.jpg">Что за гриб изображён на фото №87?</question>
+    <answers>
+      <answer>Подосиновик</answer>
+      <answer>Груздь настоящий</answer>
+      <answer>Белый гриб</answer>
+      <answer correct="true">Дубовик</answer>
+      <answer>Трюфель чёрный</answer>
+    </answers>
+    <hint>Трубчатый, оливково-коричневый; поры красные; мякоть синеет</hint>
+    <explanation>Boletus luridus. Растёт под дубами. Поры красные — отличает от белого. Условно-съедобный: требует отваривания, сырой может вызвать расстройство.</explanation>
+  </card>
+  <card>
+    <question media="19_Дубовик_3.jpg">Что за гриб изображён на фото №88?</question>
+    <answers>
+      <answer>Свинушка тонкая</answer>
+      <answer>Зонтик пёстрый</answer>
+      <answer correct="true">Дубовик</answer>
+      <answer>Бледная поганка</answer>
+      <answer>Лисичка настоящая</answer>
+    </answers>
+    <hint>Трубчатый, оливково-коричневый; поры красные; мякоть синеет</hint>
+    <explanation>Boletus luridus. Растёт под дубами. Поры красные — отличает от белого. Условно-съедобный: требует отваривания, сырой может вызвать расстройство.</explanation>
+  </card>
+  <card>
+    <question media="19_Дубовик_4.jpg">Что за гриб изображён на фото №89?</question>
+    <answers>
+      <answer>Подосиновик</answer>
+      <answer correct="true">Дубовик</answer>
+      <answer>Трюфель чёрный</answer>
+      <answer>Бледная поганка</answer>
+      <answer>Навозник белый</answer>
+    </answers>
+    <hint>Трубчатый, оливково-коричневый; поры красные; мякоть синеет</hint>
+    <explanation>Boletus luridus. Растёт под дубами. Поры красные — отличает от белого. Условно-съедобный: требует отваривания, сырой может вызвать расстройство.</explanation>
+  </card>
+  <card>
+    <question media="19_Дубовик_5.jpg">Что за гриб изображён на фото №90?</question>
+    <answers>
+      <answer correct="true">Дубовик</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer>Сыроежка</answer>
+      <answer>Говорушка серая</answer>
+      <answer>Козляк</answer>
+    </answers>
+    <hint>Трубчатый, оливково-коричневый; поры красные; мякоть синеет</hint>
+    <explanation>Boletus luridus. Растёт под дубами. Поры красные — отличает от белого. Условно-съедобный: требует отваривания, сырой может вызвать расстройство.</explanation>
+  </card>
+  <card>
+    <question media="20_Зонтик_пёстрый_1.jpg">Что за гриб изображён на фото №91?</question>
+    <answers>
+      <answer>Груздь настоящий</answer>
+      <answer>Навозник белый</answer>
+      <answer correct="true">Зонтик пёстрый</answer>
+      <answer>Опёнок осенний</answer>
+      <answer>Рядовка серая</answer>
+    </answers>
+    <hint>Очень большой пластинчатый; шляпка с чешуйками; кольцо на ножке двигается</hint>
+    <explanation>Macrolepiota procera. Один из крупнейших съедобных грибов (шляпка до 40 см). Кольцо на ножке свободно двигается — главный признак. Молодые («барабанные палочки») особенно вкусны.</explanation>
+  </card>
+  <card>
+    <question media="20_Зонтик_пёстрый_2.jpg">Что за гриб изображён на фото №92?</question>
+    <answers>
+      <answer correct="true">Зонтик пёстрый</answer>
+      <answer>Грифола курчавая</answer>
+      <answer>Сыроежка</answer>
+      <answer>Маслёнок</answer>
+      <answer>Говорушка серая</answer>
+    </answers>
+    <hint>Очень большой пластинчатый; шляпка с чешуйками; кольцо на ножке двигается</hint>
+    <explanation>Macrolepiota procera. Один из крупнейших съедобных грибов (шляпка до 40 см). Кольцо на ножке свободно двигается — главный признак. Молодые («барабанные палочки») особенно вкусны.</explanation>
+  </card>
+  <card>
+    <question media="20_Зонтик_пёстрый_3.jpg">Что за гриб изображён на фото №93?</question>
+    <answers>
+      <answer>Маслёнок</answer>
+      <answer>Цезарский гриб</answer>
+      <answer>Трюфель чёрный</answer>
+      <answer>Шампиньон луговой</answer>
+      <answer correct="true">Зонтик пёстрый</answer>
+    </answers>
+    <hint>Очень большой пластинчатый; шляпка с чешуйками; кольцо на ножке двигается</hint>
+    <explanation>Macrolepiota procera. Один из крупнейших съедобных грибов (шляпка до 40 см). Кольцо на ножке свободно двигается — главный признак. Молодые («барабанные палочки») особенно вкусны.</explanation>
+  </card>
+  <card>
+    <question media="20_Зонтик_пёстрый_4.jpg">Что за гриб изображён на фото №94?</question>
+    <answers>
+      <answer>Дубовик</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer correct="true">Зонтик пёстрый</answer>
+      <answer>Чага</answer>
+      <answer>Шампиньон луговой</answer>
+    </answers>
+    <hint>Очень большой пластинчатый; шляпка с чешуйками; кольцо на ножке двигается</hint>
+    <explanation>Macrolepiota procera. Один из крупнейших съедобных грибов (шляпка до 40 см). Кольцо на ножке свободно двигается — главный признак. Молодые («барабанные палочки») особенно вкусны.</explanation>
+  </card>
+  <card>
+    <question media="20_Зонтик_пёстрый_5.jpg">Что за гриб изображён на фото №95?</question>
+    <answers>
+      <answer>Ежовик жёлтый</answer>
+      <answer>Моховик</answer>
+      <answer>Чага</answer>
+      <answer correct="true">Зонтик пёстрый</answer>
+      <answer>Чесночник</answer>
+    </answers>
+    <hint>Очень большой пластинчатый; шляпка с чешуйками; кольцо на ножке двигается</hint>
+    <explanation>Macrolepiota procera. Один из крупнейших съедобных грибов (шляпка до 40 см). Кольцо на ножке свободно двигается — главный признак. Молодые («барабанные палочки») особенно вкусны.</explanation>
+  </card>
+  <card>
+    <question media="21_Навозник_белый_1.jpg">Что за гриб изображён на фото №96?</question>
+    <answers>
+      <answer correct="true">Навозник белый</answer>
+      <answer>Сыроежка</answer>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Волнушка</answer>
+      <answer>Подберёзовик</answer>
+    </answers>
+    <hint>Белый, яйцевидный в молодости, затем колокольчатый; быстро чернеет</hint>
+    <explanation>Coprinus comatus. Съедобен только в молодом возрасте (белый внутри). Быстро самопереваривается в чёрную массу. Несовместим с алкоголем — вызывает тяжёлое отравление (дисульфирамоподобная реакция).</explanation>
+  </card>
+  <card>
+    <question media="21_Навозник_белый_2.jpg">Что за гриб изображён на фото №97?</question>
+    <answers>
+      <answer>Сатанинский гриб</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Бледная поганка</answer>
+      <answer>Сыроежка</answer>
+      <answer correct="true">Навозник белый</answer>
+    </answers>
+    <hint>Белый, яйцевидный в молодости, затем колокольчатый; быстро чернеет</hint>
+    <explanation>Coprinus comatus. Съедобен только в молодом возрасте (белый внутри). Быстро самопереваривается в чёрную массу. Несовместим с алкоголем — вызывает тяжёлое отравление (дисульфирамоподобная реакция).</explanation>
+  </card>
+  <card>
+    <question media="21_Навозник_белый_3.jpg">Что за гриб изображён на фото №98?</question>
+    <answers>
+      <answer>Ежовик жёлтый</answer>
+      <answer>Опёнок осенний</answer>
+      <answer>Мухомор красный</answer>
+      <answer>Трюфель чёрный</answer>
+      <answer correct="true">Навозник белый</answer>
+    </answers>
+    <hint>Белый, яйцевидный в молодости, затем колокольчатый; быстро чернеет</hint>
+    <explanation>Coprinus comatus. Съедобен только в молодом возрасте (белый внутри). Быстро самопереваривается в чёрную массу. Несовместим с алкоголем — вызывает тяжёлое отравление (дисульфирамоподобная реакция).</explanation>
+  </card>
+  <card>
+    <question media="21_Навозник_белый_4.jpg">Что за гриб изображён на фото №99?</question>
+    <answers>
+      <answer>Сыроежка</answer>
+      <answer>Моховик</answer>
+      <answer correct="true">Навозник белый</answer>
+      <answer>Вешенка</answer>
+      <answer>Козляк</answer>
+    </answers>
+    <hint>Белый, яйцевидный в молодости, затем колокольчатый; быстро чернеет</hint>
+    <explanation>Coprinus comatus. Съедобен только в молодом возрасте (белый внутри). Быстро самопереваривается в чёрную массу. Несовместим с алкоголем — вызывает тяжёлое отравление (дисульфирамоподобная реакция).</explanation>
+  </card>
+  <card>
+    <question media="21_Навозник_белый_5.jpg">Что за гриб изображён на фото №100?</question>
+    <answers>
+      <answer>Лисичка настоящая</answer>
+      <answer>Шампиньон луговой</answer>
+      <answer>Подберёзовик</answer>
+      <answer correct="true">Навозник белый</answer>
+      <answer>Галерина окаймлённая</answer>
+    </answers>
+    <hint>Белый, яйцевидный в молодости, затем колокольчатый; быстро чернеет</hint>
+    <explanation>Coprinus comatus. Съедобен только в молодом возрасте (белый внутри). Быстро самопереваривается в чёрную массу. Несовместим с алкоголем — вызывает тяжёлое отравление (дисульфирамоподобная реакция).</explanation>
+  </card>
+  <card>
+    <question media="22_Чесночник_1.png">Что за гриб изображён на фото №101?</question>
+    <answers>
+      <answer>Козляк</answer>
+      <answer>Опёнок зимний</answer>
+      <answer>Дождевик гигантский</answer>
+      <answer correct="true">Чесночник</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+    </answers>
+    <hint>Мелкий пластинчатый с сильным запахом чеснока; тонкая ножка</hint>
+    <explanation>Marasmius scorodonius. Растёт в хвойных лесах. Используется как приправа — сушёный заменяет чеснок. Ножка жёсткая, в пищу идёт только шляпка.</explanation>
+  </card>
+  <card>
+    <question media="22_Чесночник_2.jpg">Что за гриб изображён на фото №102?</question>
+    <answers>
+      <answer>Маслёнок</answer>
+      <answer>Опёнок осенний</answer>
+      <answer>Сыроежка</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer correct="true">Чесночник</answer>
+    </answers>
+    <hint>Мелкий пластинчатый с сильным запахом чеснока; тонкая ножка</hint>
+    <explanation>Marasmius scorodonius. Растёт в хвойных лесах. Используется как приправа — сушёный заменяет чеснок. Ножка жёсткая, в пищу идёт только шляпка.</explanation>
+  </card>
+  <card>
+    <question media="22_Чесночник_3.jpg">Что за гриб изображён на фото №103?</question>
+    <answers>
+      <answer>Чага</answer>
+      <answer>Зонтик пёстрый</answer>
+      <answer correct="true">Чесночник</answer>
+      <answer>Колпак кольчатый</answer>
+      <answer>Опёнок осенний</answer>
+    </answers>
+    <hint>Мелкий пластинчатый с сильным запахом чеснока; тонкая ножка</hint>
+    <explanation>Marasmius scorodonius. Растёт в хвойных лесах. Используется как приправа — сушёный заменяет чеснок. Ножка жёсткая, в пищу идёт только шляпка.</explanation>
+  </card>
+  <card>
+    <question media="22_Чесночник_4.jpg">Что за гриб изображён на фото №104?</question>
+    <answers>
+      <answer>Маслёнок</answer>
+      <answer>Сыроежка</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer>Моховик</answer>
+      <answer correct="true">Чесночник</answer>
+    </answers>
+    <hint>Мелкий пластинчатый с сильным запахом чеснока; тонкая ножка</hint>
+    <explanation>Marasmius scorodonius. Растёт в хвойных лесах. Используется как приправа — сушёный заменяет чеснок. Ножка жёсткая, в пищу идёт только шляпка.</explanation>
+  </card>
+  <card>
+    <question media="22_Чесночник_5.jpg">Что за гриб изображён на фото №105?</question>
+    <answers>
+      <answer>Дубовик</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer correct="true">Чесночник</answer>
+      <answer>Шампиньон луговой</answer>
+      <answer>Говорушка серая</answer>
+    </answers>
+    <hint>Мелкий пластинчатый с сильным запахом чеснока; тонкая ножка</hint>
+    <explanation>Marasmius scorodonius. Растёт в хвойных лесах. Используется как приправа — сушёный заменяет чеснок. Ножка жёсткая, в пищу идёт только шляпка.</explanation>
+  </card>
+  <card>
+    <question media="23_Говорушка_серая_1.jpg">Что за гриб изображён на фото №106?</question>
+    <answers>
+      <answer>Бледная поганка</answer>
+      <answer correct="true">Говорушка серая</answer>
+      <answer>Строчок</answer>
+      <answer>Зонтик пёстрый</answer>
+      <answer>Сыроежка</answer>
+    </answers>
+    <hint>Пластинчатый, серый, пластинки спускаются на ножку</hint>
+    <explanation>Clitocybe gibba. Растёт в лиственных лесах. Съедобный, но посредственный. Важно не спутать с ядовитой говорушкой беловатой (C. cerussata) — она белая и растёт на лугах.</explanation>
+  </card>
+  <card>
+    <question media="23_Говорушка_серая_2.jpg">Что за гриб изображён на фото №107?</question>
+    <answers>
+      <answer correct="true">Говорушка серая</answer>
+      <answer>Маслёнок</answer>
+      <answer>Козляк</answer>
+      <answer>Волнушка</answer>
+      <answer>Дубовик</answer>
+    </answers>
+    <hint>Пластинчатый, серый, пластинки спускаются на ножку</hint>
+    <explanation>Clitocybe gibba. Растёт в лиственных лесах. Съедобный, но посредственный. Важно не спутать с ядовитой говорушкой беловатой (C. cerussata) — она белая и растёт на лугах.</explanation>
+  </card>
+  <card>
+    <question media="23_Говорушка_серая_3.jpg">Что за гриб изображён на фото №108?</question>
+    <answers>
+      <answer correct="true">Говорушка серая</answer>
+      <answer>Цезарский гриб</answer>
+      <answer>Навозник белый</answer>
+      <answer>Польский гриб</answer>
+      <answer>Сморчок</answer>
+    </answers>
+    <hint>Пластинчатый, серый, пластинки спускаются на ножку</hint>
+    <explanation>Clitocybe gibba. Растёт в лиственных лесах. Съедобный, но посредственный. Важно не спутать с ядовитой говорушкой беловатой (C. cerussata) — она белая и растёт на лугах.</explanation>
+  </card>
+  <card>
+    <question media="23_Говорушка_серая_4.jpg">Что за гриб изображён на фото №109?</question>
+    <answers>
+      <answer>Моховик</answer>
+      <answer>Чесночник</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer correct="true">Говорушка серая</answer>
+      <answer>Трюфель чёрный</answer>
+    </answers>
+    <hint>Пластинчатый, серый, пластинки спускаются на ножку</hint>
+    <explanation>Clitocybe gibba. Растёт в лиственных лесах. Съедобный, но посредственный. Важно не спутать с ядовитой говорушкой беловатой (C. cerussata) — она белая и растёт на лугах.</explanation>
+  </card>
+  <card>
+    <question media="23_Говорушка_серая_5.jpg">Что за гриб изображён на фото №110?</question>
+    <answers>
+      <answer correct="true">Говорушка серая</answer>
+      <answer>Навозник белый</answer>
+      <answer>Грифола курчавая</answer>
+      <answer>Дубовик</answer>
+      <answer>Энтолома ядовитая</answer>
+    </answers>
+    <hint>Пластинчатый, серый, пластинки спускаются на ножку</hint>
+    <explanation>Clitocybe gibba. Растёт в лиственных лесах. Съедобный, но посредственный. Важно не спутать с ядовитой говорушкой беловатой (C. cerussata) — она белая и растёт на лугах.</explanation>
+  </card>
+  <card>
+    <question media="24_Колпак_кольчатый_1.jpg">Что за гриб изображён на фото №111?</question>
+    <answers>
+      <answer>Мухомор пантерный</answer>
+      <answer>Рыжик</answer>
+      <answer>Грифола курчавая</answer>
+      <answer correct="true">Колпак кольчатый</answer>
+      <answer>Ежовик жёлтый</answer>
+    </answers>
+    <hint>Пластинчатый, с шелковистой шляпкой и кольцом на ножке</hint>
+    <explanation>Rozites caperatus. Растёт в хвойных и смешанных лесах. Съедобный, вкусный. Кольцо на ножке быстро исчезает с возрастом. Часто путают с паутинниками.</explanation>
+  </card>
+  <card>
+    <question media="24_Колпак_кольчатый_2.jpg">Что за гриб изображён на фото №112?</question>
+    <answers>
+      <answer>Чага</answer>
+      <answer>Вешенка</answer>
+      <answer>Подберёзовик</answer>
+      <answer correct="true">Колпак кольчатый</answer>
+      <answer>Дождевик гигантский</answer>
+    </answers>
+    <hint>Пластинчатый, с шелковистой шляпкой и кольцом на ножке</hint>
+    <explanation>Rozites caperatus. Растёт в хвойных и смешанных лесах. Съедобный, вкусный. Кольцо на ножке быстро исчезает с возрастом. Часто путают с паутинниками.</explanation>
+  </card>
+  <card>
+    <question media="24_Колпак_кольчатый_3.jpg">Что за гриб изображён на фото №113?</question>
+    <answers>
+      <answer>Польский гриб</answer>
+      <answer>Сыроежка</answer>
+      <answer>Моховик</answer>
+      <answer correct="true">Колпак кольчатый</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+    </answers>
+    <hint>Пластинчатый, с шелковистой шляпкой и кольцом на ножке</hint>
+    <explanation>Rozites caperatus. Растёт в хвойных и смешанных лесах. Съедобный, вкусный. Кольцо на ножке быстро исчезает с возрастом. Часто путают с паутинниками.</explanation>
+  </card>
+  <card>
+    <question media="24_Колпак_кольчатый_4.jpg">Что за гриб изображён на фото №114?</question>
+    <answers>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer>Козляк</answer>
+      <answer>Чага</answer>
+      <answer>Сморчок</answer>
+      <answer correct="true">Колпак кольчатый</answer>
+    </answers>
+    <hint>Пластинчатый, с шелковистой шляпкой и кольцом на ножке</hint>
+    <explanation>Rozites caperatus. Растёт в хвойных и смешанных лесах. Съедобный, вкусный. Кольцо на ножке быстро исчезает с возрастом. Часто путают с паутинниками.</explanation>
+  </card>
+  <card>
+    <question media="24_Колпак_кольчатый_5.jpg">Что за гриб изображён на фото №115?</question>
+    <answers>
+      <answer>Груздь настоящий</answer>
+      <answer correct="true">Колпак кольчатый</answer>
+      <answer>Опёнок осенний</answer>
+      <answer>Маслёнок</answer>
+      <answer>Лисичка настоящая</answer>
+    </answers>
+    <hint>Пластинчатый, с шелковистой шляпкой и кольцом на ножке</hint>
+    <explanation>Rozites caperatus. Растёт в хвойных и смешанных лесах. Съедобный, вкусный. Кольцо на ножке быстро исчезает с возрастом. Часто путают с паутинниками.</explanation>
+  </card>
+  <card>
+    <question media="25_Опёнок_зимний_1.jpg">Что за гриб изображён на фото №116?</question>
+    <answers>
+      <answer correct="true">Опёнок зимний</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer>Сморчок</answer>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Дождевик гигантский</answer>
+    </answers>
+    <hint>Пластинчатый, оранжево-коричневый; растёт зимой на стволах</hint>
+    <explanation>Flammulina velutipes. Единственный гриб, растущий при отрицательных температурах. В Азии культивируется как «энокитаке» (зимний гриб). Съедобный, ценный.</explanation>
+  </card>
+  <card>
+    <question media="25_Опёнок_зимний_2.jpg">Что за гриб изображён на фото №117?</question>
+    <answers>
+      <answer correct="true">Опёнок зимний</answer>
+      <answer>Волнушка</answer>
+      <answer>Сыроежка</answer>
+      <answer>Шампиньон луговой</answer>
+      <answer>Подберёзовик</answer>
+    </answers>
+    <hint>Пластинчатый, оранжево-коричневый; растёт зимой на стволах</hint>
+    <explanation>Flammulina velutipes. Единственный гриб, растущий при отрицательных температурах. В Азии культивируется как «энокитаке» (зимний гриб). Съедобный, ценный.</explanation>
+  </card>
+  <card>
+    <question media="25_Опёнок_зимний_3.jpg">Что за гриб изображён на фото №118?</question>
+    <answers>
+      <answer>Трюфель чёрный</answer>
+      <answer>Дождевик гигантский</answer>
+      <answer correct="true">Опёнок зимний</answer>
+      <answer>Колпак кольчатый</answer>
+      <answer>Мухомор красный</answer>
+    </answers>
+    <hint>Пластинчатый, оранжево-коричневый; растёт зимой на стволах</hint>
+    <explanation>Flammulina velutipes. Единственный гриб, растущий при отрицательных температурах. В Азии культивируется как «энокитаке» (зимний гриб). Съедобный, ценный.</explanation>
+  </card>
+  <card>
+    <question media="25_Опёнок_зимний_4.jpg">Что за гриб изображён на фото №119?</question>
+    <answers>
+      <answer>Бледная поганка</answer>
+      <answer correct="true">Опёнок зимний</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer>Говорушка серая</answer>
+      <answer>Сыроежка</answer>
+    </answers>
+    <hint>Пластинчатый, оранжево-коричневый; растёт зимой на стволах</hint>
+    <explanation>Flammulina velutipes. Единственный гриб, растущий при отрицательных температурах. В Азии культивируется как «энокитаке» (зимний гриб). Съедобный, ценный.</explanation>
+  </card>
+  <card>
+    <question media="25_Опёнок_зимний_5.jpg">Что за гриб изображён на фото №120?</question>
+    <answers>
+      <answer>Зонтик пёстрый</answer>
+      <answer>Подосиновик</answer>
+      <answer>Моховик</answer>
+      <answer correct="true">Опёнок зимний</answer>
+      <answer>Белый гриб</answer>
+    </answers>
+    <hint>Пластинчатый, оранжево-коричневый; растёт зимой на стволах</hint>
+    <explanation>Flammulina velutipes. Единственный гриб, растущий при отрицательных температурах. В Азии культивируется как «энокитаке» (зимний гриб). Съедобный, ценный.</explanation>
+  </card>
+  <card>
+    <question media="26_Вешенка_1.jpg">Что за гриб изображён на фото №121?</question>
+    <answers>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Груздь настоящий</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer correct="true">Вешенка</answer>
+      <answer>Ежовик жёлтый</answer>
+    </answers>
+    <hint>Пластинчатый, растёт на деревьях «этажеркой»; серая шляпка веером</hint>
+    <explanation>Pleurotus ostreatus. Один из самых культивируемых грибов в мире. Растёт на лиственных деревьях. Съедобный, используется в вегетарианской кухне. Ножка жёсткая.</explanation>
+  </card>
+  <card>
+    <question media="26_Вешенка_2.jpg">Что за гриб изображён на фото №122?</question>
+    <answers>
+      <answer>Сыроежка</answer>
+      <answer>Трюфель чёрный</answer>
+      <answer>Ежовик жёлтый</answer>
+      <answer correct="true">Вешенка</answer>
+      <answer>Навозник белый</answer>
+    </answers>
+    <hint>Пластинчатый, растёт на деревьях «этажеркой»; серая шляпка веером</hint>
+    <explanation>Pleurotus ostreatus. Один из самых культивируемых грибов в мире. Растёт на лиственных деревьях. Съедобный, используется в вегетарианской кухне. Ножка жёсткая.</explanation>
+  </card>
+  <card>
+    <question media="26_Вешенка_3.jpg">Что за гриб изображён на фото №123?</question>
+    <answers>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Подосиновик</answer>
+      <answer>Опёнок зимний</answer>
+      <answer correct="true">Вешенка</answer>
+      <answer>Навозник белый</answer>
+    </answers>
+    <hint>Пластинчатый, растёт на деревьях «этажеркой»; серая шляпка веером</hint>
+    <explanation>Pleurotus ostreatus. Один из самых культивируемых грибов в мире. Растёт на лиственных деревьях. Съедобный, используется в вегетарианской кухне. Ножка жёсткая.</explanation>
+  </card>
+  <card>
+    <question media="26_Вешенка_4.jpg">Что за гриб изображён на фото №124?</question>
+    <answers>
+      <answer>Польский гриб</answer>
+      <answer>Маслёнок</answer>
+      <answer correct="true">Вешенка</answer>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Подосиновик</answer>
+    </answers>
+    <hint>Пластинчатый, растёт на деревьях «этажеркой»; серая шляпка веером</hint>
+    <explanation>Pleurotus ostreatus. Один из самых культивируемых грибов в мире. Растёт на лиственных деревьях. Съедобный, используется в вегетарианской кухне. Ножка жёсткая.</explanation>
+  </card>
+  <card>
+    <question media="26_Вешенка_5.jpg">Что за гриб изображён на фото №125?</question>
+    <answers>
+      <answer>Груздь настоящий</answer>
+      <answer>Галерина окаймлённая</answer>
+      <answer correct="true">Вешенка</answer>
+      <answer>Маслёнок</answer>
+      <answer>Ежовик жёлтый</answer>
+    </answers>
+    <hint>Пластинчатый, растёт на деревьях «этажеркой»; серая шляпка веером</hint>
+    <explanation>Pleurotus ostreatus. Один из самых культивируемых грибов в мире. Растёт на лиственных деревьях. Съедобный, используется в вегетарианской кухне. Ножка жёсткая.</explanation>
+  </card>
+  <card>
+    <question media="27_Трюфель_чёрный_1.png">Что за гриб изображён на фото №126?</question>
+    <answers>
+      <answer>Польский гриб</answer>
+      <answer>Свинушка тонкая</answer>
+      <answer correct="true">Трюфель чёрный</answer>
+      <answer>Грифола курчавая</answer>
+      <answer>Строчок</answer>
+    </answers>
+    <hint>Подземный клубневидный гриб; сильный аромат; ищут с собаками и свиньями</hint>
+    <explanation>Tuber melanosporum. Деликатес, один из самых дорогих продуктов в мире. Растёт под дубами в Южной Европе. Французский «чёрный алмаз». Культивируется в трюфелевых рощах.</explanation>
+  </card>
+  <card>
+    <question media="27_Трюфель_чёрный_2.jpg">Что за гриб изображён на фото №127?</question>
+    <answers>
+      <answer>Вешенка</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer correct="true">Трюфель чёрный</answer>
+      <answer>Колпак кольчатый</answer>
+      <answer>Дубовик</answer>
+    </answers>
+    <hint>Подземный клубневидный гриб; сильный аромат; ищут с собаками и свиньями</hint>
+    <explanation>Tuber melanosporum. Деликатес, один из самых дорогих продуктов в мире. Растёт под дубами в Южной Европе. Французский «чёрный алмаз». Культивируется в трюфелевых рощах.</explanation>
+  </card>
+  <card>
+    <question media="27_Трюфель_чёрный_3.jpg">Что за гриб изображён на фото №128?</question>
+    <answers>
+      <answer correct="true">Трюфель чёрный</answer>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Груздь настоящий</answer>
+      <answer>Говорушка серая</answer>
+      <answer>Маслёнок</answer>
+    </answers>
+    <hint>Подземный клубневидный гриб; сильный аромат; ищут с собаками и свиньями</hint>
+    <explanation>Tuber melanosporum. Деликатес, один из самых дорогих продуктов в мире. Растёт под дубами в Южной Европе. Французский «чёрный алмаз». Культивируется в трюфелевых рощах.</explanation>
+  </card>
+  <card>
+    <question media="27_Трюфель_чёрный_4.png">Что за гриб изображён на фото №129?</question>
+    <answers>
+      <answer>Дождевик съедобный</answer>
+      <answer>Козляк</answer>
+      <answer>Рыжик</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer correct="true">Трюфель чёрный</answer>
+    </answers>
+    <hint>Подземный клубневидный гриб; сильный аромат; ищут с собаками и свиньями</hint>
+    <explanation>Tuber melanosporum. Деликатес, один из самых дорогих продуктов в мире. Растёт под дубами в Южной Европе. Французский «чёрный алмаз». Культивируется в трюфелевых рощах.</explanation>
+  </card>
+  <card>
+    <question media="27_Трюфель_чёрный_5.png">Что за гриб изображён на фото №130?</question>
+    <answers>
+      <answer>Сыроежка</answer>
+      <answer correct="true">Трюфель чёрный</answer>
+      <answer>Шампиньон луговой</answer>
+      <answer>Зонтик пёстрый</answer>
+      <answer>Чага</answer>
+    </answers>
+    <hint>Подземный клубневидный гриб; сильный аромат; ищут с собаками и свиньями</hint>
+    <explanation>Tuber melanosporum. Деликатес, один из самых дорогих продуктов в мире. Растёт под дубами в Южной Европе. Французский «чёрный алмаз». Культивируется в трюфелевых рощах.</explanation>
+  </card>
+  <card>
+    <question media="28_Сморчок_1.jpg">Что за гриб изображён на фото №131?</question>
+    <answers>
+      <answer correct="true">Сморчок</answer>
+      <answer>Подосиновик</answer>
+      <answer>Подберёзовик</answer>
+      <answer>Мухомор пантерный</answer>
+      <answer>Дождевик гигантский</answer>
+    </answers>
+    <hint>Ячеистая коническая шляпка на полой ножке; весенний гриб</hint>
+    <explanation>Morchella esculenta. Первый весенний съедобный гриб. Растёт в лиственных лесах, на пожарищах. Условно-съедобный: требует отваривания — содержит гельвелловую кислоту.</explanation>
+  </card>
+  <card>
+    <question media="28_Сморчок_2.jpg">Что за гриб изображён на фото №132?</question>
+    <answers>
+      <answer>Козляк</answer>
+      <answer>Маслёнок</answer>
+      <answer correct="true">Сморчок</answer>
+      <answer>Сыроежка</answer>
+      <answer>Зонтик пёстрый</answer>
+    </answers>
+    <hint>Ячеистая коническая шляпка на полой ножке; весенний гриб</hint>
+    <explanation>Morchella esculenta. Первый весенний съедобный гриб. Растёт в лиственных лесах, на пожарищах. Условно-съедобный: требует отваривания — содержит гельвелловую кислоту.</explanation>
+  </card>
+  <card>
+    <question media="28_Сморчок_3.jpg">Что за гриб изображён на фото №133?</question>
+    <answers>
+      <answer>Цезарский гриб</answer>
+      <answer>Строчок</answer>
+      <answer correct="true">Сморчок</answer>
+      <answer>Трюфель чёрный</answer>
+      <answer>Лисичка настоящая</answer>
+    </answers>
+    <hint>Ячеистая коническая шляпка на полой ножке; весенний гриб</hint>
+    <explanation>Morchella esculenta. Первый весенний съедобный гриб. Растёт в лиственных лесах, на пожарищах. Условно-съедобный: требует отваривания — содержит гельвелловую кислоту.</explanation>
+  </card>
+  <card>
+    <question media="28_Сморчок_4.jpg">Что за гриб изображён на фото №134?</question>
+    <answers>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Строчок</answer>
+      <answer>Маслёнок</answer>
+      <answer correct="true">Сморчок</answer>
+      <answer>Дождевик съедобный</answer>
+    </answers>
+    <hint>Ячеистая коническая шляпка на полой ножке; весенний гриб</hint>
+    <explanation>Morchella esculenta. Первый весенний съедобный гриб. Растёт в лиственных лесах, на пожарищах. Условно-съедобный: требует отваривания — содержит гельвелловую кислоту.</explanation>
+  </card>
+  <card>
+    <question media="28_Сморчок_5.jpg">Что за гриб изображён на фото №135?</question>
+    <answers>
+      <answer>Моховик</answer>
+      <answer>Дубовик</answer>
+      <answer>Козляк</answer>
+      <answer correct="true">Сморчок</answer>
+      <answer>Свинушка тонкая</answer>
+    </answers>
+    <hint>Ячеистая коническая шляпка на полой ножке; весенний гриб</hint>
+    <explanation>Morchella esculenta. Первый весенний съедобный гриб. Растёт в лиственных лесах, на пожарищах. Условно-съедобный: требует отваривания — содержит гельвелловую кислоту.</explanation>
+  </card>
+  <card>
+    <question media="29_Строчок_1.jpg">Что за гриб изображён на фото №136?</question>
+    <answers>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Грифола курчавая</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer correct="true">Строчок</answer>
+      <answer>Трюфель чёрный</answer>
+    </answers>
+    <hint>Извилистая мозговидная шляпка; весенний гриб на песке</hint>
+    <explanation>Gyromitra esculenta. Смертельно опасен без правильной обработки! Содержит гиромитрин. В России считается условно-съедобным после двукратного отваривания, в Европе — ядовитым.</explanation>
+  </card>
+  <card>
+    <question media="29_Строчок_2.jpg">Что за гриб изображён на фото №137?</question>
+    <answers>
+      <answer>Цезарский гриб</answer>
+      <answer>Козляк</answer>
+      <answer correct="true">Строчок</answer>
+      <answer>Рыжик</answer>
+      <answer>Бледная поганка</answer>
+    </answers>
+    <hint>Извилистая мозговидная шляпка; весенний гриб на песке</hint>
+    <explanation>Gyromitra esculenta. Смертельно опасен без правильной обработки! Содержит гиромитрин. В России считается условно-съедобным после двукратного отваривания, в Европе — ядовитым.</explanation>
+  </card>
+  <card>
+    <question media="29_Строчок_3.jpg">Что за гриб изображён на фото №138?</question>
+    <answers>
+      <answer>Трюфель чёрный</answer>
+      <answer correct="true">Строчок</answer>
+      <answer>Волнушка</answer>
+      <answer>Дождевик гигантский</answer>
+      <answer>Чага</answer>
+    </answers>
+    <hint>Извилистая мозговидная шляпка; весенний гриб на песке</hint>
+    <explanation>Gyromitra esculenta. Смертельно опасен без правильной обработки! Содержит гиромитрин. В России считается условно-съедобным после двукратного отваривания, в Европе — ядовитым.</explanation>
+  </card>
+  <card>
+    <question media="29_Строчок_4.jpg">Что за гриб изображён на фото №139?</question>
+    <answers>
+      <answer>Сыроежка</answer>
+      <answer correct="true">Строчок</answer>
+      <answer>Опёнок осенний</answer>
+      <answer>Маслёнок</answer>
+      <answer>Польский гриб</answer>
+    </answers>
+    <hint>Извилистая мозговидная шляпка; весенний гриб на песке</hint>
+    <explanation>Gyromitra esculenta. Смертельно опасен без правильной обработки! Содержит гиромитрин. В России считается условно-съедобным после двукратного отваривания, в Европе — ядовитым.</explanation>
+  </card>
+  <card>
+    <question media="29_Строчок_5.jpg">Что за гриб изображён на фото №140?</question>
+    <answers>
+      <answer>Галерина окаймлённая</answer>
+      <answer correct="true">Строчок</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer>Сыроежка</answer>
+      <answer>Трюфель чёрный</answer>
+    </answers>
+    <hint>Извилистая мозговидная шляпка; весенний гриб на песке</hint>
+    <explanation>Gyromitra esculenta. Смертельно опасен без правильной обработки! Содержит гиромитрин. В России считается условно-съедобным после двукратного отваривания, в Европе — ядовитым.</explanation>
+  </card>
+  <card>
+    <question media="30_Грифола_курчавая_1.jpg">Что за гриб изображён на фото №141?</question>
+    <answers>
+      <answer correct="true">Грифола курчавая</answer>
+      <answer>Бледная поганка</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer>Шампиньон луговой</answer>
+      <answer>Строчок</answer>
+    </answers>
+    <hint>Крупный кустистый гриб из множества веерных шляпок; растёт у оснований дубов</hint>
+    <explanation>Grifola frondosa. «Гриб-баран», «майтаке». Может весить до 10 кг. Съедобный, ценный. В Японии культивируется как лекарственный — исследования противораковых свойств.</explanation>
+  </card>
+  <card>
+    <question media="30_Грифола_курчавая_2.jpg">Что за гриб изображён на фото №142?</question>
+    <answers>
+      <answer>Дождевик съедобный</answer>
+      <answer correct="true">Грифола курчавая</answer>
+      <answer>Свинушка тонкая</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer>Рядовка серая</answer>
+    </answers>
+    <hint>Крупный кустистый гриб из множества веерных шляпок; растёт у оснований дубов</hint>
+    <explanation>Grifola frondosa. «Гриб-баран», «майтаке». Может весить до 10 кг. Съедобный, ценный. В Японии культивируется как лекарственный — исследования противораковых свойств.</explanation>
+  </card>
+  <card>
+    <question media="30_Грифола_курчавая_3.jpg">Что за гриб изображён на фото №143?</question>
+    <answers>
+      <answer>Трюфель чёрный</answer>
+      <answer correct="true">Грифола курчавая</answer>
+      <answer>Чесночник</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Волнушка</answer>
+    </answers>
+    <hint>Крупный кустистый гриб из множества веерных шляпок; растёт у оснований дубов</hint>
+    <explanation>Grifola frondosa. «Гриб-баран», «майтаке». Может весить до 10 кг. Съедобный, ценный. В Японии культивируется как лекарственный — исследования противораковых свойств.</explanation>
+  </card>
+  <card>
+    <question media="30_Грифола_курчавая_4.jpg">Что за гриб изображён на фото №144?</question>
+    <answers>
+      <answer>Дубовик</answer>
+      <answer>Мухомор пантерный</answer>
+      <answer>Галерина окаймлённая</answer>
+      <answer correct="true">Грифола курчавая</answer>
+      <answer>Зонтик пёстрый</answer>
+    </answers>
+    <hint>Крупный кустистый гриб из множества веерных шляпок; растёт у оснований дубов</hint>
+    <explanation>Grifola frondosa. «Гриб-баран», «майтаке». Может весить до 10 кг. Съедобный, ценный. В Японии культивируется как лекарственный — исследования противораковых свойств.</explanation>
+  </card>
+  <card>
+    <question media="30_Грифола_курчавая_5.jpg">Что за гриб изображён на фото №145?</question>
+    <answers>
+      <answer>Подосиновик</answer>
+      <answer correct="true">Грифола курчавая</answer>
+      <answer>Опёнок зимний</answer>
+      <answer>Рядовка серая</answer>
+      <answer>Маслёнок</answer>
+    </answers>
+    <hint>Крупный кустистый гриб из множества веерных шляпок; растёт у оснований дубов</hint>
+    <explanation>Grifola frondosa. «Гриб-баран», «майтаке». Может весить до 10 кг. Съедобный, ценный. В Японии культивируется как лекарственный — исследования противораковых свойств.</explanation>
+  </card>
+  <card>
+    <question media="31_Чага_1.jpg">Что за гриб изображён на фото №146?</question>
+    <answers>
+      <answer>Дождевик съедобный</answer>
+      <answer>Козляк</answer>
+      <answer correct="true">Чага</answer>
+      <answer>Мухомор красный</answer>
+      <answer>Чесночник</answer>
+    </answers>
+    <hint>Чёрный нарост на берёзах; твёрдый, несъедобный; используется как чай</hint>
+    <explanation>Inonocis obliquus. Трутовик, паразитирует на берёзах. Применяется в народной медицине как тонизирующее. Содержит полисахариды, фенолы. Собирается круглый год.</explanation>
+  </card>
+  <card>
+    <question media="31_Чага_2.jpg">Что за гриб изображён на фото №147?</question>
+    <answers>
+      <answer>Мухомор пантерный</answer>
+      <answer>Дубовик</answer>
+      <answer>Свинушка тонкая</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer correct="true">Чага</answer>
+    </answers>
+    <hint>Чёрный нарост на берёзах; твёрдый, несъедобный; используется как чай</hint>
+    <explanation>Inonocis obliquus. Трутовик, паразитирует на берёзах. Применяется в народной медицине как тонизирующее. Содержит полисахариды, фенолы. Собирается круглый год.</explanation>
+  </card>
+  <card>
+    <question media="31_Чага_3.jpg">Что за гриб изображён на фото №148?</question>
+    <answers>
+      <answer>Чесночник</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Польский гриб</answer>
+      <answer correct="true">Чага</answer>
+      <answer>Козляк</answer>
+    </answers>
+    <hint>Чёрный нарост на берёзах; твёрдый, несъедобный; используется как чай</hint>
+    <explanation>Inonocis obliquus. Трутовик, паразитирует на берёзах. Применяется в народной медицине как тонизирующее. Содержит полисахариды, фенолы. Собирается круглый год.</explanation>
+  </card>
+  <card>
+    <question media="31_Чага_4.jpg">Что за гриб изображён на фото №149?</question>
+    <answers>
+      <answer>Вешенка</answer>
+      <answer>Подберёзовик</answer>
+      <answer correct="true">Чага</answer>
+      <answer>Опёнок зимний</answer>
+      <answer>Цезарский гриб</answer>
+    </answers>
+    <hint>Чёрный нарост на берёзах; твёрдый, несъедобный; используется как чай</hint>
+    <explanation>Inonocis obliquus. Трутовик, паразитирует на берёзах. Применяется в народной медицине как тонизирующее. Содержит полисахариды, фенолы. Собирается круглый год.</explanation>
+  </card>
+  <card>
+    <question media="31_Чага_5.jpg">Что за гриб изображён на фото №150?</question>
+    <answers>
+      <answer>Дождевик съедобный</answer>
+      <answer>Польский гриб</answer>
+      <answer>Чесночник</answer>
+      <answer correct="true">Чага</answer>
+      <answer>Лисичка настоящая</answer>
+    </answers>
+    <hint>Чёрный нарост на берёзах; твёрдый, несъедобный; используется как чай</hint>
+    <explanation>Inonocis obliquus. Трутовик, паразитирует на берёзах. Применяется в народной медицине как тонизирующее. Содержит полисахариды, фенолы. Собирается круглый год.</explanation>
+  </card>
+  <card>
+    <question media="32_Дождевик_гигантский_1.jpg">Что за гриб изображён на фото №151?</question>
+    <answers>
+      <answer>Сморчок</answer>
+      <answer correct="true">Дождевик гигантский</answer>
+      <answer>Чага</answer>
+      <answer>Польский гриб</answer>
+      <answer>Волнушка</answer>
+    </answers>
+    <hint>Огромный белый шар (до 50 см, до 20 кг); при созревании жёлто-коричневый</hint>
+    <explanation>Calvatia gigantea. Самый крупный гриб средней полосы. Съедобен только пока белый внутри. Один экземпляр может накормить большую компанию. Споры используются как кровеостанавливающее.</explanation>
+  </card>
+  <card>
+    <question media="33_Мухомор_красный_1.jpg">Что за гриб изображён на фото №152?</question>
+    <answers>
+      <answer>Рядовка серая</answer>
+      <answer correct="true">Мухомор красный</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Чага</answer>
+    </answers>
+    <hint>Красная шляпка с белыми хлопьями; ядовитый, но редко смертельный</hint>
+    <explanation>Amanita muscaria. Содержит мусцимол и иботеновую кислоту. Вызывает галлюцинации. В народной медицине используется наружно. Смертельные случаи редки, но отравление тяжёлое.</explanation>
+  </card>
+  <card>
+    <question media="33_Мухомор_красный_2.jpg">Что за гриб изображён на фото №153?</question>
+    <answers>
+      <answer>Дубовик</answer>
+      <answer>Грифола курчавая</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer correct="true">Мухомор красный</answer>
+      <answer>Зонтик пёстрый</answer>
+    </answers>
+    <hint>Красная шляпка с белыми хлопьями; ядовитый, но редко смертельный</hint>
+    <explanation>Amanita muscaria. Содержит мусцимол и иботеновую кислоту. Вызывает галлюцинации. В народной медицине используется наружно. Смертельные случаи редки, но отравление тяжёлое.</explanation>
+  </card>
+  <card>
+    <question media="33_Мухомор_красный_3.jpg">Что за гриб изображён на фото №154?</question>
+    <answers>
+      <answer>Опёнок зимний</answer>
+      <answer>Рыжик</answer>
+      <answer>Ежовик жёлтый</answer>
+      <answer correct="true">Мухомор красный</answer>
+      <answer>Колпак кольчатый</answer>
+    </answers>
+    <hint>Красная шляпка с белыми хлопьями; ядовитый, но редко смертельный</hint>
+    <explanation>Amanita muscaria. Содержит мусцимол и иботеновую кислоту. Вызывает галлюцинации. В народной медицине используется наружно. Смертельные случаи редки, но отравление тяжёлое.</explanation>
+  </card>
+  <card>
+    <question media="33_Мухомор_красный_4.jpg">Что за гриб изображён на фото №155?</question>
+    <answers>
+      <answer>Опёнок осенний</answer>
+      <answer correct="true">Мухомор красный</answer>
+      <answer>Навозник белый</answer>
+      <answer>Колпак кольчатый</answer>
+      <answer>Говорушка серая</answer>
+    </answers>
+    <hint>Красная шляпка с белыми хлопьями; ядовитый, но редко смертельный</hint>
+    <explanation>Amanita muscaria. Содержит мусцимол и иботеновую кислоту. Вызывает галлюцинации. В народной медицине используется наружно. Смертельные случаи редки, но отравление тяжёлое.</explanation>
+  </card>
+  <card>
+    <question media="33_Мухомор_красный_5.jpg">Что за гриб изображён на фото №156?</question>
+    <answers>
+      <answer>Опёнок зимний</answer>
+      <answer>Подосиновик</answer>
+      <answer>Дубовик</answer>
+      <answer correct="true">Мухомор красный</answer>
+      <answer>Волнушка</answer>
+    </answers>
+    <hint>Красная шляпка с белыми хлопьями; ядовитый, но редко смертельный</hint>
+    <explanation>Amanita muscaria. Содержит мусцимол и иботеновую кислоту. Вызывает галлюцинации. В народной медицине используется наружно. Смертельные случаи редки, но отравление тяжёлое.</explanation>
+  </card>
+  <card>
+    <question media="34_Бледная_поганка_1.jpg">Что за гриб изображён на фото №157?</question>
+    <answers>
+      <answer>Рыжик</answer>
+      <answer>Козляк</answer>
+      <answer>Навозник белый</answer>
+      <answer correct="true">Бледная поганка</answer>
+      <answer>Свинушка тонкая</answer>
+    </answers>
+    <hint>Зеленовато-оливковый, с белыми пластинками; есть вольва и кольцо; СМЕРТЕЛЕН</hint>
+    <explanation>Amanita phalloides. Самый ядовитый гриб в мире! Содержит аматоксины — разрушают печень. Даже 30 г смертельны. Противоядия нет. Симптомы появляются через 8–24 часа, когда уже поздно.</explanation>
+  </card>
+  <card>
+    <question media="34_Бледная_поганка_2.jpg">Что за гриб изображён на фото №158?</question>
+    <answers>
+      <answer>Опёнок осенний</answer>
+      <answer>Чага</answer>
+      <answer>Подосиновик</answer>
+      <answer correct="true">Бледная поганка</answer>
+      <answer>Рыжик</answer>
+    </answers>
+    <hint>Зеленовато-оливковый, с белыми пластинками; есть вольва и кольцо; СМЕРТЕЛЕН</hint>
+    <explanation>Amanita phalloides. Самый ядовитый гриб в мире! Содержит аматоксины — разрушают печень. Даже 30 г смертельны. Противоядия нет. Симптомы появляются через 8–24 часа, когда уже поздно.</explanation>
+  </card>
+  <card>
+    <question media="34_Бледная_поганка_3.jpg">Что за гриб изображён на фото №159?</question>
+    <answers>
+      <answer correct="true">Бледная поганка</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Цезарский гриб</answer>
+      <answer>Трюфель чёрный</answer>
+      <answer>Колпак кольчатый</answer>
+    </answers>
+    <hint>Зеленовато-оливковый, с белыми пластинками; есть вольва и кольцо; СМЕРТЕЛЕН</hint>
+    <explanation>Amanita phalloides. Самый ядовитый гриб в мире! Содержит аматоксины — разрушают печень. Даже 30 г смертельны. Противоядия нет. Симптомы появляются через 8–24 часа, когда уже поздно.</explanation>
+  </card>
+  <card>
+    <question media="34_Бледная_поганка_4.jpg">Что за гриб изображён на фото №160?</question>
+    <answers>
+      <answer>Мухомор пантерный</answer>
+      <answer>Чага</answer>
+      <answer>Шампиньон луговой</answer>
+      <answer correct="true">Бледная поганка</answer>
+      <answer>Грифола курчавая</answer>
+    </answers>
+    <hint>Зеленовато-оливковый, с белыми пластинками; есть вольва и кольцо; СМЕРТЕЛЕН</hint>
+    <explanation>Amanita phalloides. Самый ядовитый гриб в мире! Содержит аматоксины — разрушают печень. Даже 30 г смертельны. Противоядия нет. Симптомы появляются через 8–24 часа, когда уже поздно.</explanation>
+  </card>
+  <card>
+    <question media="34_Бледная_поганка_5.jpg">Что за гриб изображён на фото №161?</question>
+    <answers>
+      <answer>Польский гриб</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer correct="true">Бледная поганка</answer>
+      <answer>Дубовик</answer>
+      <answer>Цезарский гриб</answer>
+    </answers>
+    <hint>Зеленовато-оливковый, с белыми пластинками; есть вольва и кольцо; СМЕРТЕЛЕН</hint>
+    <explanation>Amanita phalloides. Самый ядовитый гриб в мире! Содержит аматоксины — разрушают печень. Даже 30 г смертельны. Противоядия нет. Симптомы появляются через 8–24 часа, когда уже поздно.</explanation>
+  </card>
+  <card>
+    <question media="35_Мухомор_пантерный_1.jpg">Что за гриб изображён на фото №162?</question>
+    <answers>
+      <answer>Польский гриб</answer>
+      <answer>Зонтик пёстрый</answer>
+      <answer>Шампиньон луговой</answer>
+      <answer>Чага</answer>
+      <answer correct="true">Мухомор пантерный</answer>
+    </answers>
+    <hint>Коричневая шляпка с белыми хлопьями; ядовитый, опаснее красного</hint>
+    <explanation>Amanita pantherina. Содержит больше мускарина, чем красный мухомор. Отравление тяжелее. Растёт в хвойных и лиственных лесах. Часто путают с серо-розовым мухомором (съедобным).</explanation>
+  </card>
+  <card>
+    <question media="35_Мухомор_пантерный_2.jpg">Что за гриб изображён на фото №163?</question>
+    <answers>
+      <answer correct="true">Мухомор пантерный</answer>
+      <answer>Мухомор красный</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Ежовик жёлтый</answer>
+      <answer>Рядовка серая</answer>
+    </answers>
+    <hint>Коричневая шляпка с белыми хлопьями; ядовитый, опаснее красного</hint>
+    <explanation>Amanita pantherina. Содержит больше мускарина, чем красный мухомор. Отравление тяжелее. Растёт в хвойных и лиственных лесах. Часто путают с серо-розовым мухомором (съедобным).</explanation>
+  </card>
+  <card>
+    <question media="35_Мухомор_пантерный_3.jpg">Что за гриб изображён на фото №164?</question>
+    <answers>
+      <answer>Сыроежка</answer>
+      <answer>Зонтик пёстрый</answer>
+      <answer>Моховик</answer>
+      <answer correct="true">Мухомор пантерный</answer>
+      <answer>Цезарский гриб</answer>
+    </answers>
+    <hint>Коричневая шляпка с белыми хлопьями; ядовитый, опаснее красного</hint>
+    <explanation>Amanita pantherina. Содержит больше мускарина, чем красный мухомор. Отравление тяжелее. Растёт в хвойных и лиственных лесах. Часто путают с серо-розовым мухомором (съедобным).</explanation>
+  </card>
+  <card>
+    <question media="35_Мухомор_пантерный_4.jpg">Что за гриб изображён на фото №165?</question>
+    <answers>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer correct="true">Мухомор пантерный</answer>
+      <answer>Строчок</answer>
+    </answers>
+    <hint>Коричневая шляпка с белыми хлопьями; ядовитый, опаснее красного</hint>
+    <explanation>Amanita pantherina. Содержит больше мускарина, чем красный мухомор. Отравление тяжелее. Растёт в хвойных и лиственных лесах. Часто путают с серо-розовым мухомором (съедобным).</explanation>
+  </card>
+  <card>
+    <question media="35_Мухомор_пантерный_5.jpg">Что за гриб изображён на фото №166?</question>
+    <answers>
+      <answer>Подосиновик</answer>
+      <answer>Зонтик пёстрый</answer>
+      <answer>Чага</answer>
+      <answer correct="true">Мухомор пантерный</answer>
+      <answer>Сатанинский гриб</answer>
+    </answers>
+    <hint>Коричневая шляпка с белыми хлопьями; ядовитый, опаснее красного</hint>
+    <explanation>Amanita pantherina. Содержит больше мускарина, чем красный мухомор. Отравление тяжелее. Растёт в хвойных и лиственных лесах. Часто путают с серо-розовым мухомором (съедобным).</explanation>
+  </card>
+  <card>
+    <question media="36_Сатанинский_гриб_1.jpg">Что за гриб изображён на фото №167?</question>
+    <answers>
+      <answer>Мухомор красный</answer>
+      <answer>Рыжик</answer>
+      <answer>Козляк</answer>
+      <answer>Колпак кольчатый</answer>
+      <answer correct="true">Сатанинский гриб</answer>
+    </answers>
+    <hint>Трубчатый, с красными порами и сетчатой ножкой; мякоть синеет; ядовитый</hint>
+    <explanation>Boletus satanas. Похож на дубовик, но ядовит в сыром виде. Шляпка светлая, поры красные. Вызывает тяжёлое желудочно-кишечное отравление. В Европе считается несъедобным.</explanation>
+  </card>
+  <card>
+    <question media="36_Сатанинский_гриб_2.jpg">Что за гриб изображён на фото №168?</question>
+    <answers>
+      <answer correct="true">Сатанинский гриб</answer>
+      <answer>Вешенка</answer>
+      <answer>Рядовка серая</answer>
+      <answer>Груздь настоящий</answer>
+      <answer>Белый гриб</answer>
+    </answers>
+    <hint>Трубчатый, с красными порами и сетчатой ножкой; мякоть синеет; ядовитый</hint>
+    <explanation>Boletus satanas. Похож на дубовик, но ядовит в сыром виде. Шляпка светлая, поры красные. Вызывает тяжёлое желудочно-кишечное отравление. В Европе считается несъедобным.</explanation>
+  </card>
+  <card>
+    <question media="36_Сатанинский_гриб_3.jpg">Что за гриб изображён на фото №169?</question>
+    <answers>
+      <answer>Зонтик пёстрый</answer>
+      <answer>Свинушка тонкая</answer>
+      <answer correct="true">Сатанинский гриб</answer>
+      <answer>Рыжик</answer>
+      <answer>Рядовка серая</answer>
+    </answers>
+    <hint>Трубчатый, с красными порами и сетчатой ножкой; мякоть синеет; ядовитый</hint>
+    <explanation>Boletus satanas. Похож на дубовик, но ядовит в сыром виде. Шляпка светлая, поры красные. Вызывает тяжёлое желудочно-кишечное отравление. В Европе считается несъедобным.</explanation>
+  </card>
+  <card>
+    <question media="36_Сатанинский_гриб_4.jpg">Что за гриб изображён на фото №170?</question>
+    <answers>
+      <answer>Мухомор красный</answer>
+      <answer>Шампиньон луговой</answer>
+      <answer>Навозник белый</answer>
+      <answer correct="true">Сатанинский гриб</answer>
+      <answer>Дубовик</answer>
+    </answers>
+    <hint>Трубчатый, с красными порами и сетчатой ножкой; мякоть синеет; ядовитый</hint>
+    <explanation>Boletus satanas. Похож на дубовик, но ядовит в сыром виде. Шляпка светлая, поры красные. Вызывает тяжёлое желудочно-кишечное отравление. В Европе считается несъедобным.</explanation>
+  </card>
+  <card>
+    <question media="36_Сатанинский_гриб_5.jpg">Что за гриб изображён на фото №171?</question>
+    <answers>
+      <answer>Говорушка серая</answer>
+      <answer>Польский гриб</answer>
+      <answer>Опёнок зимний</answer>
+      <answer>Рыжик</answer>
+      <answer correct="true">Сатанинский гриб</answer>
+    </answers>
+    <hint>Трубчатый, с красными порами и сетчатой ножкой; мякоть синеет; ядовитый</hint>
+    <explanation>Boletus satanas. Похож на дубовик, но ядовит в сыром виде. Шляпка светлая, поры красные. Вызывает тяжёлое желудочно-кишечное отравление. В Европе считается несъедобным.</explanation>
+  </card>
+  <card>
+    <question media="37_Ложноопёнок_серно-жёлтый_1.jpg">Что за гриб изображён на фото №172?</question>
+    <answers>
+      <answer>Белый гриб</answer>
+      <answer>Чага</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer correct="true">Ложноопёнок серно-жёлтый</answer>
+    </answers>
+    <hint>Похож на опёнок, но ярко-жёлто-зелёный; растёт на пнях; ядовитый</hint>
+    <explanation>Hypholoma fasciculare. Растёт большими пучками на гниющей древесине. У опёнка осеннего — кольцо на ножке и коричневые пластинки, у ложноопёнка — кольца нет, пластинки жёлто-зелёные.</explanation>
+  </card>
+  <card>
+    <question media="37_Ложноопёнок_серно-жёлтый_2.jpg">Что за гриб изображён на фото №173?</question>
+    <answers>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Белый гриб</answer>
+      <answer>Грифола курчавая</answer>
+      <answer>Сморчок</answer>
+      <answer correct="true">Ложноопёнок серно-жёлтый</answer>
+    </answers>
+    <hint>Похож на опёнок, но ярко-жёлто-зелёный; растёт на пнях; ядовитый</hint>
+    <explanation>Hypholoma fasciculare. Растёт большими пучками на гниющей древесине. У опёнка осеннего — кольцо на ножке и коричневые пластинки, у ложноопёнка — кольца нет, пластинки жёлто-зелёные.</explanation>
+  </card>
+  <card>
+    <question media="37_Ложноопёнок_серно-жёлтый_3.jpg">Что за гриб изображён на фото №174?</question>
+    <answers>
+      <answer correct="true">Ложноопёнок серно-жёлтый</answer>
+      <answer>Галерина окаймлённая</answer>
+      <answer>Козляк</answer>
+      <answer>Подосиновик</answer>
+      <answer>Грифола курчавая</answer>
+    </answers>
+    <hint>Похож на опёнок, но ярко-жёлто-зелёный; растёт на пнях; ядовитый</hint>
+    <explanation>Hypholoma fasciculare. Растёт большими пучками на гниющей древесине. У опёнка осеннего — кольцо на ножке и коричневые пластинки, у ложноопёнка — кольца нет, пластинки жёлто-зелёные.</explanation>
+  </card>
+  <card>
+    <question media="37_Ложноопёнок_серно-жёлтый_4.jpg">Что за гриб изображён на фото №175?</question>
+    <answers>
+      <answer>Строчок</answer>
+      <answer>Навозник белый</answer>
+      <answer>Козляк</answer>
+      <answer correct="true">Ложноопёнок серно-жёлтый</answer>
+      <answer>Сыроежка</answer>
+    </answers>
+    <hint>Похож на опёнок, но ярко-жёлто-зелёный; растёт на пнях; ядовитый</hint>
+    <explanation>Hypholoma fasciculare. Растёт большими пучками на гниющей древесине. У опёнка осеннего — кольцо на ножке и коричневые пластинки, у ложноопёнка — кольца нет, пластинки жёлто-зелёные.</explanation>
+  </card>
+  <card>
+    <question media="37_Ложноопёнок_серно-жёлтый_5.jpg">Что за гриб изображён на фото №176?</question>
+    <answers>
+      <answer>Ежовик жёлтый</answer>
+      <answer>Дубовик</answer>
+      <answer>Рыжик</answer>
+      <answer>Чесночник</answer>
+      <answer correct="true">Ложноопёнок серно-жёлтый</answer>
+    </answers>
+    <hint>Похож на опёнок, но ярко-жёлто-зелёный; растёт на пнях; ядовитый</hint>
+    <explanation>Hypholoma fasciculare. Растёт большими пучками на гниющей древесине. У опёнка осеннего — кольцо на ножке и коричневые пластинки, у ложноопёнка — кольца нет, пластинки жёлто-зелёные.</explanation>
+  </card>
+  <card>
+    <question media="38_Энтолома_ядовитая_1.jpg">Что за гриб изображён на фото №177?</question>
+    <answers>
+      <answer>Рыжик</answer>
+      <answer>Строчок</answer>
+      <answer>Мухомор пантерный</answer>
+      <answer correct="true">Энтолома ядовитая</answer>
+      <answer>Опёнок осенний</answer>
+    </answers>
+    <hint>Пластинчатый, серо-коричневый, с розовыми пластинками; ядовитый</hint>
+    <explanation>Entoloma sinuatum. Растёт в лиственных лесах. Розоватые пластинки — признак рода. Вызывает тяжёлое отравление. Похож на съедобную рядовку майскую, но растёт позже.</explanation>
+  </card>
+  <card>
+    <question media="38_Энтолома_ядовитая_2.jpg">Что за гриб изображён на фото №178?</question>
+    <answers>
+      <answer>Мухомор пантерный</answer>
+      <answer correct="true">Энтолома ядовитая</answer>
+      <answer>Бледная поганка</answer>
+      <answer>Навозник белый</answer>
+      <answer>Сморчок</answer>
+    </answers>
+    <hint>Пластинчатый, серо-коричневый, с розовыми пластинками; ядовитый</hint>
+    <explanation>Entoloma sinuatum. Растёт в лиственных лесах. Розоватые пластинки — признак рода. Вызывает тяжёлое отравление. Похож на съедобную рядовку майскую, но растёт позже.</explanation>
+  </card>
+  <card>
+    <question media="38_Энтолома_ядовитая_3.jpg">Что за гриб изображён на фото №179?</question>
+    <answers>
+      <answer>Подберёзовик</answer>
+      <answer>Колпак кольчатый</answer>
+      <answer correct="true">Энтолома ядовитая</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer>Опёнок зимний</answer>
+    </answers>
+    <hint>Пластинчатый, серо-коричневый, с розовыми пластинками; ядовитый</hint>
+    <explanation>Entoloma sinuatum. Растёт в лиственных лесах. Розоватые пластинки — признак рода. Вызывает тяжёлое отравление. Похож на съедобную рядовку майскую, но растёт позже.</explanation>
+  </card>
+  <card>
+    <question media="38_Энтолома_ядовитая_4.jpg">Что за гриб изображён на фото №180?</question>
+    <answers>
+      <answer>Моховик</answer>
+      <answer>Цезарский гриб</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer correct="true">Энтолома ядовитая</answer>
+      <answer>Зонтик пёстрый</answer>
+    </answers>
+    <hint>Пластинчатый, серо-коричневый, с розовыми пластинками; ядовитый</hint>
+    <explanation>Entoloma sinuatum. Растёт в лиственных лесах. Розоватые пластинки — признак рода. Вызывает тяжёлое отравление. Похож на съедобную рядовку майскую, но растёт позже.</explanation>
+  </card>
+  <card>
+    <question media="38_Энтолома_ядовитая_5.jpg">Что за гриб изображён на фото №181?</question>
+    <answers>
+      <answer>Сморчок</answer>
+      <answer>Бледная поганка</answer>
+      <answer>Козляк</answer>
+      <answer correct="true">Энтолома ядовитая</answer>
+      <answer>Ежовик жёлтый</answer>
+    </answers>
+    <hint>Пластинчатый, серо-коричневый, с розовыми пластинками; ядовитый</hint>
+    <explanation>Entoloma sinuatum. Растёт в лиственных лесах. Розоватые пластинки — признак рода. Вызывает тяжёлое отравление. Похож на съедобную рядовку майскую, но растёт позже.</explanation>
+  </card>
+  <card>
+    <question media="39_Свинушка_тонкая_1.jpg">Что за гриб изображён на фото №182?</question>
+    <answers>
+      <answer>Чесночник</answer>
+      <answer>Ежовик жёлтый</answer>
+      <answer correct="true">Свинушка тонкая</answer>
+      <answer>Трюфель чёрный</answer>
+      <answer>Белый гриб</answer>
+    </answers>
+    <hint>Пластинчатый, бурый, с вдавленной шляпкой; считался съедобным — теперь ядовитый</hint>
+    <explanation>Paxillus involutus. До 1980-х считался съедобным. Сейчас доказано: вызывает разрушение эритроцитов (рабдомиолиз) при повторном употреблении. Отравление может быть смертельным.</explanation>
+  </card>
+  <card>
+    <question media="39_Свинушка_тонкая_2.jpg">Что за гриб изображён на фото №183?</question>
+    <answers>
+      <answer>Ежовик жёлтый</answer>
+      <answer correct="true">Свинушка тонкая</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer>Белый гриб</answer>
+      <answer>Рядовка серая</answer>
+    </answers>
+    <hint>Пластинчатый, бурый, с вдавленной шляпкой; считался съедобным — теперь ядовитый</hint>
+    <explanation>Paxillus involutus. До 1980-х считался съедобным. Сейчас доказано: вызывает разрушение эритроцитов (рабдомиолиз) при повторном употреблении. Отравление может быть смертельным.</explanation>
+  </card>
+  <card>
+    <question media="39_Свинушка_тонкая_3.jpg">Что за гриб изображён на фото №184?</question>
+    <answers>
+      <answer>Груздь настоящий</answer>
+      <answer correct="true">Свинушка тонкая</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer>Шампиньон луговой</answer>
+      <answer>Рыжик</answer>
+    </answers>
+    <hint>Пластинчатый, бурый, с вдавленной шляпкой; считался съедобным — теперь ядовитый</hint>
+    <explanation>Paxillus involutus. До 1980-х считался съедобным. Сейчас доказано: вызывает разрушение эритроцитов (рабдомиолиз) при повторном употреблении. Отравление может быть смертельным.</explanation>
+  </card>
+  <card>
+    <question media="39_Свинушка_тонкая_4.jpg">Что за гриб изображён на фото №185?</question>
+    <answers>
+      <answer>Мухомор пантерный</answer>
+      <answer>Груздь настоящий</answer>
+      <answer>Моховик</answer>
+      <answer correct="true">Свинушка тонкая</answer>
+      <answer>Цезарский гриб</answer>
+    </answers>
+    <hint>Пластинчатый, бурый, с вдавленной шляпкой; считался съедобным — теперь ядовитый</hint>
+    <explanation>Paxillus involutus. До 1980-х считался съедобным. Сейчас доказано: вызывает разрушение эритроцитов (рабдомиолиз) при повторном употреблении. Отравление может быть смертельным.</explanation>
+  </card>
+  <card>
+    <question media="39_Свинушка_тонкая_5.jpg">Что за гриб изображён на фото №186?</question>
+    <answers>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer>Мухомор красный</answer>
+      <answer correct="true">Свинушка тонкая</answer>
+      <answer>Рядовка серая</answer>
+      <answer>Навозник белый</answer>
+    </answers>
+    <hint>Пластинчатый, бурый, с вдавленной шляпкой; считался съедобным — теперь ядовитый</hint>
+    <explanation>Paxillus involutus. До 1980-х считался съедобным. Сейчас доказано: вызывает разрушение эритроцитов (рабдомиолиз) при повторном употреблении. Отравление может быть смертельным.</explanation>
+  </card>
+  <card>
+    <question media="40_Галерина_окаймлённая_1.jpg">Что за гриб изображён на фото №187?</question>
+    <answers>
+      <answer>Бледная поганка</answer>
+      <answer>Говорушка серая</answer>
+      <answer>Подосиновик</answer>
+      <answer>Сморчок</answer>
+      <answer correct="true">Галерина окаймлённая</answer>
+    </answers>
+    <hint>Мелкий пластинчатый, оранжево-коричневый; СМЕРТЕЛЕН, как бледная поганка</hint>
+    <explanation>Galerina marginata. Растёт на гниющей древесине. Содержит те же аматоксины, что бледная поганка. Часто путают с опёнком летним (съедобным) — у летнего шляпка с водянистыми зонами, у галерины — гладкая.</explanation>
+  </card>
+  <card>
+    <question media="40_Галерина_окаймлённая_2.jpg">Что за гриб изображён на фото №188?</question>
+    <answers>
+      <answer correct="true">Галерина окаймлённая</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer>Подосиновик</answer>
+      <answer>Чага</answer>
+      <answer>Подберёзовик</answer>
+    </answers>
+    <hint>Мелкий пластинчатый, оранжево-коричневый; СМЕРТЕЛЕН, как бледная поганка</hint>
+    <explanation>Galerina marginata. Растёт на гниющей древесине. Содержит те же аматоксины, что бледная поганка. Часто путают с опёнком летним (съедобным) — у летнего шляпка с водянистыми зонами, у галерины — гладкая.</explanation>
+  </card>
+  <card>
+    <question media="40_Галерина_окаймлённая_3.jpg">Что за гриб изображён на фото №189?</question>
+    <answers>
+      <answer>Опёнок осенний</answer>
+      <answer>Навозник белый</answer>
+      <answer correct="true">Галерина окаймлённая</answer>
+      <answer>Шампиньон луговой</answer>
+      <answer>Рыжик</answer>
+    </answers>
+    <hint>Мелкий пластинчатый, оранжево-коричневый; СМЕРТЕЛЕН, как бледная поганка</hint>
+    <explanation>Galerina marginata. Растёт на гниющей древесине. Содержит те же аматоксины, что бледная поганка. Часто путают с опёнком летним (съедобным) — у летнего шляпка с водянистыми зонами, у галерины — гладкая.</explanation>
+  </card>
+  <card>
+    <question media="40_Галерина_окаймлённая_4.jpg">Что за гриб изображён на фото №190?</question>
+    <answers>
+      <answer>Рядовка серая</answer>
+      <answer correct="true">Галерина окаймлённая</answer>
+      <answer>Колпак кольчатый</answer>
+      <answer>Энтолома ядовитая</answer>
+      <answer>Мухомор пантерный</answer>
+    </answers>
+    <hint>Мелкий пластинчатый, оранжево-коричневый; СМЕРТЕЛЕН, как бледная поганка</hint>
+    <explanation>Galerina marginata. Растёт на гниющей древесине. Содержит те же аматоксины, что бледная поганка. Часто путают с опёнком летним (съедобным) — у летнего шляпка с водянистыми зонами, у галерины — гладкая.</explanation>
+  </card>
+  <card>
+    <question media="40_Галерина_окаймлённая_5.jpg">Что за гриб изображён на фото №191?</question>
+    <answers>
+      <answer>Дубовик</answer>
+      <answer>Подосиновик</answer>
+      <answer>Моховик</answer>
+      <answer correct="true">Галерина окаймлённая</answer>
+      <answer>Цезарский гриб</answer>
+    </answers>
+    <hint>Мелкий пластинчатый, оранжево-коричневый; СМЕРТЕЛЕН, как бледная поганка</hint>
+    <explanation>Galerina marginata. Растёт на гниющей древесине. Содержит те же аматоксины, что бледная поганка. Часто путают с опёнком летним (съедобным) — у летнего шляпка с водянистыми зонами, у галерины — гладкая.</explanation>
+  </card>
+  
+    <card>
+    <question>Какой гриб считается самым смертельно ядовитым в Европе и отвечает за большинство смертельных отравлений?</question>
+    <answers>
+      <answer correct="true">Бледная поганка</answer>
+      <answer>Мухомор красный</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer>Говорушка беловатая</answer>
+    </answers>
+    <hint>Зеленовато-оливковый гриб с белыми пластинками, белой вольвой у основания ножки и кольцом. Растёт в лиственных лесах.</hint>
+    <explanation>Amanita phalloides содержит аматоксины — смертельный яд, разрушающий печень. Смертельная доза — 30 г (одна шляпка). Симптомы появляются через 8–24 часа, когда уже поздно — печень разрушена. Противоядия нет, спасает только пересадка печени. Запомните: белые пластинки + вольва + кольцо = смертельная опасность.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб чаще всего путают с шампиньоном, что приводит к смертельным отравлениям?</question>
+    <answers>
+      <answer correct="true">Бледная поганка</answer>
+      <answer>Мухомор вонючий</answer>
+      <answer>Говорушка беловатая</answer>
+      <answer>Рядовка белая</answer>
+      <answer>Лепиота ядовитая</answer>
+    </answers>
+    <hint>У шампиньона пластинки с возрастом темнеют (от розовых до коричневых), у двойника — остаются белыми. Ищите вольву — у шампиньона её нет.</hint>
+    <explanation>Главное отличие: у шампиньона пластинки с возрастом становятся розовыми, потом шоколадно-коричневыми; у бледной поганки — всегда белые. У бледной поганки есть вольва (мешочек у основания ножки) и кольцо, которых нет у шампиньона. Если сомневаетесь — не берите гриб с белыми пластинками и вольвой.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб называют «царём грибов» в России за его вкусовые качества и универсальность?</question>
+    <answers>
+      <answer correct="true">Белый гриб (боровик)</answer>
+      <answer>Груздь настоящий</answer>
+      <answer>Рыжик</answer>
+      <answer>Подосиновик</answer>
+      <answer>Лисичка</answer>
+    </answers>
+    <hint>Трубчатый гриб с коричневой шляпкой и белой ножкой. Мякоть на срезе не меняет цвет — в отличие от ядовитых двойников.</hint>
+    <explanation>Boletus edulus — эталон съедобного гриба. Мякоть белая, не темнеет на срезе (главный признак отличия от желчного гриба и сатанинского). Растёт в хвойных и лиственных лесах. Универсален: варят, жарят, сушат, маринуют. Сушёный белый — основа грибных супов и соусов.</explanation>
+  </card>
+  <card>
+    <question>Какой трубчатый гриб горчит на вкус и считается несъедобным двойником белого гриба?</question>
+    <answers>
+      <answer correct="true">Желчный гриб (горчак)</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer>Боровик волчий</answer>
+      <answer>Моховик паразитный</answer>
+      <answer>Польский гриб</answer>
+    </answers>
+    <hint>Похож на белый, но мякоть розовеет на срезе, а трубчатый слой розоватый (у белого — белый, потом жёлто-зелёный). Горький на вкус.</hint>
+    <explanation>Tylopilus felleus не ядовит, но несъедобен из-за горечи. Главное отличие: розовеющая на срезе мякоть и розоватый трубчатый слой. Даже один гриб может испортить целое блюдо. Если сомневаетесь — лизните срез: горький — выбрасывайте.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб называют «лисичкой» и почему он никогда не бывает червивым?</question>
+    <answers>
+      <answer correct="true">Лисичка настоящая</answer>
+      <answer>Ложная лисичка</answer>
+      <answer>Ежовик жёлтый</answer>
+      <answer>Лисичка трубчатая</answer>
+      <answer>Лисичка гранёная</answer>
+    </answers>
+    <hint>Ярко-жёлтая воронковидная шляпка, сросшиеся со шляпкой пластинки-складки. Содержит вещество, убивающее паразитов.</hint>
+    <explanation>Cantharellus cibarius содержит хиноманнозу — вещество, убивающее гельминтов и личинок насекомых. Поэтому лисички не бывают червивыми (единственный массовый гриб с таким свойством). Используются в народной медицине как противоглистное средство. Отличаются от ложной лисички сросшимися пластинками и более ярким цветом.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб отличает оранжевый млечный сок, зеленеющий на воздухе?</question>
+    <answers>
+      <answer correct="true">Рыжик</answer>
+      <answer>Груздь настоящий</answer>
+      <answer>Волнушка</answer>
+      <answer>Горькушка</answer>
+      <answer>Млечник сладковатый</answer>
+    </answers>
+    <hint>Оранжевый пластинчатый гриб, растущий под соснами. Млечный сок на воздухе зеленеет — уникальный признак.</hint>
+    <explanation>Lactarius deliciosus — один из ценнейших грибов России. Оранжевый млечный сок зеленеет на воздухе через 10–20 минут — это уникальный признак, по которому рыжик не спутаешь ни с чем. Можно есть сырым с солью (единственный такой гриб). Растёт только под соснами.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб требует длительного вымачивания из-за едкого млечного сока, но после засолки считается деликатесом?</question>
+    <answers>
+      <answer correct="true">Груздь настоящий</answer>
+      <answer>Рыжик</answer>
+      <answer>Сыроежка</answer>
+      <answer>Лисичка</answer>
+      <answer>Вешенка</answer>
+    </answers>
+    <hint>Белый пластинчатый гриб с воронковидной шляпкой. Растёт под берёзами. Млечный сок очень едкий и жгучий.</hint>
+    <explanation>Lactarius resimus — «царь засолки». Млечный сок едкий — требует вымачивания 2–3 суток с частой сменой воды. После засолки (холодным способом, 40 дней) — один из лучших солёных грибов. Отличается от скрипицы (тоже белого груздя) отсутствием опушки на шляпке.</explanation>
+  </card>
+  <card>
+    <question>Какой осенний гриб растёт большими пучками на пнях и имеет кольцо на ножке?</question>
+    <answers>
+      <answer correct="true">Опёнок осенний</answer>
+      <answer>Ложноопёнок серно-жёлтый</answer>
+      <answer>Опёнок летний</answer>
+      <answer>Чешуйчатка ворсистая</answer>
+      <answer>Строфария сине-зелёная</answer>
+    </answers>
+    <hint>Пластинчатый гриб, растущий большими группами на пнях и стволах. У настоящего опёнка — кольцо на ножке и коричневые пластинки.</hint>
+    <explanation>Armillaria mellea — массовый осенний гриб. Кольцо на ножке — главный признак отличия от ядовитого ложноопёнка серно-жёлтого (у того кольца нет, а пластинки жёлто-зелёные). Условно-съедобный — требует отваривания 15–20 минут (отвар сливать).</explanation>
+  </card>
+  <card>
+    <question>Какой гриб ядовит и часто путают с опёнком осенним из-за роста на пнях?</question>
+    <answers>
+      <answer correct="true">Ложноопёнок серно-жёлтый</answer>
+      <answer>Опёнок летний</answer>
+      <answer>Чешуйчатка тополевая</answer>
+      <answer>Строфария сине-зелёная</answer>
+      <answer>Галерина окаймлённая</answer>
+    </answers>
+    <hint>Ярко-жёлто-зелёные пластинки, нет кольца на ножке. Растёт на гниющей древесине большими пучками, как опёнок.</hint>
+    <explanation>Hypholoma fasciculare — ядовитый гриб, вызывающий тяжёлое отравление (рвота, поражение печени). Главное отличие от опёнка осеннего: жёлто-зелёные пластинки (у опёнка — кремовые или коричневые) и отсутствие кольца на ножке. Горький на вкус.</explanation>
+  </card>
+  <card>
+    <question>Какой весенний гриб с ячеистой шляпкой требует обязательного отваривания перед употреблением?</question>
+    <answers>
+      <answer correct="true">Сморчок съедобный</answer>
+      <answer>Строчок обыкновенный</answer>
+      <answer>Шапочка сморчковая</answer>
+      <answer>Дождевик грушевидный</answer>
+      <answer>Пецица фиолетовая</answer>
+    </answers>
+    <hint>Первый весенний гриб. Коническая ячеистая шляпка на полой ножке. Содержит гельвелловую кислоту, разрушающуюся при варке.</hint>
+    <explanation>Morchella esculenta — условно-съедобный. Содержит гельвелловую кислоту (разрушает эритроциты). Перед готовкой обязательно отваривать 15–20 минут, отвар сливать. После варки — деликатес. Растёт в лиственных лесах, на пожарищах, в садах.</explanation>
+  </card>
+  <card>
+    <question>Какой весенний гриб с мозговидной шляпкой в России считается условно-съедобным, а в Европе — смертельно ядовитым?</question>
+    <answers>
+      <answer correct="true">Строчок обыкновенный</answer>
+      <answer>Сморчок съедобный</answer>
+      <answer>Строчок гигантский</answer>
+      <answer>Саркосома шаровидная</answer>
+      <answer>Сморчковая шапочка</answer>
+    </answers>
+    <hint>Извилистая мозговидная шляпка коричневого цвета. Содержит гиромитрин — яд, поражающий печень и нервную систему.</hint>
+    <explanation>Gyromitra esculenta содержит гиромитрин — яд, разрушающий печень и эритроциты. В России считается условно-съедобным после двукратного отваривания по 15 минут (отвар сливать) или длительной сушки (2–4 недели). В Европе и США — считается ядовитым, есть нельзя. Лучше не рисковать.</explanation>
+  </card>
+  <card>
+    <question>Какой мелкий пластинчатый гриб ядовит и часто путают с летним опёнком?</question>
+    <answers>
+      <answer correct="true">Галерина окаймлённая</answer>
+      <answer>Опёнок летний</answer>
+      <answer>Ложноопёнок кирпично-красный</answer>
+      <answer>Чешуйчатка углелюбивая</answer>
+      <answer>Навозник серый</answer>
+    </answers>
+    <hint>Мелкий оранжево-коричневый гриб на гнилой древесине. Содержит те же аматоксины, что и бледная поганка — смертельно ядовит!</hint>
+    <explanation>Galerina marginata — один из опаснейших грибов. Содержит аматоксины (как бледная поганка). Растёт на гниющих пнях и валежнике. Отличается от опёнка летнего гладкой шляпкой (у летнего — с водянистыми концентрическими зонами) и отсутствием кольца. Смертельная доза — 20–30 г.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб с красной шляпкой и белыми хлопьями ядовит, но редко смертелен?</question>
+    <answers>
+      <answer correct="true">Мухомор красный</answer>
+      <answer>Мухомор пантерный</answer>
+      <answer>Цезарский гриб</answer>
+      <answer>Мухомор поганковидный</answer>
+      <answer>Мухомор серо-розовый</answer>
+    </answers>
+    <hint>Ярко-красная шляпка с белыми хлопьями-бородавками. Содержит мусцимол и иботеновую кислоту, вызывающие галлюцинации.</hint>
+    <explanation>Amanita muscaria — знаменитый ядовитый гриб. Содержит мусцимол и иботеновую кислоту — вызывают галлюцинации, рвоту, спутанность сознания. Смертельные случаи редки, но отравление тяжёлое. В народной медицине используется наружно (мазь от болей). Белые хлопья легко смываются дождём — поэтому смотрите на вольву у основания.</explanation>
+  </card>
+  <card>
+    <question>Какой съедобный мухомор с оранжевой шляпкой и жёлтыми пластинками считается деликатесом?</question>
+    <answers>
+      <answer correct="true">Цезарский гриб (мухомор Цезаря)</answer>
+      <answer>Мухомор красный</answer>
+      <answer>Мухомор серо-розовый</answer>
+      <answer>Поплавок оранжевый</answer>
+      <answer>Мухомор шишкообразный</answer>
+    </answers>
+    <hint>Съедобный мухомор с оранжевой шляпкой, жёлтыми пластинками и белой вольвой. Деликатес Древнего Рима. Растёт на Кавказе и в Крыму.</hint>
+    <explanation>Amanita caesarea — единственный съедобный мухомор. Деликатес со времён Рима (подавали императорам). Главное отличие от красного мухомора: жёлтые пластинки (у красного — белые) и жёлтая ножка. Растёт только на Кавказе и в Крыму — в средней полосе России не встречается. Занесён в Красную книгу ряда регионов.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб до 1980-х годов считался съедобным, а теперь признан смертельно опасным при повторном употреблении?</question>
+    <answers>
+      <answer correct="true">Свинушка тонкая</answer>
+      <answer>Рядовка серая</answer>
+      <answer>Говорушка дымчатая</answer>
+      <answer>Паутинник фиолетовый</answer>
+      <answer>Мокруха пурпуровая</answer>
+    </answers>
+    <hint>Бурый пластинчатый гриб с вдавленной шляпкой. Содержит антиген, вызывающий аутоиммунное разрушение эритроцитов при повторном употреблении.</hint>
+    <explanation>Paxillus involutus — трагическая история. До 1980-х считался съедобным грибом 4-й категории. В 1944 г. немецкий миколог Юлиус Шеффер умер после употребления — открыт синдром Паксиллюса. Антиген накапливается в организме, при повторном употреблении вызывает аутоиммунное разрушение эритроцитов. Смертельно! Не ешьте даже после варки.</explanation>
+  </card>
+  <card>
+    <question>Какой трубчатый гриб с красными порами и сетчатой ножкой ядовит в сыром виде?</question>
+    <answers>
+      <answer correct="true">Сатанинский гриб</answer>
+      <answer>Дубовик оливково-бурый</answer>
+      <answer>Боровик волчий</answer>
+      <answer>Боровик розовокожий</answer>
+      <answer>Боровик Фроста</answer>
+    </answers>
+    <hint>Трубчатый гриб с оливково-коричневой шляпкой и красными порами. Мякоть синеет на срезе. Похож на дубовик, но ядовит в сыром виде.</hint>
+    <explanation>Boletus satanas — ядовит в сыром виде, вызывает тяжёлое желудочно-кишечное отравление (сильная рвота, диарея). Похож на съедобный дубовик (тот же оливковый цвет, красные поры), но у сатанинского более светлая шляпка и сетчатый рисунок на ножке. После отваривания теряет ядовитость, но лучше не рисковать.</explanation>
+  </card>
+  <card>
+    <question>Какой съедобный трубчатый гриб с красными порами мякоть синеет на срезе, но это безопасно?</question>
+    <answers>
+      <answer correct="true">Дубовик оливково-бурый</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer>Моховик пёстрый</answer>
+      <answer>Польский гриб</answer>
+      <answer>Боровик розовокожий</answer>
+    </answers>
+    <hint>Растёт под дубами. Оливково-коричневая шляпка, красные поры, сетчатая ножка. Мякоть синеет на срезе — это нормально.</hint>
+    <explanation>Boletus luridus — съедобный гриб 2-й категории. Мякоть быстро синеет на срезе — это нормально (окисление болетола), не признак ядовитости. Требует обязательного отваривания 15 минут (отвар сливать). Растёт только под дубами — отсюда название. Отличается от сатанинского гриба более тёмной шляпкой.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб с красной ножкой и коричнево-оранжевой шляпкой мякоть синеет на срезе?</question>
+    <answers>
+      <answer correct="true">Подосиновик (красноголовик)</answer>
+      <answer>Подберёзовик</answer>
+      <answer>Моховик зелёный</answer>
+      <answer>Козляк</answer>
+      <answer>Маслёнок поздний</answer>
+    </answers>
+    <hint>Трубчатый гриб с ярко-оранжевой шляпкой и белой ножкой в чёрных чешуйках. Мякоть синеет на срезе — это безвредно.</hint>
+    <explanation>Leccinum aurantiacum — популярный съедобный гриб. Мякоть на срезе синеет — это нормальная реакция окисления, не признак ядовитости. Растёт под осинами, но встречается и под другими деревьями. Отличается от подберёзовика оранжевой шляпкой (у того — коричневая или серая).</explanation>
+  </card>
+  <card>
+    <question>Какой трубчатый гриб с белой ножкой в чёрных чешуйках растёт под берёзами?</question>
+    <answers>
+      <answer correct="true">Подберёзовик</answer>
+      <answer>Подосиновик</answer>
+      <answer>Белый гриб</answer>
+      <answer>Моховик жёлто-бурый</answer>
+      <answer>Польский гриб</answer>
+    </answers>
+    <hint>Трубчатый гриб с длинной белой ножкой в чёрных чешуйках. Растёт под берёзами. Мякоть на срезе слегка розовеет.</hint>
+    <explanation>Leccinum scabrum — массовый съедобный гриб. Ножка в чёрных чешуйках — главный признак (у подосиновика чешуйки белые). Мякоть слегка розовеет на срезе. Растёт только под берёзами — отсюда название. Несколько видов (обыкновенный, болотный, розовеющий).</explanation>
+  </card>
+  <card>
+    <question>Какой трубчатый гриб со слизистой шляпкой и плёнкой снизу у молодых растёт под соснами?</question>
+    <answers>
+      <answer correct="true">Маслёнок поздний (настоящий)</answer>
+      <answer>Козляк</answer>
+      <answer>Моховик зелёный</answer>
+      <answer>Польский гриб</answer>
+      <answer>Маслёнок зернистый</answer>
+    </answers>
+    <hint>Трубчатый гриб со скользкой слизистой шляпкой. У молодых — белая плёнка, закрывающая трубчатый слой. Растёт под соснами.</hint>
+    <explanation>Suillus luteus — массовый осенний гриб. Слизистая шляпка — главный признак. Белая плёнка снизу у молодых — перед готовкой снимать (даёт горечь). Растёт только под соснами. Один из первых осенних грибов (сентябрь-октябрь).</explanation>
+  </card>
+  <card>
+    <question>Какой трубчатый гриб с каштаново-коричневой шляпкой растёт в сосновых лесах и мякоть синеет?</question>
+    <answers>
+      <answer correct="true">Польский гриб</answer>
+      <answer>Козляк</answer>
+      <answer>Моховик паразитный</answer>
+      <answer>Маслёнок зернистый</answer>
+      <answer>Боровик буро-жёлтый</answer>
+    </answers>
+    <hint>Трубчатый гриб, похожий на моховик, но мякоть явно синеет. Растёт в хвойных лесах, часто рядом с маслятами.</hint>
+    <explanation>Imleria badia (ранее Xerocomus badius) — съедобный гриб. Мякоть быстро синеет на срезе — это нормально. Похож на моховик, но более явно синеет и имеет более тёмную шляпку. Растёт в сосновых лесах. Вкусный, похож на белый гриб, но уступает по качеству.</explanation>
+  </card>
+  <card>
+    <question>Какой трубчатый гриб с крупными угловатыми порами растёт в сосняках и похож на маслёнка?</question>
+    <answers>
+      <answer correct="true">Козляк</answer>
+      <answer>Маслёнок поздний</answer>
+      <answer>Мокруха пурпуровая</answer>
+      <answer>Перец перечный</answer>
+      <answer>Моховик жёлто-бурый</answer>
+    </answers>
+    <hint>Трубчатый гриб с рыжевато-коричневой шляпкой и крупными угловатыми порами. Похож на маслёнок, но без слизи и плёнки.</hint>
+    <explanation>Suillus bovinus — съедобный гриб 3-й категории. Крупные угловатые поры — главный признак. Не имеет слизистой шляпки и плёнки (в отличие от маслёнка). Растёт в сосновых лесах, часто рядом с маслятами. Вкус посредственный, но массовый.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб растёт во мху, имеет бархатистую шляпку и мякоть синеет на срезе?</question>
+    <answers>
+      <answer correct="true">Моховик (разные виды)</answer>
+      <answer>Польский гриб</answer>
+      <answer>Козляк</answer>
+      <answer>Маслёнок зернистый</answer>
+      <answer>Перечный гриб</answer>
+    </answers>
+    <hint>Трубчатый гриб, растущий во мху. Шляпка часто бархатистая, может трескаться. Мякоть синеет на срезе — безвредно.</hint>
+    <explanation>Xerocomus — род трубчатых грибов (зелёный, жёлто-бурый, паразитный). Название — от «мох». Шляпка часто бархатистая, с трещинами у старых. Мякоть синеет на срезе — нормально. Съедобные, но уступают белому по вкусу. Часто путают с польским грибом.</explanation>
+  </card>
+  <card>
+    <question>Какой съедобный гриб с жёлто-оранжевым цветом имеет снизу не пластинки и не трубочки, а шипики?</question>
+    <answers>
+      <answer correct="true">Ежовик жёлтый</answer>
+      <answer>Лисичка настоящая</answer>
+      <answer>Лисичка ложная</answer>
+      <answer>Гиднум пупковидный</answer>
+      <answer>Ежовик гребенчатый</answer>
+    </answers>
+    <hint>Уникальный гриб — гименофор в виде шипиков (ни пластинки, ни трубочки). Жёлто-оранжевый. Редкий, занесён в некоторые Красные книги.</hint>
+    <explanation>Hydnum repandum — уникальный гриб. Гименофор в виде шипиков (5–7 мм длиной) — единственный такой среди съедобных грибов. Съедобный, вкусный, не червивеет. Редкий, занесён в Красные книги ряда регионов России. Не путать с ежовиком гребенчатым (львиная грива) — другой вид, тоже съедобный.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб с огромной круглой формой при созревании выпускает коричневую пыль (споры)?</question>
+    <answers>
+      <answer correct="true">Дождевик съедобный (и гигантский)</answer>
+      <answer>Весёлка обыкновенная</answer>
+      <answer>Порховка свинцово-серая</answer>
+      <answer>Головач продолговатый</answer>
+      <answer>Звездовик бахромчатый</answer>
+    </answers>
+    <hint>Округлый белый гриб без ножки и шляпки. Молодой — съедобен, старый — выпускает облако спор. Используется как кровоостанавливающее.</hint>
+    <explanation>Lycoperdon perlatum и L. giganteum (дождевик гигантский, до 50 см и 20 кг). Съедобны только пока белые внутри (при разрезе — однородно белые). При созревании превращаются в мешок со спорами. Споры используются в народной медицине как кровоостанавливающее (прикладывают к ранам).</explanation>
+  </card>
+  <card>
+    <question>Какой гриб-«инопланетянин» с яйцевидной формой и «ведьминым яйцом» считается лекарственным?</question>
+    <answers>
+      <answer correct="true">Весёлка обыкновенная</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer>Мутинус собачий</answer>
+      <answer>Цветохвостник веретеновидный</answer>
+      <answer>Решёточник красный</answer>
+    </answers>
+    <hint>В молодости — белое «яйцо», потом «вылупляется» ножка со шляпкой и пахнет падалью. Быстрорастущий (5 мм/час). Лекарственный.</hint>
+    <explanation>Phallus impudicus — один из самых быстрорастущих организмов (5 мм/час). В молодости — «ведьмино яйцо», потом ножка со шляпкой. Пахнет падалью — привлекает мух для распространения спор. В народной медицине используется как противоопухолевое (экстракт «весёлки»).</explanation>
+  </card>
+  <card>
+    <question>Какой съедобный гриб растёт на деревьях «этажеркой» и имеет серую шляпку-веер?</question>
+    <answers>
+      <answer correct="true">Вешенка обыкновенная</answer>
+      <answer>Трутовик чешуйчатый</answer>
+      <answer>Опёнок зимний</answer>
+      <answer>Пилолистник тигровый</answer>
+      <answer>Панеллюс поздний</answer>
+    </answers>
+    <hint>Пластинчатый гриб, растущий на деревьях группами, как полочки. Серая шляпка-веер. Один из самых культивируемых грибов в мире.</hint>
+    <explanation>Pleurotus ostreatus — один из самых культивируемых грибов (2-й после шампиньона). Растёт на лиственных деревьях группами («этажеркой»). Съедобный, широко используется в вегетарианской кухне. Ножка жёсткая — в пищу идёт только шляпка. Содержит ловастатин — снижает холестерин.</explanation>
+  </card>
+  <card>
+    <question>Какой пластинчатый гриб со слизистой шляпкой и белым кольцом на ножке — один из самых ранних весенних?</question>
+    <answers>
+      <answer correct="true">Стробилюрус съедобный (соковые ушки)</answer>
+      <answer>Опёнок зимний</answer>
+      <answer>Коллибия лесолюбивая</answer>
+      <answer>Мицена чистая</answer>
+      <answer>Чесночник обыкновенный</answer>
+    </answers>
+    <hint>Мелкий весенний гриб на еловых шишках и хвое. Один из первых после схода снега. Съедобен, но мелкий — собирают массово.</hint>
+    <explanation>Strobilurus esculentus — один из первых весенних грибов (апрель-май). Растёт на опавших еловых шишках и хвое. Мелкий (1–3 см шляпка), но массовый. Съедобный, используется в супах и соусах. «Соковые ушки» — народное название.</explanation>
+  </card>
+  <card>
+    <question>Какой мелкий пластинчатый гриб с сильным запахом чеснока используется как приправа?</question>
+    <answers>
+      <answer correct="true">Чесночник обыкновенный</answer>
+      <answer>Чесночник большой</answer>
+      <answer>Мицена чесночная</answer>
+      <answer>Негниючник колесовидный</answer>
+      <answer>Маразмий вонючий</answer>
+    </answers>
+    <hint>Мелкий пластинчатый гриб с сильным запахом чеснока. Растёт в хвойных лесах. Сушёный заменяет чеснок в блюдах.</hint>
+    <explanation>Marasmius scorodonius — уникален сильным запахом чеснока (содержит аллицин, как настоящий чеснок). Растёт в хвойных лесах на хвое. В пищу идёт только шляпка (ножка жёсткая). Сушёный используется как приправа — заменяет чеснок в соусах и супах. Популярен в европейской кухне.</explanation>
+  </card>
+  <card>
+    <question>Какой пластинчатый гриб с серой шляпкой и мучнистым налётом — съедобный поздней осенью?</question>
+    <answers>
+      <answer correct="true">Рядовка серая (серушка)</answer>
+      <answer>Рядовка тигровая (ядовитая)</answer>
+      <answer>Рядовка землистая</answer>
+      <answer>Энтолома садовая</answer>
+      <answer>Гигрофор поздний</answer>
+    </answers>
+    <hint>Серый пластинчатый гриб поздней осени (октябрь-ноябрь). Съедобен, но важно отличать от ядовитой рядовки тигровой (у той чешуйки, а не гладкая шляпка).</hint>
+    <explanation>Tricholoma terreum — съедобный гриб поздней осени. Гладкая серая шляпка с мучнистым налётом. Важно отличать от ядовитой рядовки тигровой (T. pardinum) — у той шляпка с чешуйками, а не гладкая. Растёт в сосновых лесах. Один из последних грибов сезона.</explanation>
+  </card>
+  <card>
+    <question>Какой ядовитый гриб с серо-коричневой шляпкой и розовыми пластинками часто путают с рядовкой майской?</question>
+    <answers>
+      <answer correct="true">Энтолома ядовитая (оловянная)</answer>
+      <answer>Рядовка майская (георгиев гриб)</answer>
+      <answer>Говорушка восковатая</answer>
+      <answer>Клитопилус обыкновенный</answer>
+      <answer>Подвишенник</answer>
+    </answers>
+    <hint>Пластинчатый гриб с розоватыми пластинками (редкость среди грибов). Растёт в лиственных лесах. Вызывает тяжёлое отравление.</hint>
+    <explanation>Entoloma sinuatum — ядовитый гриб, вызывающий тяжёлое желудочно-кишечное отравление. Розоватые пластинки — признак рода энтолом. Растёт в лиственных лесах (дуб, бук). Часто путают с рядовкой майской (съедобной) — но энтолома растёт позже (июль-август против мая).</explanation>
+  </card>
+  <card>
+    <question>Какой гриб с красным соком и яркими цветами используется для окрашивания шерсти и пищи?</question>
+    <answers>
+      <answer correct="true">Пигментофорус (красящие грибы)</answer>
+      <answer>Порфировик</answer>
+      <answer>Свинушка</answer>
+      <answer>Мокруха</answer>
+      <answer>Паутинник кроваво-красный</answer>
+    </answers>
+    <hint>Грибы, содержащие пигменты (каротиноиды, беталаины). Используются как натуральные красители для шерсти и пищи.</hint>
+    <explanation>Ряд грибов (например, пикнопорус киноварно-красный) содержат пигменты, используемые как натуральные красители. В народной кухне — для окрашивания теста, напитков, шерсти. Современная промышленность использует синтетические аналоги, но в этно-кухне сохраняются.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб с ярко-красной слизистой шляпкой и белыми пластинками — один из самых красивых?</question>
+    <answers>
+      <answer correct="true">Мокруха пурпуровая</answer>
+      <answer>Маслёнок</answer>
+      <answer>Гигрофор пунцовый</answer>
+      <answer>Паутинник кроваво-красный</answer>
+      <answer>Мицена кровяноножковая</answer>
+    </answers>
+    <hint>Трубчатый гриб с ярко-красной слизистой шляпкой и белым трубчатым слоем. Растёт в сосновых лесах. Съедобен, но редок.</hint>
+    <explanation>Gomphidius rutilus — красивый съедобный гриб. Ярко-красная слизистая шляпка — главный признак. Белый трубчатый слой (у маслят — жёлтый). Растёт только в сосновых лесах. Съедобен, но редок и малоизвестен. Часто путают с маслятами из-за слизи.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб с фиолетовыми пластинками и шляпкой — один из самых красивых съедобных?</question>
+    <answers>
+      <answer correct="true">Паутинник фиолетовый</answer>
+      <answer>Лаковица фиолетовая</answer>
+      <answer>Паутинник аномальный</answer>
+      <answer>Мицена фиолетовая</answer>
+      <answer>Рядовка фиолетовая</answer>
+    </answers>
+    <hint>Пластинчатый гриб с фиолетовыми пластинками и шляпкой. Съедобен, но редок. Один из немногих фиолетовых съедобных грибов.</hint>
+    <explanation>Cortinarius violaceus — красивый съедобный гриб. Фиолетовые пластинки — редкость среди съедобных. Растёт в хвойных и лиственных лесах. Съедобен, но редок и малоизвестен. Не путать с паутинником кроваво-красным (ядовит).</explanation>
+  </card>
+  <card>
+    <question>Какой гриб-трутовик используется в китайской медицине как противоопухолевое средство?</question>
+    <answers>
+      <answer correct="true">Траметес разноцветный (кориолус)</answer>
+      <answer>Чага</answer>
+      <answer>Рейши (ганодерма)</answer>
+      <answer>Трутовик лакированный</answer>
+      <answer>Шиитаке</answer>
+    </answers>
+    <hint>Разноцветный трутовик с полосатыми зонами. Содержит полисахариды PSK и PSP, используемые в онкологии.</hint>
+    <explanation>Trametes versicolor — один из самых изученных лекарственных грибов. Содержит полисахариды PSK (Крестин) и PSP — используются в Японии и Китае как адъювантная терапия при раке (вместе с химиотерапией). Улучшает иммунный ответ. В России — обычный трутовик на валежнике.</explanation>
+  </card>
+  <card>
+    <question>Какой чёрный нарост на берёзе используется как чай и считается тонизирующим?</question>
+    <answers>
+      <answer correct="true">Чага</answer>
+      <answer>Трутовик скошенный</answer>
+      <answer>Рейши</answer>
+      <answer>Шиитаке</answer>
+      <answer>Траметес</answer>
+    </answers>
+    <hint>Чёрный нарост на берёзе. Твёрдый, несъедобный. Используется как чай. Содержит полисахариды и фенолы.</hint>
+    <explanation>Inonotus obliquus — трутовик-паразит на берёзах. Применяется в народной медицине как тонизирующее и адаптогенное средство. Содержит полисахариды, фенолы, бетулин. Чай из чаги — популярный напиток. Собирается круглый год (зимой — лучше).</explanation>
+  </card>
+  <card>
+    <question>Какой культивируемый гриб с коричневой шляпкой на дереве шиитаке — один из самых популярных в Азии?</question>
+    <answers>
+      <answer correct="true">Шиитаке (лента)</answer>
+      <answer>Вешенка</answer>
+      <answer>Намэко</answer>
+      <answer>Эринги</answer>
+      <answer>Мацутаке</answer>
+    </answers>
+    <hint>Культивируемый гриб на дереве (дуб, каштан). Коричневая шляпка с белыми хлопьями. Содержит лентинан — противоопухолевое.</hint>
+    <explanation>Lentinula edodes — один из самых культивируемых грибов (3-й после шампиньона и вешенки). Содержит лентинан — полисахарид с противоопухолевой активностью. Используется в японской и китайской кухне. В России — культивируется промышленно.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб-«гриб-цветная капуста» растёт у оснований дубов и может весить до 10 кг?</question>
+    <answers>
+      <answer correct="true">Грифола курчавая (гриб-баран)</answer>
+      <answer>Спарассис курчавый</answer>
+      <answer>Трутовик зонтичный</answer>
+      <answer>Рогатик гребенчатый</answer>
+      <answer>Клавулина гребенчатая</answer>
+    </answers>
+    <hint>Крупный кустистый гриб из множества веерных шляпок. Растёт у оснований дубов. Может весить до 10 кг. Лекарственный.</hint>
+    <explanation>Grifola frondosa — «майтаке» в Японии. Кустистый гриб из множества веерных шляпок. Может весить до 10 кг. Съедобный, вкусный. В Японии культивируется как лекарственный — исследования противораковых свойств (D-фракция). Редкий в России, занесён в Красные книги ряда регионов.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб с белыми «кораллами» (ветвистый) съедобен и растёт на валежнике?</question>
+    <answers>
+      <answer correct="true">Рогатик (клавулина, рамария)</answer>
+      <answer>Ежовик гребенчатый</answer>
+      <answer>Спарассис курчавый</answer>
+      <answer>Клавулина гребенчатая</answer>
+      <answer>Ксантория</answer>
+    </answers>
+    <hint>Ветвистый гриб, похожий на кораллы. Белый, жёлтый или оранжевый. Съедобен, но малоизвестен.</hint>
+    <explanation>Clavulina, Ramaria — роды ветвистых грибов. Белый (Clavulina coralloides) — съедобен. Жёлтый (Ramaria flavescens) — условно-съедобен, вызывает расстройство при сыром употреблении. Растёт на валежнике и лесной подстилке. Малоизвестны, но съедобны.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб-«львиная грива» с белыми «сосуськами» считается ноотропом?</question>
+    <answers>
+      <answer correct="true">Ежовик гребенчатый</answer>
+      <answer>Рогатик</answer>
+      <answer>Ежовик жёлтый</answer>
+      <answer>Спарассис курчавый</answer>
+      <answer>Трутовик лакированный</answer>
+    </answers>
+    <hint>Белый гриб с длинными «сосуськами» (шипами). Растёт на деревьях. Считается ноотропом — улучшает память.</hint>
+    <explanation>Hericium erinaceus — «львиная грива», «обезьянья голова». Содержит эринацины и хериценоны — стимулируют рост нейронов (NGF). Используется как ноотроп — улучшает память, концентрацию. В России — редкий, занесён в Красные книги. Культивируется в Китае и Японии.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб-«майтаке» используется в Японии как адаптоген и иммуномодулятор?</question>
+    <answers>
+      <answer correct="true">Грифола курчавая</answer>
+      <answer>Шиитаке</answer>
+      <answer>Рейши</answer>
+      <answer>Чага</answer>
+      <answer>Траметес</answer>
+    </answers>
+    <hint>Кустистый гриб у оснований дубов. В Японии — «майтаке» (танцующий гриб). Содержит D-фракцию.</hint>
+    <explanation>Grifola frondosa — «майтаке» в Японии. Содержит D-фракцию (β-глюкан) — иммуномодулятор. Используется как адаптоген и противоопухолевое средство. Культивируется в Азии. В России — редкий, занесён в Красные книги.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб-«рейши» используется в китайской медицине 2000+ лет как «гриб бессмертия»?</question>
+    <answers>
+      <answer correct="true">Трутовик лакированный (ганодерма)</answer>
+      <answer>Чага</answer>
+      <answer>Шиитаке</answer>
+      <answer>Траметес</answer>
+      <answer>Грифола</answer>
+    </answers>
+    <hint>Лакированный трутовик с красно-коричневой шляпкой. В Китае — «лин-чжи», гриб бессмертия. Используется 2000+ лет.</hint>
+    <explanation>Ganoderma lucidum — «рейши», «лин-чжи». Используется в китайской медицине 2000+ лет. Содержит тритерпеноиды, полисахариды — адаптоген, иммуномодулятор. Культивируется в Азии. В России — редкий трутовик на лиственных деревьях.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб образует микоризу с деревьями и без них не растёт?</question>
+    <answers>
+      <answer correct="true">Белый гриб (и многие другие)</answer>
+      <answer>Шампиньон</answer>
+      <answer>Вешенка</answer>
+      <answer>Навозник</answer>
+      <answer>Опёнок осенний</answer>
+    </answers>
+    <hint>Грибница (мицелий) живёт в симбиозе с корнями деревьев. Без дерева гриб не растёт. Примеры: белый, подосиновик, подберёзовик.</hint>
+    <explanation>Микориза — симбиоз гриба и дерева. Грибница оплетает корни, получает сахара от дерева, даёт воду и минералы. Без дерева гриб не растёт. Примеры: белый (с елью, дубом, сосной), подосиновик (с осиной), подберёзовик (с берёзой). Шампиньон и вешенка — сапротрофы, микоризу не образуют.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб-сапротроф растёт на навозе и содержит коприн, несовместимый с алкоголем?</question>
+    <answers>
+      <answer correct="true">Навозник белый (и серый)</answer>
+      <answer>Навозник серый</answer>
+      <answer>Шампиньон</answer>
+      <answer>Дождевик</answer>
+      <answer>Плютей олений</answer>
+    </answers>
+    <hint>Белый или серый гриб на навозе. Съедобен в молодом возрасте, но несовместим с алкоголем — вызывает тяжёлое отравление.</hint>
+    <explanation>Coprinus comatus и C. atramentarius — съедобны в молодом возрасте (белые внутри). Содержат коприн — при употреблении с алкоголем вызывает дисульфирамоподобную реакцию (тяжёлое отравление: тошнота, рвота, сердцебиение). Используется как средство от алкоголизма (в народной медицине).</explanation>
+  </card>
+  <card>
+    <question>Какой гриб с розовой шляпкой и белыми пластинками — один из самых опасных ядовитых?</question>
+    <answers>
+      <answer correct="true">Говорушка беловатая (восковатая)</answer>
+      <answer>Рядовка серая</answer>
+      <answer>Клитопилус</answer>
+      <answer>Энтолома</answer>
+      <answer>Паутинник</answer>
+    </answers>
+    <hint>Белый или розоватый пластинчатый гриб на лугах. Содержит мускарин — вызывает сильное слюнотечение и отравление.</hint>
+    <explanation>Clitocybe rivulosa (C. cerussata) — ядовитый гриб. Содержит мускарин (как мухомор) — вызывает сильное слюнотечение, слезотечение, рвоту. Растёт на лугах и полянах. Часто путают с шампиньоном (у того пластинки темнеют, у говорушки — остаются белыми).</explanation>
+  </card>
+  <card>
+    <question>Какой гриб-«паутинник» с оранжево-красной шляпкой — смертельно ядовит (отсроченное действие)?</question>
+    <answers>
+      <answer correct="true">Паутинник оранжево-красный (красивейший)</answer>
+      <answer>Паутинник фиолетовый</answer>
+      <answer>Паутинник кроваво-красный</answer>
+      <answer>Паутинник триумфальный</answer>
+      <answer>Паутинник аномальный</answer>
+    </answers>
+    <hint>Красно-оранжевый гриб с паутинистым покрывалом. Содержит орелланин — яд с отсроченным действием (2–14 дней).</hint>
+    <explanation>Cortinarius orellanus — один из опаснейших грибов. Содержит орелланин — яд с отсроченным действием (2–14 дней до появления симптомов). Разрушает почки, часто необратимо. Смертность до 50%. В Европе — причина большинства смертельных отравлений после бледной поганки.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб с красной шляпкой и синей ножкой — съедобный, но редкий?</question>
+    <answers>
+      <answer correct="true">Синяк (гиропорус синеющий)</answer>
+      <answer>Боровик розовокожий</answer>
+      <answer>Сатанинский гриб</answer>
+      <answer>Дубовик</answer>
+      <answer>Польский гриб</answer>
+    </answers>
+    <hint>Трубчатый гриб с красной шляпкой и синей ножкой. Мякоть мгновенно синеет на срезе. Съедобен, но редок.</hint>
+    <explanation>Gyroporus cyanescens — редкий съедобный гриб. Мгновенно синеет на срезе (быстрее всех грибов). Красная шляпка, синяя ножка — уникальный признак. Растёт в лиственных лесах. Съедобен после отваривания. Редкий, занесён в Красные книги.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб-«весёлый» с яйцевидной формой и быстро растущей ножкой — лекарственный?</question>
+    <answers>
+      <answer correct="true">Весёлка (фаллюс нескромный)</answer>
+      <answer>Мутинус</answer>
+      <answer>Решёточник</answer>
+      <answer>Дождевик</answer>
+      <answer>Цветохвостник</answer>
+    </answers>
+    <hint>Белое «яйцо», из которого вырастает ножка со шляпкой. Быстрорастущий. Пахнет падалью. Лекарственный.</hint>
+    <explanation>Phallus impudicus — быстрорастущий гриб (5 мм/час). В молодости — «ведьмино яйцо». Пахнет падалью — привлекает мух. В народной медицине используется как противоопухолевое (экстракт «весёлки»). Популярное средство в альтернативной медицине.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб-«дождевик» с грушевидной формой растёт на гнилой древесине?</question>
+    <answers>
+      <answer correct="true">Дождевик грушевидный</answer>
+      <answer>Дождевик съедобный</answer>
+      <answer>Дождевик гигантский</answer>
+      <answer>Порховка</answer>
+      <answer>Головач</answer>
+    </answers>
+    <hint>Грушевидный дождевик на гнилой древесине. Съедобен в молодом возрасте. Растёт группами на пнях и валежнике.</hint>
+    <explanation>Lycoperdon pyriforme — грушевидный дождевик. Растёт на гнилой древесине (пни, валежник). Съедобен в молодом возрасте (белый внутри). При созревании — выпускает споры. Массовый вид, часто встречается.</explanation>
+  </card>
+  <card>
+    <question>Какой гриб-«звездовик» с раскрывающимися «лучами» — редкий и красивый?</question>
+    <answers>
+      <answer correct="true">Звездовик (геаструм)</answer>
+      <answer>Дождевик</answer>
+      <answer>Весёлка</answer>
+      <answer>Решёточник</answer>
+      <answer>Мутинус</answer>
+    </answers>
+    <hint>Гриб с раскрывающимися «лучами» (звездообразный). Редкий и красивый. Съедобен в молодом возрасте, но не собирается.</hint>
+    <explanation>Geastrum — «звездовик». Раскрывающиеся «лучи» — эксудиум, защищающий спороносную часть. Редкий, красивый гриб. Съедобен в молодом возрасте, но не собирается из-за редкости. Занесён в Красные книги ряда регионов России. Индикатор старых ненарушенных лесов.</explanation>
+  </card>
+</deck>

@@ -1,5 +1,6 @@
-/* Точка входа: шапка, вкладки, горячие клавиши, события. */
-import { $, $$, on } from './core/utils.js';
+/* Точка входа: шапка, вкладки, горячие клавиши, события.
+   Первый экран не блокируется восстановлением конструктора. */
+import { $, $$, on, esc } from './core/utils.js';
 import * as store from './core/store.js';
 import { settings } from './core/store.js';
 import * as sfx from './core/sfx.js';
@@ -40,7 +41,23 @@ function syncHeader() {
   sb.classList.toggle('muted', !settings.sound);
 }
 
-async function boot() {
+function fatal(err) {
+  console.error(err);
+  const m = document.querySelector('main');
+  if (!m) return;
+  m.insertAdjacentHTML('afterbegin',
+    `<div class="notice boot-error">
+       <svg class="ic"><use href="#i-help"/></svg>
+       <div><b>Приложение запустилось не полностью.</b><br>
+         ${esc(String(err?.message || err))}<br>
+         Проверьте, что все файлы проекта сохранены целиком, и перезагрузите страницу.
+         <div style="margin-top:10px"><button class="btn btn-primary btn-sm" id="boot-reload">Перезагрузить</button></div>
+       </div>
+     </div>`);
+  $('#boot-reload')?.addEventListener('click', () => location.reload());
+}
+
+function boot() {
   store.load();
   toast.init($('#toasts'));
   modals.init($('#modal-root'));
@@ -49,8 +66,12 @@ async function boot() {
   sfx.init();
 
   library.init($('#screen-library'));
-  await constructor.init($('#screen-construct'));
   trainer.init($('#screen-train'));
+  /* черновик и медиа конструктора восстанавливаем в фоне */
+  constructor.init($('#screen-construct')).catch(e => {
+    console.warn('Конструктор:', e);
+    toast.warn('Черновик конструктора восстановлен не полностью');
+  });
 
   $$('.nav-btn').forEach(b => b.addEventListener('click', () => { switchTab(b.dataset.tab); sfx.play('tick'); }));
   $('#btn-sound').addEventListener('click', () => {
@@ -63,7 +84,7 @@ async function boot() {
 
   on('navigate', d => switchTab(d.tab));
   on('settings', syncHeader);
-  on('progress', () => library.refresh());
+  on('progress', d => library.refresh(d));
   on('decks-changed', () => library.refresh());
   on('storage-error', () => toast.warn('Не удалось сохранить данные: хранилище браузера переполнено'));
 
@@ -81,4 +102,4 @@ async function boot() {
   switchTab(store.state.lastTab);
 }
 
-boot();
+try { boot(); } catch (e) { fatal(e); }

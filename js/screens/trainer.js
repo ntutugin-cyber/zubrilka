@@ -1,6 +1,6 @@
 /* Тренировка. Правило: первый верный ответ закрывает карточку навсегда;
    ошибка / «Не знаю» обнуляет «подряд» и удваивает требование (1→2→4→8→15).
-   На вопросе видно лестницу, шкалу «подряд», сколько осталось и всю статистику. */
+   Действия вынесены в закреплённую панель справа — без прокрутки. */
 import { $, esc, cardKey, shuffle, fmtTime, plural, emit, on, hintHtml, explainHtml } from '../core/utils.js';
 import * as store from '../core/store.js';
 import { settings, RULE, LADDER } from '../core/store.js';
@@ -12,6 +12,7 @@ import * as modals from '../ui/modals.js';
 
 let root = null, S = null;
 let lastShuffle = settings.shuffle;
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 export const hasSession = () => !!S && !S.done;
 
@@ -27,7 +28,6 @@ const cur = () => S.deck.cards[S.current];
 const isMulti = () => cur().answers.filter(a => a.correct).length > 1;
 const firstLine = t => t.split('\n')[0];
 const statOf = i => store.getCard(S.deck.id, cardKey(S.deck.cards[i]));
-const remainOf = i => { const s = statOf(i); return Math.max(0, s.need - s.run); };
 
 export function start(deck) {
   const learned = new Set(store.getProgress(deck.id).learned);
@@ -152,8 +152,9 @@ function reveal(ok, skipped) {
   }
   render();
   if (ok) fx.burstAt($('#train-paper', root), res.learned ? 34 : 16);
-  root.querySelector('[data-act="next"]')?.focus({ preventScroll: true });
-  emit('progress');
+  const dockNext = root.querySelector('.dock [data-act="next"]');
+  (dockNext || root.querySelector('[data-act="next"]'))?.focus({ preventScroll: true });
+  emit('progress', { deckId: S.deck.id });
 }
 
 function next() {
@@ -174,6 +175,20 @@ function next() {
   S.phase = 'question'; S.reveal = null; S.last = null;
   S.hintShown = false; S.hintCounted = false;
   render();
+  requestAnimationFrame(ensureCardVisible);
+}
+
+/* подводим начало карточки под шапку — не нужно мотать вверх после «Дальше» */
+function ensureCardVisible() {
+  const paper = $('#train-paper', root);
+  if (!paper) return;
+  const head = document.querySelector('.app-header');
+  const hh = head ? head.getBoundingClientRect().height : 0;
+  const r = paper.getBoundingClientRect();
+  if (r.top < hh + 8 || r.top > innerHeight * 0.55) {
+    const y = Math.max(0, window.scrollY + r.top - hh - 14);
+    window.scrollTo({ top: y, behavior: reduced ? 'auto' : 'smooth' });
+  }
 }
 
 function sessionNumbers() {
@@ -193,7 +208,7 @@ function finish() {
   render();
   fx.celebrate();
   setTimeout(() => play('fanfare'), 250);
-  emit('progress');
+  emit('progress', { deckId: S.deck.id });
 }
 
 function toggleHint() {
@@ -202,7 +217,7 @@ function toggleHint() {
   if (!panel) return;
   S.hintShown = !S.hintShown;
   panel.hidden = !S.hintShown;
-  root.querySelector('[data-act="hint"]')?.setAttribute('aria-pressed', String(S.hintShown));
+  root.querySelectorAll('[data-act="hint"]').forEach(b => b.setAttribute('aria-pressed', String(S.hintShown)));
   if (S.hintShown) {
     play('hint');
     if (!S.hintCounted) { S.hintCounted = true; S.stats.hints++; }
@@ -216,8 +231,10 @@ async function resetProgress() {
     text: `Все требования, серии «подряд» и отметки «выучено» колоды «${S.deck.title}» будут очищены.`,
     ok: 'Сбросить'
   })) {
-    store.resetDeckProgress(S.deck.id);
+    const id = S.deck.id;
+    store.resetDeckProgress(id);
     S = null; render();
+    emit('progress', { deckId: id });
     toast.success('Прогресс колоды сброшен');
   }
 }
@@ -232,6 +249,7 @@ async function replay() {
   })) {
     store.resetDeckProgress(deck.id);
     start(deck);
+    requestAnimationFrame(ensureCardVisible);
   }
 }
 
@@ -254,7 +272,25 @@ export function handleKey(e) {
   return false;
 }
 
-/* ── блок «сколько осталось подряд» ── */
+/* ── закреплённая панель действий ── */
+function dockHtml() {
+  const card = cur();
+  if (S.phase === 'reveal') {
+    return `<div class="dock" role="group" aria-label="Быстрые действия">
+      <button class="dock-btn dock-next" data-act="next" title="Следующая карточка (Enter)">
+        <svg class="ic"><use href="#i-arrow-r"/></svg>
+        <span class="dock-label">Дальше</span><kbd>Enter</kbd>
+      </button>
+    </div>`;
+  }
+  return `<div class="dock" role="group" aria-label="Быстрые действия">
+    ${card.hint ? `<button class="dock-btn dock-soft" data-act="hint" aria-pressed="${S.hintShown}" title="Подсказка (H)">
+      <svg class="ic"><use href="#i-bulb"/></svg><span class="dock-label">Подсказка</span><kbd>H</kbd></button>` : ''}
+    <button class="dock-btn dock-soft" data-act="skip" title="Не знаю (N)">
+      <svg class="ic"><use href="#i-help"/></svg><span class="dock-label">Не знаю</span><kbd>N</kbd></button>
+  </div>`;
+}
+
 export function masteryHtml(st, { note = true } = {}) {
   const rem = Math.max(0, st.need - st.run);
   const ladder = `<div class="m-ladder" title="После каждой ошибки требование удваивается, максимум ${RULE.cap}">
@@ -319,6 +355,7 @@ function optHtml(a, j, pos) {
 
 function render() {
   if (!root) return;
+  root.classList.remove('has-dock');
   if (!S) {
     root.innerHTML =
       `<div class="empty-state">
@@ -345,6 +382,7 @@ function render() {
         : `Неверно. Теперь нужно ${st.need} верных подряд`)
     : `Нужно ${st.need} верных подряд, осталось ${Math.max(0, st.need - st.run)}`;
 
+  root.classList.add('has-dock');
   root.innerHTML =
     `<div class="train-top">
        <button class="btn btn-icon btn-ghost" data-act="exit" title="К библиотеке"><svg class="ic"><use href="#i-arrow-l"/></svg></button>
@@ -386,10 +424,11 @@ function render() {
              ${multi ? `<button class="btn btn-primary" data-act="check" id="check-btn" disabled><svg class="ic"><use href="#i-check"/></svg>Проверить (<span id="check-n">0</span>)</button>` : ''}
            ` : `<button class="btn btn-next" data-act="next">${learnedNow ? 'Дальше' : 'Понятно, дальше'} <svg class="ic"><use href="#i-arrow-r"/></svg></button>`}
          </div>
-         <div class="kbd-line mono">клавиши: <kbd>1–9</kbd> ответ · <kbd>H</kbd> подсказка · <kbd>N</kbd> не знаю · <kbd>Enter</kbd> ${S.phase === 'question' ? 'проверить' : 'дальше'} · клик по фото — полный экран</div>
+         <div class="kbd-line mono">клавиши: <kbd>1–9</kbd> ответ · <kbd>H</kbd> подсказка · <kbd>N</kbd> не знаю · <kbd>Enter</kbd> ${S.phase === 'question' ? 'проверить' : 'дальше'} · кнопка «Дальше» всегда справа</div>
          <span class="sr-only" role="status">${esc(status)}</span>
        </div>
-     </div></div>`;
+     </div></div>
+     ${dockHtml()}`;
 
   media.renderInto($('#q-media', root), d.id, card.media);
   root.querySelectorAll('.opt-media').forEach(el =>
